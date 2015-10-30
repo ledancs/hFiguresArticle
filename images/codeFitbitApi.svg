@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="602.36218"
+   height="491.01215"
+   id="svg7870"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="New document 17">
+  <defs
+     id="defs7872">
+    <clipPath
+       id="clipEmfPath1"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         id="rect7883"
+         height="495.60236"
+         width="810"
+         y="0"
+         x="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="397.767"
+     inkscape:cy="256.70942"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="mm"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1241"
+     inkscape:window-height="768"
+     inkscape:window-x="2074"
+     inkscape:window-y="154"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7875">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-135.17857,-101.14183)">
+    <g
+       id="g7885"
+       transform="translate(145.17857,98.421057)">
+      <text
+         id="text7887"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="10.350049"
+         x="0"
+         xml:space="preserve">var </text>
+      <text
+         id="text7889"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="10.350049"
+         x="30"
+         xml:space="preserve">response </text>
+      <text
+         id="text7891"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="10.350049"
+         x="97.5"
+         xml:space="preserve">= {</text>
+      <text
+         id="text7893"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="10.350049"
+         x="120"
+         xml:space="preserve"> </text>
+      <text
+         id="text7895"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="24.450115"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text7897"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="24.450115"
+         x="30"
+         xml:space="preserve">&quot;activities&quot;</text>
+      <text
+         id="text7899"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="24.450115"
+         x="120"
+         xml:space="preserve">: [</text>
+      <text
+         id="text7901"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="24.450115"
+         x="142.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text7903"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="39.000183"
+         x="0"
+         xml:space="preserve">        </text>
+      <text
+         id="text7905"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="39.000183"
+         x="60"
+         xml:space="preserve">{</text>
+      <text
+         id="text7907"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="39.000183"
+         x="67.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text7909"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.800251"
+         x="0"
+         xml:space="preserve">            </text>
+      <text
+         id="text7911"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="52.800251"
+         x="90"
+         xml:space="preserve">&quot;calories&quot;</text>
+      <text
+         id="text7913"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.800251"
+         x="165"
+         xml:space="preserve">: </text>
+      <text
+         id="text7915"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="52.800251"
+         x="180"
+         xml:space="preserve">value</text>
+      <text
+         id="text7917"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.800251"
+         x="217.5"
+         xml:space="preserve">,</text>
+      <text
+         id="text7919"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.800251"
+         x="225"
+         xml:space="preserve"> </text>
+      <text
+         id="text7921"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="67.050316"
+         x="0"
+         xml:space="preserve">            </text>
+      <text
+         id="text7923"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="67.050316"
+         x="90"
+         xml:space="preserve">&quot;distance&quot;</text>
+      <text
+         id="text7925"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="67.050316"
+         x="165"
+         xml:space="preserve">: </text>
+      <text
+         id="text7927"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="67.050316"
+         x="180"
+         xml:space="preserve">value</text>
+      <text
+         id="text7929"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="67.050316"
+         x="217.5"
+         xml:space="preserve">,</text>
+      <text
+         id="text7931"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="67.050316"
+         x="225"
+         xml:space="preserve"> </text>
+      <text
+         id="text7933"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="81.150383"
+         x="0"
+         xml:space="preserve">            </text>
+      <text
+         id="text7935"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="81.150383"
+         x="90"
+         xml:space="preserve">&quot;duration&quot;</text>
+      <text
+         id="text7937"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="81.150383"
+         x="165"
+         xml:space="preserve">: </text>
+      <text
+         id="text7939"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="81.150383"
+         x="180"
+         xml:space="preserve">value</text>
+      <text
+         id="text7941"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="81.150383"
+         x="217.5"
+         xml:space="preserve">,</text>
+      <text
+         id="text7943"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="81.150383"
+         x="225"
+         xml:space="preserve"> </text>
+      <text
+         id="text7945"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="95.25045"
+         x="0"
+         xml:space="preserve">            </text>
+      <text
+         id="text7947"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="95.25045"
+         x="90"
+         xml:space="preserve">&quot;startTime&quot;</text>
+      <text
+         id="text7949"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="95.25045"
+         x="172.5"
+         xml:space="preserve">: </text>
+      <text
+         id="text7951"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="95.25045"
+         x="187.5"
+         xml:space="preserve">value</text>
+      <text
+         id="text7953"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="95.25045"
+         x="225"
+         xml:space="preserve">,</text>
+      <text
+         id="text7955"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="95.25045"
+         x="232.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text7957"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="109.50052"
+         x="0"
+         xml:space="preserve">            </text>
+      <text
+         id="text7959"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="109.50052"
+         x="90"
+         xml:space="preserve">&quot;steps&quot;</text>
+      <text
+         id="text7961"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="109.50052"
+         x="142.5"
+         xml:space="preserve">: </text>
+      <text
+         id="text7963"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="109.50052"
+         x="157.5"
+         xml:space="preserve">value</text>
+      <text
+         id="text7965"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="109.50052"
+         x="195"
+         xml:space="preserve"> </text>
+      <text
+         id="text7967"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="123.90059"
+         x="0"
+         xml:space="preserve">        </text>
+      <text
+         id="text7969"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="123.90059"
+         x="60"
+         xml:space="preserve">}</text>
+      <text
+         id="text7971"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="123.90059"
+         x="67.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text7973"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="138.15067"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text7975"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="138.15067"
+         x="30"
+         xml:space="preserve">],</text>
+      <text
+         id="text7977"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="138.15067"
+         x="45"
+         xml:space="preserve"> </text>
+      <text
+         id="text7979"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="151.95071"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text7981"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="151.95071"
+         x="30"
+         xml:space="preserve">&quot;goals&quot;</text>
+      <text
+         id="text7983"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="151.95071"
+         x="82.5"
+         xml:space="preserve">:</text>
+      <text
+         id="text7985"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="151.95071"
+         x="90"
+         xml:space="preserve"> </text>
+      <text
+         id="text7987"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="166.35078"
+         x="0"
+         xml:space="preserve">        </text>
+      <text
+         id="text7989"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="166.35078"
+         x="60"
+         xml:space="preserve">{</text>
+      <text
+         id="text7991"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="166.35078"
+         x="67.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text7993"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="180.30086"
+         x="0"
+         xml:space="preserve">            </text>
+      <text
+         id="text7995"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="180.30086"
+         x="90"
+         xml:space="preserve">&quot;caloriesOut&quot;</text>
+      <text
+         id="text7997"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="180.30086"
+         x="187.5"
+         xml:space="preserve">: </text>
+      <text
+         id="text7999"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="180.30086"
+         x="202.5"
+         xml:space="preserve">value</text>
+      <text
+         id="text8001"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="180.30086"
+         x="240"
+         xml:space="preserve">,</text>
+      <text
+         id="text8003"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="180.30086"
+         x="247.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text8005"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="194.40092"
+         x="0"
+         xml:space="preserve">            </text>
+      <text
+         id="text8007"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="194.40092"
+         x="90"
+         xml:space="preserve">&quot;distance&quot;</text>
+      <text
+         id="text8009"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="194.40092"
+         x="165"
+         xml:space="preserve">: </text>
+      <text
+         id="text8011"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="194.40092"
+         x="180"
+         xml:space="preserve">value</text>
+      <text
+         id="text8013"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="194.40092"
+         x="217.5"
+         xml:space="preserve">,</text>
+      <text
+         id="text8015"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="194.40092"
+         x="225"
+         xml:space="preserve"> </text>
+      <text
+         id="text8017"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="208.65099"
+         x="0"
+         xml:space="preserve">           </text>
+      <text
+         id="text8019"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="208.65099"
+         x="82.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text8021"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="208.65099"
+         x="90"
+         xml:space="preserve">&quot;floors&quot;</text>
+      <text
+         id="text8023"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="208.65099"
+         x="150"
+         xml:space="preserve">: floors,</text>
+      <text
+         id="text8025"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="208.65099"
+         x="217.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text8027"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="222.75105"
+         x="0"
+         xml:space="preserve">            </text>
+      <text
+         id="text8029"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="222.75105"
+         x="90"
+         xml:space="preserve">&quot;steps&quot;</text>
+      <text
+         id="text8031"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="222.75105"
+         x="142.5"
+         xml:space="preserve">: </text>
+      <text
+         id="text8033"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="222.75105"
+         x="157.5"
+         xml:space="preserve">value</text>
+      <text
+         id="text8035"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="222.75105"
+         x="195"
+         xml:space="preserve"> </text>
+      <text
+         id="text8037"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="237.15112"
+         x="0"
+         xml:space="preserve">        </text>
+      <text
+         id="text8039"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="237.15112"
+         x="60"
+         xml:space="preserve">},</text>
+      <text
+         id="text8041"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="237.15112"
+         x="75"
+         xml:space="preserve"> </text>
+      <text
+         id="text8043"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="251.1012"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text8045"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="251.1012"
+         x="30"
+         xml:space="preserve">&quot;summary&quot;</text>
+      <text
+         id="text8047"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="251.1012"
+         x="97.5"
+         xml:space="preserve">:{</text>
+      <text
+         id="text8049"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="251.1012"
+         x="112.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text8051"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="265.20126"
+         x="0"
+         xml:space="preserve">        </text>
+      <text
+         id="text8053"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="265.20126"
+         x="60"
+         xml:space="preserve">&quot;activityCalories&quot;</text>
+      <text
+         id="text8055"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="265.20126"
+         x="195"
+         xml:space="preserve">: </text>
+      <text
+         id="text8057"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="265.20126"
+         x="210"
+         xml:space="preserve">value</text>
+      <text
+         id="text8059"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="265.20126"
+         x="247.5"
+         xml:space="preserve">,</text>
+      <text
+         id="text8061"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="265.20126"
+         x="255"
+         xml:space="preserve"> </text>
+      <text
+         id="text8063"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="279.45132"
+         x="0"
+         xml:space="preserve">        </text>
+      <text
+         id="text8065"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="279.45132"
+         x="60"
+         xml:space="preserve">&quot;caloriesBMR&quot;</text>
+      <text
+         id="text8067"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="279.45132"
+         x="157.5"
+         xml:space="preserve">: </text>
+      <text
+         id="text8069"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="279.45132"
+         x="172.5"
+         xml:space="preserve">value</text>
+      <text
+         id="text8071"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="279.45132"
+         x="210"
+         xml:space="preserve">,</text>
+      <text
+         id="text8073"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="279.45132"
+         x="217.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text8075"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="293.55139"
+         x="0"
+         xml:space="preserve">        </text>
+      <text
+         id="text8077"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="293.55139"
+         x="60"
+         xml:space="preserve">&quot;caloriesOut&quot;</text>
+      <text
+         id="text8079"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="293.55139"
+         x="157.5"
+         xml:space="preserve">: </text>
+      <text
+         id="text8081"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="293.55139"
+         x="172.5"
+         xml:space="preserve">value</text>
+      <text
+         id="text8083"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="293.55139"
+         x="210"
+         xml:space="preserve">,</text>
+      <text
+         id="text8085"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="293.55139"
+         x="217.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text8087"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="307.65146"
+         x="0"
+         xml:space="preserve">        </text>
+      <text
+         id="text8089"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="307.65146"
+         x="60"
+         xml:space="preserve">&quot;distances&quot;</text>
+      <text
+         id="text8091"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="307.65146"
+         x="142.5"
+         xml:space="preserve">:[</text>
+      <text
+         id="text8093"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="307.65146"
+         x="157.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text8095"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="321.90152"
+         x="0"
+         xml:space="preserve">            </text>
+      <text
+         id="text8097"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="321.90152"
+         x="90"
+         xml:space="preserve">{</text>
+      <text
+         id="text8099"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="321.90152"
+         x="97.5"
+         xml:space="preserve">&quot;activity&quot;</text>
+      <text
+         id="text8101"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="321.90152"
+         x="172.5"
+         xml:space="preserve">:</text>
+      <text
+         id="text8103"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#008000;font-family:Courier New"
+         y="321.90152"
+         x="180"
+         xml:space="preserve">&quot;total&quot;</text>
+      <text
+         id="text8105"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="321.90152"
+         x="232.5"
+         xml:space="preserve">, </text>
+      <text
+         id="text8107"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="321.90152"
+         x="247.5"
+         xml:space="preserve">&quot;distance&quot;</text>
+      <text
+         id="text8109"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="321.90152"
+         x="322.5"
+         xml:space="preserve">: </text>
+      <text
+         id="text8111"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="321.90152"
+         x="337.5"
+         xml:space="preserve">value</text>
+      <text
+         id="text8113"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="321.90152"
+         x="375"
+         xml:space="preserve">},</text>
+      <text
+         id="text8115"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="321.90152"
+         x="390"
+         xml:space="preserve"> </text>
+      <text
+         id="text8117"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="336.00159"
+         x="0"
+         xml:space="preserve">            </text>
+      <text
+         id="text8119"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="336.00159"
+         x="90"
+         xml:space="preserve">{</text>
+      <text
+         id="text8121"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="336.00159"
+         x="97.5"
+         xml:space="preserve">&quot;activity&quot;</text>
+      <text
+         id="text8123"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="336.00159"
+         x="172.5"
+         xml:space="preserve">:</text>
+      <text
+         id="text8125"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#008000;font-family:Courier New"
+         y="336.00159"
+         x="180"
+         xml:space="preserve">&quot;veryActive&quot;</text>
+      <text
+         id="text8127"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="336.00159"
+         x="270"
+         xml:space="preserve">, </text>
+      <text
+         id="text8129"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="336.00159"
+         x="285"
+         xml:space="preserve">&quot;distance&quot;</text>
+      <text
+         id="text8131"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="336.00159"
+         x="360"
+         xml:space="preserve">: </text>
+      <text
+         id="text8133"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="336.00159"
+         x="375"
+         xml:space="preserve">value</text>
+      <text
+         id="text8135"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="336.00159"
+         x="412.5"
+         xml:space="preserve">},</text>
+      <text
+         id="text8137"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="336.00159"
+         x="427.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text8139"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="350.25165"
+         x="0"
+         xml:space="preserve">            </text>
+      <text
+         id="text8141"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="350.25165"
+         x="90"
+         xml:space="preserve">{</text>
+      <text
+         id="text8143"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="350.25165"
+         x="97.5"
+         xml:space="preserve">&quot;activity&quot;</text>
+      <text
+         id="text8145"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="350.25165"
+         x="172.5"
+         xml:space="preserve">:</text>
+      <text
+         id="text8147"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#008000;font-family:Courier New"
+         y="350.25165"
+         x="180"
+         xml:space="preserve">&quot;moderatelyActive&quot;</text>
+      <text
+         id="text8149"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="350.25165"
+         x="315"
+         xml:space="preserve">, </text>
+      <text
+         id="text8151"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="350.25165"
+         x="330"
+         xml:space="preserve">&quot;distance&quot;</text>
+      <text
+         id="text8153"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="350.25165"
+         x="405"
+         xml:space="preserve">: </text>
+      <text
+         id="text8155"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="350.25165"
+         x="420"
+         xml:space="preserve">value</text>
+      <text
+         id="text8157"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="350.25165"
+         x="457.5"
+         xml:space="preserve">},</text>
+      <text
+         id="text8159"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="350.25165"
+         x="472.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text8161"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="364.35172"
+         x="0"
+         xml:space="preserve">            </text>
+      <text
+         id="text8163"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="364.35172"
+         x="90"
+         xml:space="preserve">{</text>
+      <text
+         id="text8165"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="364.35172"
+         x="97.5"
+         xml:space="preserve">&quot;activity&quot;</text>
+      <text
+         id="text8167"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="364.35172"
+         x="172.5"
+         xml:space="preserve">:</text>
+      <text
+         id="text8169"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#008000;font-family:Courier New"
+         y="364.35172"
+         x="180"
+         xml:space="preserve">&quot;sedentaryActive&quot;</text>
+      <text
+         id="text8171"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="364.35172"
+         x="307.5"
+         xml:space="preserve">, </text>
+      <text
+         id="text8173"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="364.35172"
+         x="322.5"
+         xml:space="preserve">&quot;distance&quot;</text>
+      <text
+         id="text8175"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="364.35172"
+         x="397.5"
+         xml:space="preserve">: </text>
+      <text
+         id="text8177"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="364.35172"
+         x="412.5"
+         xml:space="preserve">value</text>
+      <text
+         id="text8179"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="364.35172"
+         x="450"
+         xml:space="preserve">}</text>
+      <text
+         id="text8181"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="364.35172"
+         x="457.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text8183"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="378.7518"
+         x="0"
+         xml:space="preserve">        </text>
+      <text
+         id="text8185"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="378.7518"
+         x="60"
+         xml:space="preserve">],</text>
+      <text
+         id="text8187"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="378.7518"
+         x="75"
+         xml:space="preserve"> </text>
+      <text
+         id="text8189"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="392.70187"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text8191"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="392.70187"
+         x="30"
+         xml:space="preserve">&quot;elevation&quot;</text>
+      <text
+         id="text8193"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="392.70187"
+         x="112.5"
+         xml:space="preserve">: </text>
+      <text
+         id="text8195"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="392.70187"
+         x="127.5"
+         xml:space="preserve">value</text>
+      <text
+         id="text8197"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="392.70187"
+         x="165"
+         xml:space="preserve">,</text>
+      <text
+         id="text8199"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="392.70187"
+         x="172.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text8201"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="406.80194"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text8203"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="406.80194"
+         x="30"
+         xml:space="preserve">&quot;fairlyActiveMinutes&quot;</text>
+      <text
+         id="text8205"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="406.80194"
+         x="187.5"
+         xml:space="preserve">: </text>
+      <text
+         id="text8207"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="406.80194"
+         x="202.5"
+         xml:space="preserve">value</text>
+      <text
+         id="text8209"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="406.80194"
+         x="240"
+         xml:space="preserve">,</text>
+      <text
+         id="text8211"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="406.80194"
+         x="247.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text8213"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="421.052"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text8215"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="421.052"
+         x="30"
+         xml:space="preserve">&quot;floors&quot;</text>
+      <text
+         id="text8217"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="421.052"
+         x="90"
+         xml:space="preserve">: </text>
+      <text
+         id="text8219"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="421.052"
+         x="105"
+         xml:space="preserve">value</text>
+      <text
+         id="text8221"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="421.052"
+         x="142.5"
+         xml:space="preserve">,</text>
+      <text
+         id="text8223"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="421.052"
+         x="150"
+         xml:space="preserve"> </text>
+      <text
+         id="text8225"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="435.15207"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text8227"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="435.15207"
+         x="30"
+         xml:space="preserve">&quot;sedentaryMinutes&quot;</text>
+      <text
+         id="text8229"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="435.15207"
+         x="165"
+         xml:space="preserve">: </text>
+      <text
+         id="text8231"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="435.15207"
+         x="180"
+         xml:space="preserve">value</text>
+      <text
+         id="text8233"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="435.15207"
+         x="217.5"
+         xml:space="preserve">,</text>
+      <text
+         id="text8235"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="435.15207"
+         x="225"
+         xml:space="preserve"> </text>
+      <text
+         id="text8237"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="449.25214"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text8239"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="449.25214"
+         x="30"
+         xml:space="preserve">&quot;steps&quot;</text>
+      <text
+         id="text8241"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="449.25214"
+         x="82.5"
+         xml:space="preserve">: </text>
+      <text
+         id="text8243"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="449.25214"
+         x="97.5"
+         xml:space="preserve">value</text>
+      <text
+         id="text8245"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="449.25214"
+         x="135"
+         xml:space="preserve">,</text>
+      <text
+         id="text8247"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="449.25214"
+         x="142.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text8249"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="463.5022"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text8251"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="463.5022"
+         x="30"
+         xml:space="preserve">&quot;veryActiveMinutes&quot;</text>
+      <text
+         id="text8253"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="463.5022"
+         x="172.5"
+         xml:space="preserve">: </text>
+      <text
+         id="text8255"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="463.5022"
+         x="187.5"
+         xml:space="preserve">value</text>
+      <text
+         id="text8257"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="463.5022"
+         x="225"
+         xml:space="preserve"> </text>
+      <text
+         id="text8259"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="477.90228"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text8261"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="477.90228"
+         x="30"
+         xml:space="preserve">}</text>
+      <text
+         id="text8263"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="477.90228"
+         x="37.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text8265"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="492.15234"
+         x="0"
+         xml:space="preserve">};</text>
+      <text
+         id="text8267"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="492.15234"
+         x="15"
+         xml:space="preserve"> </text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="602.36218"
+   height="368.50394"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="tuthgraph.svg">
+  <metadata
+     id="metadata254">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs252" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1640"
+     inkscape:window-height="1003"
+     id="namedview250"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.3350176"
+     inkscape:cx="355.96829"
+     inkscape:cy="87.117092"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2"
+     units="mm" />
+  <g
+     class="hGraph-wrapper"
+     transform="matrix(0.34752546,0,0,0.34752546,-31.336768,-0.9085118)"
+     id="g4">
+    <g
+       class="hGraph"
+       transform="translate(1000,550)"
+       id="g6">
+      <g
+         class="arcs"
+         id="g8">
+        <path
+           class="measurementArc"
+           d="m 0,-400 a 400,400 0 0 1 179.51967,42.54694 l -44.87992,89.36327 A 300,300 0 0 0 0,-300 z"
+           id="path10"
+           inkscape:connector-curvature="0"
+           style="fill:#d4ecd5;stroke:#808080" />
+        <path
+           class="measurementArc"
+           d="m 179.51967,-357.45306 a 400,400 0 0 1 141.32961,118.58962 l -80.21232,59.71586 a 300,300 0 0 0 -105.99721,-88.94221 z"
+           id="path12"
+           inkscape:connector-curvature="0"
+           style="fill:#d4ecd5;stroke:#808080" />
+        <path
+           class="measurementArc"
+           d="m 320.84928,-238.86344 a 400,400 0 0 1 46.43716,80.43153 l -91.82161,39.60798 a 300,300 0 0 0 -34.82787,-60.32365 z"
+           id="path14"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:none" />
+        <path
+           class="measurementArc"
+           d="M 367.28644,-158.43191 A 400,400 0 0 1 399.32326,23.257932 L 299.49245,17.443449 A 300,300 0 0 0 275.46483,-118.82393 z"
+           id="path16"
+           inkscape:connector-curvature="0"
+           style="fill:#d4ecd5;stroke:#808080" />
+        <path
+           class="measurementArc"
+           d="M 399.32326,23.257932 A 400,400 0 0 1 346.41016,200 L 259.80762,150 A 300,300 0 0 0 299.49245,17.443449 z"
+           id="path18"
+           inkscape:connector-curvature="0"
+           style="fill:#d4ecd5;stroke:#808080" />
+        <path
+           class="measurementArc"
+           d="m 346.41016,200 a 400,400 0 0 1 -55.4607,74.49666 L 218.21209,205.87249 A 300,300 0 0 0 259.80762,150 z"
+           id="path20"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:none" />
+        <path
+           class="measurementArc"
+           d="m 290.94946,274.49666 a 400,400 0 0 1 -154.1414,101.38039 l -34.20202,-93.96926 a 300,300 0 0 0 115.60605,-76.0353 z"
+           id="path22"
+           inkscape:connector-curvature="0"
+           style="fill:#d4ecd5;stroke:#808080" />
+        <path
+           class="measurementArc"
+           d="m 136.80806,375.87705 a 400,400 0 0 1 -183.245226,21.41829 l 11.609292,-99.32383 A 300,300 0 0 0 102.60604,281.90779 z"
+           id="path24"
+           inkscape:connector-curvature="0"
+           style="fill:#d4ecd5;stroke:#808080" />
+        <path
+           class="measurementArc"
+           d="m -46.437166,397.29534 a 400,400 0 0 1 -90.370894,-21.41829 l 34.20202,-93.96926 a 300,300 0 0 0 67.778166,16.06372 z"
+           id="path26"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:none" />
+        <path
+           class="measurementArc"
+           d="m -136.80806,375.87705 a 400,400 0 0 1 -154.1414,-101.38039 l 72.73737,-68.62417 a 300,300 0 0 0 115.60605,76.0353 z"
+           id="path28"
+           inkscape:connector-curvature="0"
+           style="fill:#d4ecd5;stroke:#808080" />
+        <path
+           class="measurementArc"
+           d="M -290.94946,274.49666 A 400,400 0 0 1 -383.1958,114.72129 l 95.79895,-28.68032 a 300,300 0 0 0 69.18476,119.83152 z"
+           id="path30"
+           inkscape:connector-curvature="0"
+           style="fill:#d4ecd5;stroke:#808080" />
+        <path
+           class="measurementArc"
+           d="m -383.1958,114.72129 a 400,400 0 0 1 -10.7273,-184.180561 l 98.48077,17.364818 a 300,300 0 0 0 8.04548,138.135423 z"
+           id="path32"
+           inkscape:connector-curvature="0"
+           style="fill:#d4ecd5;stroke:#808080" />
+        <path
+           class="measurementArc"
+           d="m -393.9231,-69.459271 a 400,400 0 0 1 26.63666,-88.972639 l 91.82161,39.60798 a 300,300 0 0 0 -19.9775,66.729477 z"
+           id="path34"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:none" />
+        <path
+           class="measurementArc"
+           d="m -367.28644,-158.43191 a 400,400 0 0 1 110.1714,-147.98587 l 64.27876,76.60445 a 300,300 0 0 0 -82.62855,110.9894 z"
+           id="path36"
+           inkscape:connector-curvature="0"
+           style="fill:#d4ecd5;stroke:#808080" />
+        <path
+           class="measurementArc"
+           d="m -257.11504,-306.41778 a 400,400 0 0 1 164.868692,-82.80017 l 23.061587,97.30449 a 300,300 0 0 0 -123.651519,62.10013 z"
+           id="path38"
+           inkscape:connector-curvature="0"
+           style="fill:#d4ecd5;stroke:#808080" />
+        <path
+           class="measurementArc"
+           d="M -92.246348,-389.21795 A 400,400 0 0 1 0,-400 l 0,100 a 300,300 0 0 0 -69.184761,8.08654 z"
+           id="path40"
+           inkscape:connector-curvature="0"
+           style="fill:none;stroke:none" />
+      </g>
+      <g
+         class="groupLabels"
+         id="g42">
+        <g
+           class="groupLabel hasLabel"
+           id="g44">
+          <g
+             class="label"
+             transform="translate(501.28329,-434.15244)"
+             id="g46"
+             style="opacity:0.5">
+            <rect
+               vector-effect="non-scaling-stroke"
+               rx="0.5"
+               ry="0.5"
+               x="-223.78125"
+               y="-58"
+               height="72"
+               width="447.5625"
+               id="rect48"
+               style="fill:#ffffff;stroke:#808080;stroke-width:1" />
+            <text
+               x="0"
+               y="0"
+               font-size="64"
+               id="text50"
+               style="font-size:64px;text-anchor:middle;fill:#808080">Blood Pressure</text>
+          </g>
+        </g>
+        <g
+           class="groupLabel hasLabel"
+           id="g52">
+          <g
+             class="label"
+             transform="translate(627.56165,73.413002)"
+             id="g54"
+             style="opacity:0.5">
+            <rect
+               vector-effect="non-scaling-stroke"
+               rx="0.5"
+               ry="0.5"
+               x="-182.85938"
+               y="-58"
+               height="72"
+               width="365.71875"
+               id="rect56"
+               style="fill:#ffffff;stroke:#808080;stroke-width:1" />
+            <text
+               x="0"
+               y="0"
+               font-size="64"
+               id="text58"
+               style="font-size:64px;text-anchor:middle;fill:#808080">Composition</text>
+          </g>
+        </g>
+        <g
+           class="groupLabel hasLabel"
+           id="g60">
+          <g
+             class="label"
+             transform="translate(210.1209,446.66953)"
+             id="g62"
+             style="opacity:0.5">
+            <rect
+               vector-effect="non-scaling-stroke"
+               rx="0.5"
+               ry="0.5"
+               x="-106.34375"
+               y="-58"
+               height="72"
+               width="212.6875"
+               id="rect64"
+               style="fill:#ffffff;stroke:#808080;stroke-width:1" />
+            <text
+               x="0"
+               y="0"
+               font-size="64"
+               id="text66"
+               style="font-size:64px;text-anchor:middle;fill:#808080">Activity</text>
+          </g>
+        </g>
+        <g
+           class="groupLabel hasLabel"
+           id="g68">
+          <g
+             class="label"
+             transform="translate(-590.85046,192.09869)"
+             id="g70"
+             style="opacity:0.5">
+            <rect
+               vector-effect="non-scaling-stroke"
+               rx="0.5"
+               ry="0.5"
+               x="-145.51562"
+               y="-58"
+               height="72"
+               width="291.03125"
+               id="rect72"
+               style="fill:#ffffff;stroke:#808080;stroke-width:1" />
+            <text
+               x="0"
+               y="0"
+               font-size="64"
+               id="text74"
+               style="font-size:64px;text-anchor:middle;fill:#808080">Lab Tests</text>
+          </g>
+        </g>
+        <g
+           class="groupLabel hasLabel"
+           id="g76">
+          <g
+             class="label"
+             transform="translate(-334.1228,-375.96951)"
+             id="g78"
+             style="opacity:0.5">
+            <rect
+               vector-effect="non-scaling-stroke"
+               rx="0.5"
+               ry="0.5"
+               x="-86.84375"
+               y="-58"
+               height="72"
+               width="173.6875"
+               id="rect80"
+               style="fill:#ffffff;stroke:#808080;stroke-width:1" />
+            <text
+               x="0"
+               y="0"
+               font-size="64"
+               id="text82"
+               style="font-size:64px;text-anchor:middle;fill:#808080">Sleep</text>
+          </g>
+        </g>
+      </g>
+      <g
+         class="graphs"
+         id="g84">
+        <g
+           class="graph activeGraph"
+           id="g86">
+          <g
+             class="polygons"
+             id="g88">
+            <polygon
+               points="29.410205,251.62038 -233.54132,355.08232 -347.85354,200.83333 -371.86979,21.658949 -260.69004,-194.07654 -140.62374,-280.00489 91.655026,-386.72296 276.39867,-329.39911 387.76805,-68.37397 307.62108,92.095705 173.53494,263.84705 "
+               vector-effect="non-scaling-stroke"
+               class="active"
+               id="polygon90"
+               style="fill:none;stroke:#5b5b5b;stroke-width:1" />
+            <polygon
+               points="24.766488,211.89085 -239.03641,363.4372 -353.62704,204.16667 -414.29789,24.130104 -220.58388,-164.21861 -95.743825,-190.64163 94.020317,-396.70291 292.46836,-348.55022 395.46186,-69.730596 315.60432,94.485732 122.98011,186.98217 "
+               vector-effect="non-scaling-stroke"
+               class="passive"
+               id="polygon92"
+               style="fill:none;stroke:#bfbfbf;stroke-width:1" />
+          </g>
+          <g
+             class="measurements"
+             id="g94">
+            <g
+               class="measurement hasLabel"
+               id="g96">
+              <path
+                 vector-effect="non-scaling-stroke"
+                 d="m 91.655026,-386.72296 2.365291,-9.97995 14.387353,-120.74953"
+                 id="path98"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#808080;stroke-width:1;stroke-dasharray:5, 5" />
+              <g
+                 class="label"
+                 transform="translate(248.37924,-504.85245)"
+                 id="g100">
+                <rect
+                   vector-effect="non-scaling-stroke"
+                   rx="0.5"
+                   ry="0.5"
+                   x="-142.82812"
+                   y="-29"
+                   height="36"
+                   width="285.65625"
+                   id="rect102"
+                   style="fill:#ffffff;stroke:#808080;stroke-width:1" />
+                <text
+                   x="0"
+                   y="0"
+                   font-size="32"
+                   id="text104"
+                   style="font-size:32px;text-anchor:middle;fill:#808080">Systolic 128 mmHg</text>
+              </g>
+              <circle
+                 r="10"
+                 cx="94.020317"
+                 cy="-396.70291"
+                 class="passive"
+                 id="circle106"
+                 d="m 104.02032,-396.70291 c 0,5.52285 -4.477155,10 -10.000003,10 -5.522847,0 -10,-4.47715 -10,-10 0,-5.52285 4.477153,-10 10,-10 5.522848,0 10.000003,4.47715 10.000003,10 z"
+                 sodipodi:cx="94.020317"
+                 sodipodi:cy="-396.70291"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#ffef99;stroke:#bfbfbf;stroke-width:1" />
+              <circle
+                 r="10"
+                 cx="91.655029"
+                 cy="-386.72296"
+                 class="active"
+                 id="circle108"
+                 d="m 101.65503,-386.72296 c 0,5.52285 -4.477153,10 -10.000001,10 -5.522847,0 -10,-4.47715 -10,-10 0,-5.52285 4.477153,-10 10,-10 5.522848,0 10.000001,4.47715 10.000001,10 z"
+                 sodipodi:cx="91.655029"
+                 sodipodi:cy="-386.72296"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#73d651;stroke:#5b5b5b;stroke-width:1" />
+            </g>
+            <g
+               class="measurement hasLabel"
+               id="g110">
+              <path
+                 vector-effect="non-scaling-stroke"
+                 d="m 276.39867,-329.39911 16.06969,-19.15111 34.9247,-50.90222"
+                 id="path112"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#808080;stroke-width:1;stroke-dasharray:5, 5" />
+              <g
+                 class="label"
+                 transform="translate(463.87338,-386.85245)"
+                 id="g114">
+                <rect
+                   vector-effect="non-scaling-stroke"
+                   rx="0.5"
+                   ry="0.5"
+                   x="-139.26562"
+                   y="-29"
+                   height="36"
+                   width="278.53125"
+                   id="rect116"
+                   style="fill:#ffffff;stroke:#808080;stroke-width:1" />
+                <text
+                   x="0"
+                   y="0"
+                   font-size="32"
+                   id="text118"
+                   style="font-size:32px;text-anchor:middle;fill:#808080">Diastolic 86 mmHg</text>
+              </g>
+              <circle
+                 r="10"
+                 cx="292.46835"
+                 cy="-348.55023"
+                 class="passive"
+                 id="circle120"
+                 d="m 302.46835,-348.55023 c 0,5.52285 -4.47715,10 -10,10 -5.52284,0 -10,-4.47715 -10,-10 0,-5.52285 4.47716,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+                 sodipodi:cx="292.46835"
+                 sodipodi:cy="-348.55023"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#ffc1b5;stroke:#bfbfbf;stroke-width:1" />
+              <circle
+                 r="10"
+                 cx="276.39868"
+                 cy="-329.39911"
+                 class="active"
+                 id="circle122"
+                 d="m 286.39868,-329.39911 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+                 sodipodi:cx="276.39868"
+                 sodipodi:cy="-329.39911"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#ffd700;stroke:#5b5b5b;stroke-width:1" />
+            </g>
+            <g
+               class="measurement hasLabel"
+               id="g124">
+              <path
+                 vector-effect="non-scaling-stroke"
+                 d="m 387.76805,-68.37397 7.69381,-1.356626 52.50664,-26.282409"
+                 id="path126"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#808080;stroke-width:1;stroke-dasharray:5, 5" />
+              <g
+                 class="label"
+                 transform="translate(608.01477,-83.413002)"
+                 id="g128">
+                <rect
+                   vector-effect="non-scaling-stroke"
+                   rx="0.5"
+                   ry="0.5"
+                   x="-163.3125"
+                   y="-29"
+                   height="36"
+                   width="326.625"
+                   id="rect130"
+                   style="fill:#ffffff;stroke:#808080;stroke-width:1" />
+                <text
+                   x="0"
+                   y="0"
+                   font-size="32"
+                   id="text132"
+                   style="font-size:32px;text-anchor:middle;fill:#808080">Body Mass Index 24.5</text>
+              </g>
+              <circle
+                 r="10"
+                 cx="395.46185"
+                 cy="-69.730598"
+                 class="passive"
+                 id="circle134"
+                 d="m 405.46185,-69.730598 c 0,5.522847 -4.47715,10 -10,10 -5.52284,0 -10,-4.477153 -10,-10 0,-5.522848 4.47716,-10 10,-10 5.52285,0 10,4.477152 10,10 z"
+                 sodipodi:cx="395.46185"
+                 sodipodi:cy="-69.730598"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#9de285;stroke:#bfbfbf;stroke-width:1" />
+              <circle
+                 r="10"
+                 cx="387.76807"
+                 cy="-68.37397"
+                 class="active"
+                 id="circle136"
+                 d="m 397.76807,-68.37397 c 0,5.522847 -4.47716,10 -10,10 -5.52285,0 -10,-4.477153 -10,-10 0,-5.522848 4.47715,-10 10,-10 5.52284,0 10,4.477152 10,10 z"
+                 sodipodi:cx="387.76807"
+                 sodipodi:cy="-68.37397"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#73d651;stroke:#5b5b5b;stroke-width:1" />
+            </g>
+            <g
+               class="measurement hasLabel"
+               id="g138">
+              <path
+                 vector-effect="non-scaling-stroke"
+                 d="m 307.62108,92.095705 7.98324,2.390027 119.00534,21.975718"
+                 id="path140"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#808080;stroke-width:1;stroke-dasharray:5, 5" />
+              <g
+                 class="label"
+                 transform="translate(606.81403,129.06145)"
+                 id="g142">
+                <rect
+                   vector-effect="non-scaling-stroke"
+                   rx="0.5"
+                   ry="0.5"
+                   x="-175.71875"
+                   y="-29"
+                   height="36"
+                   width="351.4375"
+                   id="rect144"
+                   style="fill:#ffffff;stroke:#808080;stroke-width:1" />
+                <text
+                   x="0"
+                   y="0"
+                   font-size="32"
+                   id="text146"
+                   style="font-size:32px;text-anchor:middle;fill:#808080">Waist Diameter 73.8 cm</text>
+              </g>
+              <circle
+                 r="10"
+                 cx="315.60431"
+                 cy="94.485733"
+                 class="passive"
+                 id="circle148"
+                 d="m 325.60431,94.485733 c 0,5.522847 -4.47715,9.999997 -10,9.999997 -5.52285,0 -10,-4.47715 -10,-9.999997 0,-5.522847 4.47715,-10 10,-10 5.52285,0 10,4.477153 10,10 z"
+                 sodipodi:cx="315.60431"
+                 sodipodi:cy="94.485733"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#9de285;stroke:#bfbfbf;stroke-width:1" />
+              <circle
+                 r="10"
+                 cx="307.62106"
+                 cy="92.095703"
+                 class="active"
+                 id="circle150"
+                 d="m 317.62106,92.095703 c 0,5.522848 -4.47715,9.999997 -10,9.999997 -5.52284,0 -10,-4.477149 -10,-9.999997 0,-5.522847 4.47716,-10 10,-10 5.52285,0 10,4.477153 10,10 z"
+                 sodipodi:cx="307.62106"
+                 sodipodi:cy="92.095703"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#73d651;stroke:#5b5b5b;stroke-width:1" />
+            </g>
+            <g
+               class="measurement hasLabel"
+               id="g152">
+              <path
+                 vector-effect="non-scaling-stroke"
+                 d="m 122.98011,186.98217 50.55483,76.86488 77.47316,99.52247"
+                 id="path154"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#808080;stroke-width:1;stroke-dasharray:5, 5" />
+              <g
+                 class="label"
+                 transform="translate(433.73218,375.96951)"
+                 id="g156">
+                <rect
+                   vector-effect="non-scaling-stroke"
+                   rx="0.5"
+                   ry="0.5"
+                   x="-186.45312"
+                   y="-29"
+                   height="36"
+                   width="372.90625"
+                   id="rect158"
+                   style="fill:#ffffff;stroke:#808080;stroke-width:1" />
+                <text
+                   x="0"
+                   y="0"
+                   font-size="32"
+                   id="text160"
+                   style="font-size:32px;text-anchor:middle;fill:#808080">Steps per day 8632 steps</text>
+              </g>
+              <circle
+                 r="10"
+                 cx="122.98011"
+                 cy="186.98218"
+                 class="passive"
+                 id="circle162"
+                 d="m 132.98011,186.98218 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+                 sodipodi:cx="122.98011"
+                 sodipodi:cy="186.98218"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#ffef99;stroke:#bfbfbf;stroke-width:1" />
+              <circle
+                 r="10"
+                 cx="173.53494"
+                 cy="263.84705"
+                 class="active"
+                 id="circle164"
+                 d="m 183.53494,263.84705 c 0,5.52284 -4.47715,10 -10,10 -5.52284,0 -10,-4.47716 -10,-10 0,-5.52285 4.47716,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+                 sodipodi:cx="173.53494"
+                 sodipodi:cy="263.84705"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#73d651;stroke:#5b5b5b;stroke-width:1" />
+            </g>
+            <g
+               class="measurement hasLabel"
+               id="g166">
+              <path
+                 vector-effect="non-scaling-stroke"
+                 d="m 24.766488,211.89085 4.643717,39.72953 29.743481,229.74914"
+                 id="path168"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#808080;stroke-width:1;stroke-dasharray:5, 5" />
+              <g
+                 class="label"
+                 transform="translate(397.83557,493.96951)"
+                 id="g170">
+                <rect
+                   vector-effect="non-scaling-stroke"
+                   rx="0.5"
+                   ry="0.5"
+                   x="-345.59375"
+                   y="-29"
+                   height="36"
+                   width="691.1875"
+                   id="rect172"
+                   style="fill:#ffffff;stroke:#808080;stroke-width:1" />
+                <text
+                   x="0"
+                   y="0"
+                   font-size="32"
+                   id="text174"
+                   style="font-size:32px;text-anchor:middle;fill:#808080">Weekly moderate exercise 80 minutes per week</text>
+              </g>
+              <circle
+                 r="10"
+                 cx="24.766489"
+                 cy="211.89085"
+                 class="passive"
+                 id="circle176"
+                 d="m 34.766489,211.89085 c 0,5.52285 -4.477152,10 -10,10 -5.522847,0 -10,-4.47715 -10,-10 0,-5.52284 4.477153,-10 10,-10 5.522848,0 10,4.47716 10,10 z"
+                 sodipodi:cx="24.766489"
+                 sodipodi:cy="211.89085"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#ffc1b5;stroke:#bfbfbf;stroke-width:1" />
+              <circle
+                 r="10"
+                 cx="29.410206"
+                 cy="251.62038"
+                 class="active"
+                 id="circle178"
+                 d="m 39.410206,251.62038 c 0,5.52284 -4.477153,10 -10,10 -5.522848,0 -10,-4.47716 -10,-10 0,-5.52285 4.477152,-10 10,-10 5.522847,0 10,4.47715 10,10 z"
+                 sodipodi:cx="29.410206"
+                 sodipodi:cy="251.62038"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#73d651;stroke:#5b5b5b;stroke-width:1" />
+            </g>
+            <g
+               class="measurement hasLabel"
+               id="g180">
+              <path
+                 vector-effect="non-scaling-stroke"
+                 d="m -233.54132,355.08232 -5.49509,8.35488 -32.71576,29.17439"
+                 id="path182"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#808080;stroke-width:1;stroke-dasharray:5, 5" />
+              <g
+                 class="label"
+                 transform="translate(-528.52747,405.21158)"
+                 id="g184">
+                <rect
+                   vector-effect="non-scaling-stroke"
+                   rx="0.5"
+                   ry="0.5"
+                   x="-262.01562"
+                   y="-29"
+                   height="36"
+                   width="524.03125"
+                   id="rect186"
+                   style="fill:#ffffff;stroke:#808080;stroke-width:1" />
+                <text
+                   x="0"
+                   y="0"
+                   font-size="32"
+                   id="text188"
+                   style="font-size:32px;text-anchor:middle;fill:#808080">HDL (good cholesterol) 1.25 mmol/L</text>
+              </g>
+              <circle
+                 r="10"
+                 cx="-239.03641"
+                 cy="363.43719"
+                 class="passive"
+                 id="circle190"
+                 d="m -229.03641,363.43719 c 0,5.52285 -4.47715,10 -10,10 -5.52284,0 -10,-4.47715 -10,-10 0,-5.52284 4.47716,-10 10,-10 5.52285,0 10,4.47716 10,10 z"
+                 sodipodi:cx="-239.03641"
+                 sodipodi:cy="363.43719"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#9de285;stroke:#bfbfbf;stroke-width:1" />
+              <circle
+                 r="10"
+                 cx="-233.54132"
+                 cy="355.08231"
+                 class="active"
+                 id="circle192"
+                 d="m -223.54132,355.08231 c 0,5.52284 -4.47715,10 -10,10 -5.52285,0 -10,-4.47716 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+                 sodipodi:cx="-233.54132"
+                 sodipodi:cy="355.08231"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#73d651;stroke:#5b5b5b;stroke-width:1" />
+            </g>
+            <g
+               class="measurement hasLabel"
+               id="g194">
+              <path
+                 vector-effect="non-scaling-stroke"
+                 d="m -347.85354,200.83333 -5.7735,3.33334 -48.31033,22.63202"
+                 id="path196"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#808080;stroke-width:1;stroke-dasharray:5, 5" />
+              <g
+                 class="label"
+                 transform="translate(-647.38141,239.39868)"
+                 id="g198">
+                <rect
+                   vector-effect="non-scaling-stroke"
+                   rx="0.5"
+                   ry="0.5"
+                   x="-250.45312"
+                   y="-29"
+                   height="36"
+                   width="500.90625"
+                   id="rect200"
+                   style="fill:#ffffff;stroke:#808080;stroke-width:1" />
+                <text
+                   x="0"
+                   y="0"
+                   font-size="32"
+                   id="text202"
+                   style="font-size:32px;text-anchor:middle;fill:#808080">LDL (bad cholesterol) 3.05 mmol/L</text>
+              </g>
+              <circle
+                 r="10"
+                 cx="-353.62704"
+                 cy="204.16667"
+                 class="passive"
+                 id="circle204"
+                 d="m -343.62704,204.16667 c 0,5.52285 -4.47716,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52284,0 10,4.47715 10,10 z"
+                 sodipodi:cx="-353.62704"
+                 sodipodi:cy="204.16667"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#ffef99;stroke:#bfbfbf;stroke-width:1" />
+              <circle
+                 r="10"
+                 cx="-347.85355"
+                 cy="200.83333"
+                 class="active"
+                 id="circle206"
+                 d="m -337.85355,200.83333 c 0,5.52285 -4.47715,10 -10,10 -5.52284,0 -10,-4.47715 -10,-10 0,-5.52285 4.47716,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+                 sodipodi:cx="-347.85355"
+                 sodipodi:cy="200.83333"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#ffd700;stroke:#5b5b5b;stroke-width:1" />
+            </g>
+            <g
+               class="measurement hasLabel"
+               id="g208">
+              <path
+                 vector-effect="non-scaling-stroke"
+                 d="m -371.86979,21.658949 -42.4281,2.471155 -53.67884,-14.6927586"
+                 id="path210"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#808080;stroke-width:1;stroke-dasharray:5, 5" />
+              <g
+                 class="label"
+                 transform="translate(-652.38519,22.037346)"
+                 id="g212">
+                <rect
+                   vector-effect="non-scaling-stroke"
+                   rx="0.5"
+                   ry="0.5"
+                   x="-188.17188"
+                   y="-29"
+                   height="36"
+                   width="376.34375"
+                   id="rect214"
+                   style="fill:#ffffff;stroke:#808080;stroke-width:1" />
+                <text
+                   x="0"
+                   y="0"
+                   font-size="32"
+                   id="text216"
+                   style="font-size:32px;text-anchor:middle;fill:#808080">Triglycerides 1.45 mmol/L</text>
+              </g>
+              <circle
+                 r="10"
+                 cx="-414.29788"
+                 cy="24.130104"
+                 class="passive"
+                 id="circle218"
+                 d="m -404.29788,24.130104 c 0,5.522848 -4.47715,10 -10,10 -5.52285,0 -10,-4.477152 -10,-10 0,-5.522847 4.47715,-10 10,-10 5.52285,0 10,4.477153 10,10 z"
+                 sodipodi:cx="-414.29788"
+                 sodipodi:cy="24.130104"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#ffc1b5;stroke:#bfbfbf;stroke-width:1" />
+              <circle
+                 r="10"
+                 cx="-371.86978"
+                 cy="21.658949"
+                 class="active"
+                 id="circle220"
+                 d="m -361.86978,21.658949 c 0,5.522847 -4.47715,10 -10,10 -5.52285,0 -10,-4.477153 -10,-10 0,-5.522848 4.47715,-10 10,-10 5.52285,0 10,4.477152 10,10 z"
+                 sodipodi:cx="-371.86978"
+                 sodipodi:cy="21.658949"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#73d651;stroke:#5b5b5b;stroke-width:1" />
+            </g>
+            <g
+               class="measurement hasLabel"
+               id="g222">
+              <path
+                 vector-effect="non-scaling-stroke"
+                 d="m -220.58388,-164.21861 -40.10616,-29.85793 -103.49602,-92.24483"
+                 id="path224"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#808080;stroke-width:1;stroke-dasharray:5, 5" />
+              <g
+                 class="label"
+                 transform="translate(-522.48669,-273.72137)"
+                 id="g226">
+                <rect
+                   vector-effect="non-scaling-stroke"
+                   rx="0.5"
+                   ry="0.5"
+                   x="-161.53125"
+                   y="-29"
+                   height="36"
+                   width="323.0625"
+                   id="rect228"
+                   style="fill:#ffffff;stroke:#808080;stroke-width:1" />
+                <text
+                   x="0"
+                   y="0"
+                   font-size="32"
+                   id="text230"
+                   style="font-size:32px;text-anchor:middle;fill:#808080">Time in Bed 7.5 hours</text>
+              </g>
+              <circle
+                 r="10"
+                 cx="-220.58388"
+                 cy="-164.21861"
+                 class="passive"
+                 id="circle232"
+                 d="m -210.58388,-164.21861 c 0,5.52284 -4.47715,10 -10,10 -5.52285,0 -10,-4.47716 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+                 sodipodi:cx="-220.58388"
+                 sodipodi:cy="-164.21861"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#9de285;stroke:#bfbfbf;stroke-width:1" />
+              <circle
+                 r="10"
+                 cx="-260.69003"
+                 cy="-194.07654"
+                 class="active"
+                 id="circle234"
+                 d="m -250.69003,-194.07654 c 0,5.52285 -4.47716,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52284,0 10,4.47715 10,10 z"
+                 sodipodi:cx="-260.69003"
+                 sodipodi:cy="-194.07654"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#73d651;stroke:#5b5b5b;stroke-width:1" />
+            </g>
+            <g
+               class="measurement hasLabel"
+               id="g236">
+              <path
+                 vector-effect="non-scaling-stroke"
+                 d="m -95.743825,-190.64163 -44.879915,-89.36326 -64.49558,-179.26463"
+                 id="path238"
+                 inkscape:connector-curvature="0"
+                 style="fill:none;stroke:#808080;stroke-width:1;stroke-dasharray:5, 5" />
+              <g
+                 class="label"
+                 transform="translate(-359.944,-446.66953)"
+                 id="g240">
+                <rect
+                   vector-effect="non-scaling-stroke"
+                   rx="0.5"
+                   ry="0.5"
+                   x="-157.98438"
+                   y="-29"
+                   height="36"
+                   width="315.96875"
+                   id="rect242"
+                   style="fill:#ffffff;stroke:#808080;stroke-width:1" />
+                <text
+                   x="0"
+                   y="0"
+                   font-size="32"
+                   id="text244"
+                   style="font-size:32px;text-anchor:middle;fill:#808080">Sleep efficiency 87 %</text>
+              </g>
+              <circle
+                 r="10"
+                 cx="-95.743828"
+                 cy="-190.64163"
+                 class="passive"
+                 id="circle246"
+                 d="m -85.743828,-190.64163 c 0,5.52285 -4.477152,10 -10,10 -5.522852,0 -10.000002,-4.47715 -10.000002,-10 0,-5.52285 4.47715,-10 10.000002,-10 5.522848,0 10,4.47715 10,10 z"
+                 sodipodi:cx="-95.743828"
+                 sodipodi:cy="-190.64163"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#ffef99;stroke:#bfbfbf;stroke-width:1" />
+              <circle
+                 r="10"
+                 cx="-140.62375"
+                 cy="-280.00488"
+                 class="active"
+                 id="circle248"
+                 d="m -130.62375,-280.00488 c 0,5.52284 -4.47715,10 -10,10 -5.52285,0 -10,-4.47716 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+                 sodipodi:cx="-140.62375"
+                 sodipodi:cy="-280.00488"
+                 sodipodi:rx="10"
+                 sodipodi:ry="10"
+                 style="fill:#73d651;stroke:#5b5b5b;stroke-width:1" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

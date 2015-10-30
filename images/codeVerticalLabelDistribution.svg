@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="602.36218"
+   height="250.53416"
+   id="svg6249"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="New document 12">
+  <defs
+     id="defs6251">
+    <clipPath
+       id="clipEmfPath1"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         id="rect6262"
+         height="240.73228"
+         width="810"
+         y="0"
+         x="0" />
+    </clipPath>
+    <clipPath
+       id="clipEmfPath1-2"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         id="rect6650"
+         height="269.0433"
+         width="810"
+         y="0"
+         x="0" />
+    </clipPath>
+    <clipPath
+       id="clipEmfPath1-5"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         id="rect7056"
+         height="240.73228"
+         width="810"
+         y="0"
+         x="0" />
+    </clipPath>
+    <clipPath
+       id="clipEmfPath1-8"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         id="rect7444"
+         height="254.87009"
+         width="810"
+         y="0"
+         x="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="236.42005"
+     inkscape:cy="152.90291"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="mm"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="953"
+     inkscape:window-height="796"
+     inkscape:window-x="1942"
+     inkscape:window-y="22"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata6254">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-362.16264,-690.83506)">
+    <g
+       id="g7446"
+       transform="translate(372.16264,688.36884)">
+      <text
+         id="text7448"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="10.350816"
+         x="0"
+         xml:space="preserve">var </text>
+      <text
+         id="text7450"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="10.350816"
+         x="30"
+         xml:space="preserve">verticalLabelLimit </text>
+      <text
+         id="text7452"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="10.350816"
+         x="172.5"
+         xml:space="preserve">= </text>
+      <text
+         id="text7454"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#0000ff;font-family:Courier New"
+         y="10.350816"
+         x="187.5"
+         xml:space="preserve">0</text>
+      <text
+         id="text7456"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="10.350816"
+         x="195"
+         xml:space="preserve">;</text>
+      <text
+         id="text7458"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="10.350816"
+         x="202.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text7460"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="24.451927"
+         x="0"
+         xml:space="preserve">var </text>
+      <text
+         id="text7462"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="24.451927"
+         x="30"
+         xml:space="preserve">verticalLabelMargin </text>
+      <text
+         id="text7464"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="24.451927"
+         x="180"
+         xml:space="preserve">= </text>
+      <text
+         id="text7466"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#0000ff;font-family:Courier New"
+         y="24.451927"
+         x="195"
+         xml:space="preserve">5</text>
+      <text
+         id="text7468"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="24.451927"
+         x="202.5"
+         xml:space="preserve">;</text>
+      <text
+         id="text7470"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="24.451927"
+         x="210"
+         xml:space="preserve"> </text>
+      <text
+         id="text7472"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="38.703049"
+         x="0"
+         xml:space="preserve">function </text>
+      <text
+         id="text7474"
+         style="font-size:12.44999981px;font-style:italic;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="38.703049"
+         x="67.5"
+         xml:space="preserve">moveLabelVertically</text>
+      <text
+         id="text7476"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="38.703049"
+         x="210"
+         xml:space="preserve">(i, angle, height, y){</text>
+      <text
+         id="text7478"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="38.703049"
+         x="375"
+         xml:space="preserve"> </text>
+      <text
+         id="text7480"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.804161"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text7482"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="52.804161"
+         x="30"
+         xml:space="preserve">var </text>
+      <text
+         id="text7484"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="52.804161"
+         x="60"
+         xml:space="preserve">delta </text>
+      <text
+         id="text7486"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.804161"
+         x="105"
+         xml:space="preserve">= i === </text>
+      <text
+         id="text7488"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#0000ff;font-family:Courier New"
+         y="52.804161"
+         x="165"
+         xml:space="preserve">0 </text>
+      <text
+         id="text7490"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.804161"
+         x="180"
+         xml:space="preserve">? </text>
+      <text
+         id="text7492"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.804161"
+         x="195"
+         xml:space="preserve">-</text>
+      <text
+         id="text7494"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#0000ff;font-family:Courier New"
+         y="52.804161"
+         x="202.5"
+         xml:space="preserve">1 </text>
+      <text
+         id="text7496"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.804161"
+         x="217.5"
+         xml:space="preserve">* </text>
+      <text
+         id="text7498"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="52.804161"
+         x="232.5"
+         xml:space="preserve">verticalL</text>
+      <text
+         id="text7500"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="52.804161"
+         x="300"
+         xml:space="preserve">abelMargin</text>
+      <text
+         id="text7502"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.804161"
+         x="375"
+         xml:space="preserve">: </text>
+      <text
+         id="text7504"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#0000ff;font-family:Courier New"
+         y="52.804161"
+         x="390"
+         xml:space="preserve">0</text>
+      <text
+         id="text7506"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.804161"
+         x="397.5"
+         xml:space="preserve">;</text>
+      <text
+         id="text7508"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.804161"
+         x="405"
+         xml:space="preserve"> </text>
+      <text
+         id="text7510"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="67.055283"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text7512"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="67.055283"
+         x="30"
+         xml:space="preserve">var </text>
+      <text
+         id="text7514"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="67.055283"
+         x="60"
+         xml:space="preserve">upper </text>
+      <text
+         id="text7516"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="67.055283"
+         x="105"
+         xml:space="preserve">= angle &gt;= (</text>
+      <text
+         id="text7518"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#0000ff;font-family:Courier New"
+         y="67.055283"
+         x="195"
+         xml:space="preserve">3</text>
+      <text
+         id="text7520"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="67.055283"
+         x="202.5"
+         xml:space="preserve">/</text>
+      <text
+         id="text7522"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#0000ff;font-family:Courier New"
+         y="67.055283"
+         x="210"
+         xml:space="preserve">2 </text>
+      <text
+         id="text7524"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="67.055283"
+         x="225"
+         xml:space="preserve">* </text>
+      <text
+         id="text7526"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="67.055283"
+         x="240"
+         xml:space="preserve">Math</text>
+      <text
+         id="text7528"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="67.055283"
+         x="270"
+         xml:space="preserve">.</text>
+      <text
+         id="text7530"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="67.055283"
+         x="277.5"
+         xml:space="preserve">PI</text>
+      <text
+         id="text7532"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="67.055283"
+         x="292.5"
+         xml:space="preserve">) || (angle &lt;= </text>
+      <text
+         id="text7534"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="67.055283"
+         x="405"
+         xml:space="preserve">Math</text>
+      <text
+         id="text7536"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="67.055283"
+         x="435"
+         xml:space="preserve">.</text>
+      <text
+         id="text7538"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="67.055283"
+         x="442.5"
+         xml:space="preserve">PI</text>
+      <text
+         id="text7540"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="67.055283"
+         x="457.5"
+         xml:space="preserve">/</text>
+      <text
+         id="text7542"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#0000ff;font-family:Courier New"
+         y="67.055283"
+         x="465"
+         xml:space="preserve">2</text>
+      <text
+         id="text7544"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="67.055283"
+         x="472.5"
+         xml:space="preserve">);</text>
+      <text
+         id="text7546"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="67.055283"
+         x="487.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text7548"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="81.156395"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text7550"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="81.156395"
+         x="30"
+         xml:space="preserve">var </text>
+      <text
+         id="text7552"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="81.156395"
+         x="60"
+         xml:space="preserve">collision </text>
+      <text
+         id="text7554"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="81.156395"
+         x="135"
+         xml:space="preserve">= </text>
+      <text
+         id="text7556"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="81.156395"
+         x="150"
+         xml:space="preserve">upper </text>
+      <text
+         id="text7558"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="81.156395"
+         x="195"
+         xml:space="preserve">?</text>
+      <text
+         id="text7560"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="81.156395"
+         x="202.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text7562"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="95.257507"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text7564"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="95.257507"
+         x="30"
+         xml:space="preserve">y + height + </text>
+      <text
+         id="text7566"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="95.257507"
+         x="127.5"
+         xml:space="preserve">verticalLabelMargin </text>
+      <text
+         id="text7568"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="95.257507"
+         x="277.5"
+         xml:space="preserve">&gt;= </text>
+      <text
+         id="text7570"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="95.257507"
+         x="300"
+         xml:space="preserve">verticalLabelLimit </text>
+      <text
+         id="text7572"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="95.257507"
+         x="442.5"
+         xml:space="preserve">:</text>
+      <text
+         id="text7574"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="95.257507"
+         x="450"
+         xml:space="preserve"> </text>
+      <text
+         id="text7576"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="109.50863"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text7578"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="109.50863"
+         x="30"
+         xml:space="preserve">y &lt;= </text>
+      <text
+         id="text7580"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="109.50863"
+         x="67.5"
+         xml:space="preserve">verticalLabelLimit</text>
+      <text
+         id="text7582"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="109.50863"
+         x="202.5"
+         xml:space="preserve">;</text>
+      <text
+         id="text7584"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="109.50863"
+         x="210"
+         xml:space="preserve"> </text>
+      <text
+         id="text7586"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="124.05978"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text7588"
+         style="font-size:12.44999981px;font-style:italic;font-weight:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Courier New"
+         y="124.05978"
+         x="30"
+         xml:space="preserve">// Negative value moves the object up</text>
+      <text
+         id="text7590"
+         style="font-size:12.44999981px;font-style:italic;font-weight:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Courier New"
+         y="124.05978"
+         x="307.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text7592"
+         style="font-size:12.44999981px;font-style:italic;font-weight:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Courier New"
+         y="137.86087"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text7594"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="137.86087"
+         x="30"
+         xml:space="preserve">if</text>
+      <text
+         id="text7596"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="137.86087"
+         x="45"
+         xml:space="preserve">(</text>
+      <text
+         id="text7598"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="137.86087"
+         x="52.5"
+         xml:space="preserve">collision </text>
+      <text
+         id="text7600"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="137.86087"
+         x="127.5"
+         xml:space="preserve">&amp;&amp; i &gt; </text>
+      <text
+         id="text7602"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#0000ff;font-family:Courier New"
+         y="137.86087"
+         x="180"
+         xml:space="preserve">0</text>
+      <text
+         id="text7604"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="137.86087"
+         x="187.5"
+         xml:space="preserve">)</text>
+      <text
+         id="text7606"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="137.86087"
+         x="195"
+         xml:space="preserve"> </text>
+      <text
+         id="text7608"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="152.26199"
+         x="0"
+         xml:space="preserve">        </text>
+      <text
+         id="text7610"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="152.26199"
+         x="60"
+         xml:space="preserve">delta </text>
+      <text
+         id="text7612"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="152.26199"
+         x="105"
+         xml:space="preserve">= </text>
+      <text
+         id="text7614"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="152.26199"
+         x="120"
+         xml:space="preserve">upper </text>
+      <text
+         id="text7616"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="152.26199"
+         x="165"
+         xml:space="preserve">?</text>
+      <text
+         id="text7618"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="152.26199"
+         x="172.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text7620"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="166.0631"
+         x="0"
+         xml:space="preserve">            </text>
+      <text
+         id="text7622"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="166.0631"
+         x="90"
+         xml:space="preserve">verticalLabelLimit </text>
+      <text
+         id="text7624"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="166.0631"
+         x="232.5"
+         xml:space="preserve">-</text>
+      <text
+         id="text7626"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="166.0631"
+         x="240"
+         xml:space="preserve"> </text>
+      <text
+         id="text7628"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="166.0631"
+         x="247.5"
+         xml:space="preserve">(y + height + </text>
+      <text
+         id="text7630"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="166.0631"
+         x="352.5"
+         xml:space="preserve">verticalLabelMargin</text>
+      <text
+         id="text7632"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="166.0631"
+         x="495"
+         xml:space="preserve">) :</text>
+      <text
+         id="text7634"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="166.0631"
+         x="517.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text7636"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="180.31421"
+         x="0"
+         xml:space="preserve">            </text>
+      <text
+         id="text7638"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="180.31421"
+         x="90"
+         xml:space="preserve">verticalLabelLimit </text>
+      <text
+         id="text7640"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="180.31421"
+         x="232.5"
+         xml:space="preserve">-</text>
+      <text
+         id="text7642"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="180.31421"
+         x="240"
+         xml:space="preserve"> </text>
+      <text
+         id="text7644"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="180.31421"
+         x="247.5"
+         xml:space="preserve">y; </text>
+      <text
+         id="text7646"
+         style="font-size:12.44999981px;font-style:italic;font-weight:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Courier New"
+         y="180.31421"
+         x="270"
+         xml:space="preserve">// positive to move it down</text>
+      <text
+         id="text7648"
+         style="font-size:12.44999981px;font-style:italic;font-weight:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Courier New"
+         y="180.31421"
+         x="472.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text7650"
+         style="font-size:12.44999981px;font-style:italic;font-weight:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Courier New"
+         y="194.86536"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text7652"
+         style="font-size:12.44999981px;font-style:italic;font-weight:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Courier New"
+         y="194.86536"
+         x="30"
+         xml:space="preserve">// Add the height and the margin plus possible delta.</text>
+      <text
+         id="text7654"
+         style="font-size:12.44999981px;font-style:italic;font-weight:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Courier New"
+         y="194.86536"
+         x="427.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text7656"
+         style="font-size:12.44999981px;font-style:italic;font-weight:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Courier New"
+         y="208.66644"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text7658"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="208.66644"
+         x="30"
+         xml:space="preserve">verticalLabelLim</text>
+      <text
+         id="text7660"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="208.66644"
+         x="150"
+         xml:space="preserve">it </text>
+      <text
+         id="text7662"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="208.66644"
+         x="172.5"
+         xml:space="preserve">= </text>
+      <text
+         id="text7664"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="208.66644"
+         x="187.5"
+         xml:space="preserve">upper </text>
+      <text
+         id="text7666"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="208.66644"
+         x="232.5"
+         xml:space="preserve">?</text>
+      <text
+         id="text7668"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="208.66644"
+         x="240"
+         xml:space="preserve"> </text>
+      <text
+         id="text7670"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="222.76756"
+         x="0"
+         xml:space="preserve">        </text>
+      <text
+         id="text7672"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="222.76756"
+         x="60"
+         xml:space="preserve">y + </text>
+      <text
+         id="text7674"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="222.76756"
+         x="90"
+         xml:space="preserve">delta </text>
+      <text
+         id="text7676"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="222.76756"
+         x="135"
+         xml:space="preserve">: y + height + </text>
+      <text
+         id="text7678"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="222.76756"
+         x="247.5"
+         xml:space="preserve">verticalLabelMargin </text>
+      <text
+         id="text7680"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="222.76756"
+         x="397.5"
+         xml:space="preserve">+ </text>
+      <text
+         id="text7682"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="222.76756"
+         x="412.5"
+         xml:space="preserve">delta</text>
+      <text
+         id="text7684"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="222.76756"
+         x="450"
+         xml:space="preserve">;</text>
+      <text
+         id="text7686"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="222.76756"
+         x="457.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text7688"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="236.86867"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text7690"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="236.86867"
+         x="30"
+         xml:space="preserve">return </text>
+      <text
+         id="text7692"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="236.86867"
+         x="82.5"
+         xml:space="preserve">delta</text>
+      <text
+         id="text7694"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="236.86867"
+         x="120"
+         xml:space="preserve">;</text>
+      <text
+         id="text7696"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="236.86867"
+         x="127.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text7698"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="251.41982"
+         x="0"
+         xml:space="preserve">}</text>
+      <text
+         id="text7700"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="251.41982"
+         x="7.5"
+         xml:space="preserve"> </text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="602.36218"
+   height="265.28278"
+   id="svg5155"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="layoutConstruction.pdf">
+  <defs
+     id="defs5157">
+    <clipPath
+       id="clipEmfPath1"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         id="rect5168"
+         height="269.0433"
+         width="810"
+         y="0"
+         x="0" />
+    </clipPath>
+    <clipPath
+       id="clipEmfPath1-4"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         id="rect5664"
+         height="286.689"
+         width="810"
+         y="0"
+         x="0" />
+    </clipPath>
+    <clipPath
+       id="clipEmfPath1-8"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         id="rect6145"
+         height="300.86221"
+         width="810"
+         y="0"
+         x="0" />
+    </clipPath>
+    <clipPath
+       id="clipEmfPath1-82"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         id="rect6760"
+         height="269.0433"
+         width="810"
+         y="0"
+         x="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="262.5"
+     inkscape:cy="132.64138"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="mm"
+     inkscape:window-width="1331"
+     inkscape:window-height="770"
+     inkscape:window-x="2184"
+     inkscape:window-y="66"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5160">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-163.75172,-196.93392)">
+    <g
+       id="g6762"
+       transform="translate(173.75172,194.47071)">
+      <text
+         id="text6764"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="10.347819"
+         x="0"
+         xml:space="preserve">fu</text>
+      <text
+         id="text6766"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="10.347819"
+         x="15"
+         xml:space="preserve">nction </text>
+      <text
+         id="text6768"
+         style="font-size:12.44999981px;font-style:italic;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="10.347819"
+         x="67.5"
+         xml:space="preserve">extractMeasurements</text>
+      <text
+         id="text6770"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="10.347819"
+         x="210"
+         xml:space="preserve">(groupedMeasurements){</text>
+      <text
+         id="text6772"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="10.347819"
+         x="375"
+         xml:space="preserve"> </text>
+      <text
+         id="text6774"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="24.444849"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text6776"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="24.444849"
+         x="30"
+         xml:space="preserve">var </text>
+      <text
+         id="text6778"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="24.444849"
+         x="60"
+         xml:space="preserve">group</text>
+      <text
+         id="text6780"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="24.444849"
+         x="97.5"
+         xml:space="preserve">;</text>
+      <text
+         id="text6782"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="24.444849"
+         x="105"
+         xml:space="preserve"> </text>
+      <text
+         id="text6784"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="38.691845"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text6786"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="38.691845"
+         x="30"
+         xml:space="preserve">var </text>
+      <text
+         id="text6788"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="38.691845"
+         x="60"
+         xml:space="preserve">total </text>
+      <text
+         id="text6790"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="38.691845"
+         x="105"
+         xml:space="preserve">= [];</text>
+      <text
+         id="text6792"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="38.691845"
+         x="142.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text6794"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.788876"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text6796"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="52.788876"
+         x="30"
+         xml:space="preserve">for</text>
+      <text
+         id="text6798"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.788876"
+         x="52.5"
+         xml:space="preserve">(</text>
+      <text
+         id="text6800"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="52.788876"
+         x="60"
+         xml:space="preserve">var </text>
+      <text
+         id="text6802"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="52.788876"
+         x="90"
+         xml:space="preserve">i </text>
+      <text
+         id="text6804"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.788876"
+         x="105"
+         xml:space="preserve">= </text>
+      <text
+         id="text6806"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#0000ff;font-family:Courier New"
+         y="52.788876"
+         x="120"
+         xml:space="preserve">0</text>
+      <text
+         id="text6808"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.788876"
+         x="127.5"
+         xml:space="preserve">; </text>
+      <text
+         id="text6810"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="52.788876"
+         x="142.5"
+         xml:space="preserve">i </text>
+      <text
+         id="text6812"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.788876"
+         x="157.5"
+         xml:space="preserve">&lt; groupedMeasurements.</text>
+      <text
+         id="text6814"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#7a7a43;font-family:Courier New"
+         y="52.788876"
+         x="322.5"
+         xml:space="preserve">length</text>
+      <text
+         id="text6816"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.788876"
+         x="367.5"
+         xml:space="preserve">; </text>
+      <text
+         id="text6818"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="52.788876"
+         x="382.5"
+         xml:space="preserve">i </text>
+      <text
+         id="text6820"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.788876"
+         x="397.5"
+         xml:space="preserve">++){</text>
+      <text
+         id="text6822"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="52.788876"
+         x="427.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text6824"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="67.335808"
+         x="0"
+         xml:space="preserve">        </text>
+      <text
+         id="text6826"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="67.335808"
+         x="60"
+         xml:space="preserve">group </text>
+      <text
+         id="text6828"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="67.335808"
+         x="105"
+         xml:space="preserve">= groupedMeasurements[</text>
+      <text
+         id="text6830"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="67.335808"
+         x="270"
+         xml:space="preserve">i</text>
+      <text
+         id="text6832"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="67.335808"
+         x="277.5"
+         xml:space="preserve">];</text>
+      <text
+         id="text6834"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="67.335808"
+         x="292.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text6836"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="81.132904"
+         x="0"
+         xml:space="preserve">        </text>
+      <text
+         id="text6838"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="81.132904"
+         x="60"
+         xml:space="preserve">total </text>
+      <text
+         id="text6840"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="81.132904"
+         x="105"
+         xml:space="preserve">= </text>
+      <text
+         id="text6842"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="81.132904"
+         x="120"
+         xml:space="preserve">total</text>
+      <text
+         id="text6844"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="81.132904"
+         x="157.5"
+         xml:space="preserve">.</text>
+      <text
+         id="text6846"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#7a7a43;font-family:Courier New"
+         y="81.132904"
+         x="165"
+         xml:space="preserve">concat</text>
+      <text
+         id="text6848"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="81.132904"
+         x="210"
+         xml:space="preserve">(</text>
+      <text
+         id="text6850"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="81.132904"
+         x="217.5"
+         xml:space="preserve">group</text>
+      <text
+         id="text6852"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="81.132904"
+         x="255"
+         xml:space="preserve">.</text>
+      <text
+         id="text6854"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="81.132904"
+         x="262.5"
+         xml:space="preserve">measurements</text>
+      <text
+         id="text6856"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="81.132904"
+         x="352.5"
+         xml:space="preserve">);</text>
+      <text
+         id="text6858"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="81.132904"
+         x="367.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text6860"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="95.229935"
+         x="0"
+         xml:space="preserve">        </text>
+      <text
+         id="text6862"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="95.229935"
+         x="60"
+         xml:space="preserve">total</text>
+      <text
+         id="text6864"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="95.229935"
+         x="97.5"
+         xml:space="preserve">.</text>
+      <text
+         id="text6866"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#7a7a43;font-family:Courier New"
+         y="95.229935"
+         x="105"
+         xml:space="preserve">push</text>
+      <text
+         id="text6868"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="95.229935"
+         x="135"
+         xml:space="preserve">({ </text>
+      <text
+         id="text6870"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="95.229935"
+         x="157.5"
+         xml:space="preserve">label</text>
+      <text
+         id="text6872"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="95.229935"
+         x="195"
+         xml:space="preserve">: </text>
+      <text
+         id="text6874"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#008000;font-family:Courier New"
+         y="95.229935"
+         x="210"
+         xml:space="preserve">&quot;empty&quot; </text>
+      <text
+         id="text6876"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="95.229935"
+         x="270"
+         xml:space="preserve">});</text>
+      <text
+         id="text6878"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="95.229935"
+         x="292.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text6880"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="109.77687"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text6882"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="109.77687"
+         x="30"
+         xml:space="preserve">}</text>
+      <text
+         id="text6884"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="109.77687"
+         x="37.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text6886"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="123.57396"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text6888"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="123.57396"
+         x="30"
+         xml:space="preserve">return </text>
+      <text
+         id="text6890"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#458383;font-family:Courier New"
+         y="123.57396"
+         x="82.5"
+         xml:space="preserve">total</text>
+      <text
+         id="text6892"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="123.57396"
+         x="120"
+         xml:space="preserve">;</text>
+      <text
+         id="text6894"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="123.57396"
+         x="127.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text6896"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="138.1209"
+         x="0"
+         xml:space="preserve">}</text>
+      <text
+         id="text6898"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="138.1209"
+         x="7.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text6900"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="151.91798"
+         x="0"
+         xml:space="preserve">var </text>
+      <text
+         id="text6902"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="151.91798"
+         x="30"
+         xml:space="preserve">outerRadius </text>
+      <text
+         id="text6904"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="151.91798"
+         x="120"
+         xml:space="preserve">= </text>
+      <text
+         id="text6906"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="151.91798"
+         x="135"
+         xml:space="preserve">w </text>
+      <text
+         id="text6908"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="151.91798"
+         x="150"
+         xml:space="preserve">* </text>
+      <text
+         id="text6910"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#0000ff;font-family:Courier New"
+         y="151.91798"
+         x="165"
+         xml:space="preserve">0.4</text>
+      <text
+         id="text6912"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="151.91798"
+         x="187.5"
+         xml:space="preserve">, </text>
+      <text
+         id="text6914"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="151.91798"
+         x="202.5"
+         xml:space="preserve">innerRadius </text>
+      <text
+         id="text6916"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="151.91798"
+         x="292.5"
+         xml:space="preserve">= </text>
+      <text
+         id="text6918"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="151.91798"
+         x="307.5"
+         xml:space="preserve">w </text>
+      <text
+         id="text6920"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="151.91798"
+         x="322.5"
+         xml:space="preserve">* </text>
+      <text
+         id="text6922"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#0000ff;font-family:Courier New"
+         y="151.91798"
+         x="337.5"
+         xml:space="preserve">0.3</text>
+      <text
+         id="text6924"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="151.91798"
+         x="360"
+         xml:space="preserve">;</text>
+      <text
+         id="text6926"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="151.91798"
+         x="367.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text6928"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="166.01501"
+         x="0"
+         xml:space="preserve">var </text>
+      <text
+         id="text6930"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="166.01501"
+         x="30"
+         xml:space="preserve">arc </text>
+      <text
+         id="text6932"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="166.01501"
+         x="60"
+         xml:space="preserve">= </text>
+      <text
+         id="text6934"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="166.01501"
+         x="75"
+         xml:space="preserve">d3</text>
+      <text
+         id="text6936"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="166.01501"
+         x="90"
+         xml:space="preserve">.</text>
+      <text
+         id="text6938"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="166.01501"
+         x="97.5"
+         xml:space="preserve">svg</text>
+      <text
+         id="text6940"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="166.01501"
+         x="120"
+         xml:space="preserve">.</text>
+      <text
+         id="text6942"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#7a7a43;font-family:Courier New"
+         y="166.01501"
+         x="127.5"
+         xml:space="preserve">arc</text>
+      <text
+         id="text6944"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="166.01501"
+         x="150"
+         xml:space="preserve">()</text>
+      <text
+         id="text6946"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="166.01501"
+         x="165"
+         xml:space="preserve"> </text>
+      <text
+         id="text6948"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="180.26201"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text6950"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="180.26201"
+         x="30"
+         xml:space="preserve">.</text>
+      <text
+         id="text6952"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#7a7a43;font-family:Courier New"
+         y="180.26201"
+         x="37.5"
+         xml:space="preserve">innerRadius</text>
+      <text
+         id="text6954"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="180.26201"
+         x="120"
+         xml:space="preserve">(</text>
+      <text
+         id="text6956"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="180.26201"
+         x="127.5"
+         xml:space="preserve">innerRadius</text>
+      <text
+         id="text6958"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="180.26201"
+         x="210"
+         xml:space="preserve">)</text>
+      <text
+         id="text6960"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="180.26201"
+         x="217.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text6962"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="194.35904"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text6964"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="194.35904"
+         x="30"
+         xml:space="preserve">.</text>
+      <text
+         id="text6966"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#7a7a43;font-family:Courier New"
+         y="194.35904"
+         x="37.5"
+         xml:space="preserve">outerRadius</text>
+      <text
+         id="text6968"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="194.35904"
+         x="120"
+         xml:space="preserve">(</text>
+      <text
+         id="text6970"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="194.35904"
+         x="127.5"
+         xml:space="preserve">outerRadius</text>
+      <text
+         id="text6972"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="194.35904"
+         x="210"
+         xml:space="preserve">);</text>
+      <text
+         id="text6974"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="194.35904"
+         x="225"
+         xml:space="preserve"> </text>
+      <text
+         id="text6976"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="208.60603"
+         x="0"
+         xml:space="preserve">var </text>
+      <text
+         id="text6978"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="208.60603"
+         x="30"
+         xml:space="preserve">pie </text>
+      <text
+         id="text6980"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="208.60603"
+         x="60"
+         xml:space="preserve">= </text>
+      <text
+         id="text6982"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="208.60603"
+         x="75"
+         xml:space="preserve">d3</text>
+      <text
+         id="text6984"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="208.60603"
+         x="90"
+         xml:space="preserve">.</text>
+      <text
+         id="text6986"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="208.60603"
+         x="97.5"
+         xml:space="preserve">layout</text>
+      <text
+         id="text6988"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="208.60603"
+         x="142.5"
+         xml:space="preserve">.</text>
+      <text
+         id="text6990"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#7a7a43;font-family:Courier New"
+         y="208.60603"
+         x="150"
+         xml:space="preserve">pie</text>
+      <text
+         id="text6992"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="208.60603"
+         x="172.5"
+         xml:space="preserve">().</text>
+      <text
+         id="text6994"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#7a7a43;font-family:Courier New"
+         y="208.60603"
+         x="195"
+         xml:space="preserve">value</text>
+      <text
+         id="text6996"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="208.60603"
+         x="232.5"
+         xml:space="preserve">(</text>
+      <text
+         id="text6998"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="208.60603"
+         x="240"
+         xml:space="preserve"> </text>
+      <text
+         id="text7000"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="222.70306"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text7002"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="222.70306"
+         x="30"
+         xml:space="preserve">function </text>
+      <text
+         id="text7004"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="222.70306"
+         x="97.5"
+         xml:space="preserve">(d) { </text>
+      <text
+         id="text7006"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="222.70306"
+         x="142.5"
+         xml:space="preserve">return </text>
+      <text
+         id="text7008"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="222.70306"
+         x="195"
+         xml:space="preserve">d.</text>
+      <text
+         id="text7010"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="222.70306"
+         x="210"
+         xml:space="preserve">label </text>
+      <text
+         id="text7012"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="222.70306"
+         x="255"
+         xml:space="preserve">=== </text>
+      <text
+         id="text7014"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#008000;font-family:Courier New"
+         y="222.70306"
+         x="285"
+         xml:space="preserve">&quot;empty</text>
+      <text
+         id="text7016"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#008000;font-family:Courier New"
+         y="222.70306"
+         x="330"
+         xml:space="preserve">&quot; </text>
+      <text
+         id="text7018"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="222.70306"
+         x="345"
+         xml:space="preserve">? </text>
+      <text
+         id="text7020"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#0000ff;font-family:Courier New"
+         y="222.70306"
+         x="360"
+         xml:space="preserve">1</text>
+      <text
+         id="text7022"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="222.70306"
+         x="367.5"
+         xml:space="preserve">: </text>
+      <text
+         id="text7024"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#0000ff;font-family:Courier New"
+         y="222.70306"
+         x="382.5"
+         xml:space="preserve">2</text>
+      <text
+         id="text7026"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="222.70306"
+         x="390"
+         xml:space="preserve">;</text>
+      <text
+         id="text7028"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="222.70306"
+         x="397.5"
+         xml:space="preserve"> </text>
+      <text
+         id="text7030"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="236.80009"
+         x="0"
+         xml:space="preserve">    </text>
+      <text
+         id="text7032"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="236.80009"
+         x="30"
+         xml:space="preserve">}).</text>
+      <text
+         id="text7034"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#7a7a43;font-family:Courier New"
+         y="236.80009"
+         x="52.5"
+         xml:space="preserve">sort</text>
+      <text
+         id="text7036"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="236.80009"
+         x="82.5"
+         xml:space="preserve">(</text>
+      <text
+         id="text7038"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="236.80009"
+         x="90"
+         xml:space="preserve">null</text>
+      <text
+         id="text7040"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="236.80009"
+         x="120"
+         xml:space="preserve">); </text>
+      <text
+         id="text7042"
+         style="font-size:12.44999981px;font-style:italic;font-weight:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Courier New"
+         y="236.80009"
+         x="142.5"
+         xml:space="preserve">// Avoid sorting to preserve the data source order.</text>
+      <text
+         id="text7044"
+         style="font-size:12.44999981px;font-style:italic;font-weight:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Courier New"
+         y="236.80009"
+         x="525"
+         xml:space="preserve"> </text>
+      <text
+         id="text7046"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="251.0471"
+         x="0"
+         xml:space="preserve">var </text>
+      <text
+         id="text7048"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="251.0471"
+         x="30"
+         xml:space="preserve">measurementsArray </text>
+      <text
+         id="text7050"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="251.0471"
+         x="165"
+         xml:space="preserve">= </text>
+      <text
+         id="text7052"
+         style="font-size:12.44999981px;font-style:italic;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="251.0471"
+         x="180"
+         xml:space="preserve">extractMeasurements</text>
+      <text
+         id="text7054"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="251.0471"
+         x="322.5"
+         xml:space="preserve">(</text>
+      <text
+         id="text7056"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="251.0471"
+         x="330"
+         xml:space="preserve">groups</text>
+      <text
+         id="text7058"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="251.0471"
+         x="375"
+         xml:space="preserve">);</text>
+      <text
+         id="text7060"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="251.0471"
+         x="390"
+         xml:space="preserve"> </text>
+      <text
+         id="text7062"
+         style="font-size:12.44999981px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000080;font-family:Courier New"
+         y="265.14413"
+         x="0"
+         xml:space="preserve">var </text>
+      <text
+         id="text7064"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="265.14413"
+         x="30"
+         xml:space="preserve">measurementsObjects </text>
+      <text
+         id="text7066"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="265.14413"
+         x="180"
+         xml:space="preserve">= </text>
+      <text
+         id="text7068"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="265.14413"
+         x="195"
+         xml:space="preserve">pie</text>
+      <text
+         id="text7070"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="265.14413"
+         x="217.5"
+         xml:space="preserve">(</text>
+      <text
+         id="text7072"
+         style="font-size:12.44999981px;font-style:italic;font-weight:bold;text-align:start;text-anchor:start;fill:#660e7a;font-family:Courier New"
+         y="265.14413"
+         x="225"
+         xml:space="preserve">measurementsArray</text>
+      <text
+         id="text7074"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="265.14413"
+         x="352.5"
+         xml:space="preserve">);</text>
+      <text
+         id="text7076"
+         style="font-size:12.44999981px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Courier New"
+         y="265.14413"
+         x="367.5"
+         xml:space="preserve"> </text>
+    </g>
+  </g>
+</svg>
