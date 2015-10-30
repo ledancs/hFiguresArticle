@@ -357,11 +357,27 @@ Labels need to avoid overlapping with each other and with their measurements. To
 
 As mentioned before, labels can also overlap with measurement circles. To avoid this problem we calculate the maximum radius from the center of the visualization area to the highest value of a measurement sample. From that starting point, we place the label in that position. In other words, for each measurement, we find the largest value of the samples. Figure \ref{figureRadiusMeasurementDistrbution} shows a sector of the hFigures where the sugar measurement label has been pushed out for a few pixels in order to avoid overlapping it with the red circle. The rest of the labels adjust to that position by leaving a user-defined margin.
 
-The radius for the label is the maximum value of the samples translated as graphical coordinates plus a margin. Equation \ref{eq:maxRadius} obtains the label radius $r_{label}$ given the radii of the samples of a measurement plus the default margin $m$.
-
 \begin{equation} \label{eq:maxRadius}
 	r_{label} = max(\bigcup_{i}^{n} \left \{ r_{i} \right \} ) + \textit{margin}
 \end{equation}
+
+The radius for the label is the maximum value of the samples translated as graphical coordinates plus a margin. Equation \ref{eq:maxRadius} obtains the label radius $r_{label}$ given the radii of the samples of a measurement plus the default margin $m$.
+
+\section*{Evaluation}
+
+In order to test the hFigures library, we designed an application for health monitoring and evolution. The application visualized a health coaching program of a modeled patient. The application has thee components: activity timeline, the hFigures visualization and longitudinal measurements.
+
+The \textbf{activity timeline} represents the health interventions the modeled patient has done over a period of time. At certain times, the modeled patient has a snapshot of a set of measruements visualized as \textbf{longitudinal measurements} also represented in the \textbf{hFigures} visualization. The changes in the status of the patient are displayed by two figures. Adjustable points in time animate two hFgures. The adjustable points are represented as lines in the activity timeline and the longitudinal measurements.
+
+\subsection*{Methods}
+Nielsen suggests that ```usability has multiple components and is traditionally associated with the five usability attributes, which are learnability, efficiency, memorability, errors, and satisfaction'' \cite{nielsen1994usability}. Following these attributes, we tested the application using heuristic evaluation, controlled user testing and usability questionnaires. These methods address the attributes mentioned by Nielsen.
+
+\paragraph*{Heuristic Evaluation}
+Usability testing requires at least one expert in the area of human-computer interaction. For our evaluation we recruited 3 experts who assess the application using Nielsen's heuristics \cite{nielsen1994usability}. The evaluation has 11 metrics evaluated using a seven point Likert scale. Experts assess metrics regarding the dialogue, memory load to use the system, error messages and prevention among other aspects.
+
+\paragraph*{Controlled User Testing}
+
+\paragraph*{Usability Questionnaires}
 
 \section*{Results}
 
