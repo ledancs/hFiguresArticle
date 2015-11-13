@@ -54,7 +54,7 @@
 \usepackage{pifont}
 %\usepackage[applemac]{inputenc} %applemac support if unicode package fails
 %\usepackage[latin1]{inputenc} %UNIX support if unicode package fails
-
+\usepackage{multirow}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -383,7 +383,7 @@ Nielsen suggests that ```usability has multiple components and is traditionally 
 Usability testing requires at least one expert in the area of human-computer interaction. For our evaluation we recruited 3 experts who assess the application using Nielsen's heuristics \cite{nielsen1994usability}. The evaluation has 11 metrics evaluated using a seven point Likert scale. Experts assess the dialogue and use of language, estimate the memory load required to use the system, verify the error messages and assess errors avoidance of the application, among other aspects of the heuristics.
 
 \subsubsection*{Controlled User Testing}
-Rubin and Chisnell \cite{rubin2008handbook} as well as Nielsen \cite{nielsen1994usability} recommend to design a set of tasks for users to perform in a controlled environment. We can then measure the time to complete the tasks, errors (crucial and non-crucial) and whether the task was successfully completed. Controlled user testing allows us to find out any obstacles in the application that prevent users from completing a set of tasks. The tasks are the intended use of the application, thus we aim at providing the users with a system that minimizes errors as well as the time required to complete the tasks. For the hFigures component we created a list of tasks which required the user to understand the data visualization of the patient's health status. The list of tasks is presented below.
+Rubin and Chisnell \cite{rubin2008handbook} as well as Nielsen \cite{nielsen1994usability} recommend to design a set of tasks for users to perform in a controlled environment. We can then measure the time to complete the tasks, errors (crucial and non-crucial) and whether the task was successfully completed. Controlled user testing allows us to find out any obstacles in the application that prevent users from completing a set of tasks. The tasks are the intended use of the application, thus we aim at providing the users with a system that minimizes errors as well as the time required to complete the tasks. For the hFigures library we created a list of tasks which required the user to understand the data visualization of the patient's health status. The list of tasks is presented below.
 \begin{enumerate}
 \item How many areas of health are displayed in the hFigures?
 \item Choose one of these areas and point to its measurements.
@@ -397,7 +397,20 @@ Rubin and Chisnell \cite{rubin2008handbook} as well as Nielsen \cite{nielsen1994
 \end{enumerate}
 
 \subsubsection*{Usability Questionnaires}
-In order to measure a broader spectrum of usability aspects, we used three questionnaires. These are Computer System Usability Questionnaire (CSUQ), After Scenario Questionnaire and Usefullness (ASQU), Satisfaction and Ease-of-Use Questionnaire (USE). All three questionnaires use a seven point Likert scale.
+In addition the the previous methods we also used standardized questionnaires for two main reasons. Firstly, they allow users to express their feedback using validated questions. Secondly, they help us identify problems with the usability of the system. We used three standard questionnaires in order to obtain additional information about the usability of the library. The questionnaires we used are Computer System Usability Questionnaire (CSUQ), After Scenario Questionnaire and Usefullness (ASQU), Satisfaction and Ease-of-Use Questionnaire (USE). All three questionnaires use a seven point Likert scale, where the value 1 indicates ``strongly disagree'' and 7 ``strongly agree''. Table \ref{tbl:questionnaires} shows the length, reliability and the metrics of the questionnaires. To further understand these metrics we explain their concept in the following list:
+\begin{enumerate}
+\item System Usefulness
+\item Information Quality
+\item Interface Quality
+\item Overall Usability
+\item Efficiency
+\item Effectiveness
+\item User Satisfaction
+\item Usefulness
+\item Ease of Use
+\end{enumerate}
+
+
 
 \paragraph*{Computer System Usability Questionnaire}
 
@@ -620,6 +633,7 @@ AL and HN are part of the Personal Health Informatics research group from the De
 %% Use of \listoftables is discouraged.
 %%
 \section*{Tables}
+
 \begin{table}[h!]
 \caption{Comparative Functionality Table. The table lists the features supported by hFigures and hGraph.}
       \begin{tabular}{lcc}
@@ -629,7 +643,7 @@ AL and HN are part of the Personal Health Informatics research group from the De
         Recommended area                         & \ding{51} & \ding{51} \\ 
         Circular distribution of measurements    & \ding{51} & \ding{51} \\ 
         Plot values at specific times            & \ding{51} & ---       \\ 
-        Time series embedded in the data source  & \ding{51} & ---       \\ 
+        Time series data source                  & \ding{51} & ---       \\ 
         Immutable shape                          & \ding{51} & ---       \\ 
         Weighted score                           & ---       & \ding{51} \\ 
 		Multiple graphs                          & \ding{51} & ---       \\
@@ -640,6 +654,24 @@ AL and HN are part of the Personal Health Informatics research group from the De
 		
       \end{tabular}
 \label{tbl:features}
+\end{table}
+
+\begin{table}[h!]
+\caption{Standard Questionnaires Table. The table lists the standard questionnaires we used for the user evaluation of the system with their length, reliability and metrics.}
+      \begin{tabular}{lccl}
+        \hline
+        Questionnaire & Questions & Reliability & Metrics \\ \hline
+        \multirow{4}{*}{CSUQ} & \multirow{4}{*}{19} & \multirow{4}{*}{0.95} & System Usefulness \\
+         & & & Information Quality \\
+		 & & & Interface Quality \\
+		 & & & Overall Usability \\ \hline
+        \multirow{2}{*}{ASQ} & \multirow{2}{*}{3} & \multirow{2}{*}{0.93} & Effectiveness \\
+         & & & User Satisfaction \\ \hline
+		\multirow{2}{*}{USE} & \multirow{2}{*}{30} & \multirow{2}{*}{---} & Usefulness \\ 
+		 & & & Ease of Use \\ \hline
+		
+      \end{tabular}
+\label{tbl:questionnaires}
 \end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
