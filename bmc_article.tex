@@ -374,15 +374,15 @@ The radius for the label is the maximum value of the samples translated as graph
 
 In order to test the hFigures library, we designed an application for health monitoring and evolution of a patient's status over time. The application visualized a health coaching program of a modelled patient. The application has thee components: activity timeline, the hFigures visualization and longitudinal measurements.
 
-The \textbf{activity timeline} represents the health interventions the modelled patient has done over a period of time. At certain times, the modelled patient has a snapshot of a set of measruements visualized as \textbf{longitudinal measurements} also represented in the \textbf{hFigures} visualization. The changes in the status of the patient are displayed by two figures. Adjustable points in time animate two hFgures. The adjustable points are represented as lines in the activity timeline and the longitudinal measurements.
+The \textbf{activity timeline} represents the health interventions the modelled patient has done over a period of time. At certain times, the modelled patient has a snapshot of a set of measurements visualized as \textbf{longitudinal measurements} also represented in the \textbf{hFigures} visualization. The changes in the status of the patient are displayed by two plots of the hFigures. Adjustable points in time animate these two hFgures. The adjustable points are represented as lines in the activity timeline and the longitudinal measurements. Users are allowed to drag and drop these lines to see the status of the patient at those specific times.
 
 \subsection*{Methods}
 Nielsen suggests that ```usability has multiple components and is traditionally associated with the five usability attributes, which are learnability, efficiency, memorability, errors, and satisfaction'' \cite{nielsen1994usability}. Following these attributes, we tested the application using heuristic evaluation, controlled user testing and usability questionnaires. These methods address the attributes mentioned by Nielsen.
 
-\paragraph*{Heuristic Evaluation}
+\subsubsection*{Heuristic Evaluation}
 Usability testing requires at least one expert in the area of human-computer interaction. For our evaluation we recruited 3 experts who assess the application using Nielsen's heuristics \cite{nielsen1994usability}. The evaluation has 11 metrics evaluated using a seven point Likert scale. Experts assess the dialogue and use of language, estimate the memory load required to use the system, verify the error messages and assess errors avoidance of the application, among other aspects of the heuristics.
 
-\paragraph*{Controlled User Testing}
+\subsubsection*{Controlled User Testing}
 Rubin and Chisnell \cite{rubin2008handbook} as well as Nielsen \cite{nielsen1994usability} recommend to design a set of tasks for users to perform in a controlled environment. We can then measure the time to complete the tasks, errors (crucial and non-crucial) and whether the task was successfully completed. Controlled user testing allows us to find out any obstacles the application that prevent users from completing a set of tasks. These tasks are the intended use of the application, thus the goal is to minimize errors and the time required to complete them. The tasks corresponding to the hFigures component are listed below, the objective was to determine if users understand the visualization and obtained an understanding on the overall health condition of the modelled patient.
 \begin{enumerate}
 \item How many areas of health are displayed in the hFigures?
@@ -396,8 +396,14 @@ Rubin and Chisnell \cite{rubin2008handbook} as well as Nielsen \cite{nielsen1994
 \item Understand the difference between the points inside and outside the hFigures.
 \end{enumerate}
 
-\paragraph*{Usability Questionnaires}
-In order to measure a broader spectrum of usability aspects, we used three questionnaires. These are Computer System Usability Questionnaire (CSUQ), After Scenario Questionnaire and Usefullness (ASQU), Satisfaction and Ease-of-Use Questionnaire (USE). According Lewis, \cite{lewis1995ibm} CSUQ and ASQU have consistent values across different scenarios. The USE Questionnaire developed by Lund, has been widely used to extract a number of metrics including User Satisfaction \cite{Lund2001USE}. All three questionnaires use a seven point Likert scale.
+\subsubsection*{Usability Questionnaires}
+In order to measure a broader spectrum of usability aspects, we used three questionnaires. These are Computer System Usability Questionnaire (CSUQ), After Scenario Questionnaire and Usefullness (ASQU), Satisfaction and Ease-of-Use Questionnaire (USE). All three questionnaires use a seven point Likert scale.
+
+\paragraph*{Computer System Usability Questionnaire}
+
+\paragraph*{After Scenario Questionnaire}
+
+\paragraph*{Usefulness, Satisfaction and Ease of Use Questionnaire}
 
 \subsection*{Data Model}
 Similar to the study we conducted in the insight-based methodology \citep{EMBCLedNiem}, we modeled a patient using clinical expertise of a physician along with the most common symptoms for developing Type II Diabetes. The modelled patient consisted of a set of measurements over time comprised of the following parameters:
