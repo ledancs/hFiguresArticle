@@ -481,15 +481,12 @@ To further understand these metrics we explain their concept in the following li
 
 Table \ref{tbl:questionnaires} shows the length, reliability and the metrics of the questionnaires. 
 
-\paragraph*{Computer System Usability Questionnaire} Explain and cite again.
+\subsubsection*{Computer System Usability Questionnaire} Explain and cite again.
 
-\paragraph*{After Scenario Questionnaire} Explain and cite again.
+\subsubsection*{After Scenario Questionnaire} Explain and cite again.
 
-\paragraph*{Usefulness, Satisfaction and Ease of Use Questionnaire} Explain and cite again.
+\subsubsection*{Usefulness, Satisfaction and Ease of Use Questionnaire} Explain and cite again.
 
-\subsubsection*{Interviews}
-
-Feedback, likes and deslikes, suggestions for further improvements.
 
 \subsection*{Data Model}
 
@@ -525,9 +522,15 @@ During the Cognitive Walkthrough, the concept of the health monitoring applicati
 
 \subsection*{Controlled User Testing}
 
-The Controlled User Testing allowed us to find the most problematic tasks. The tests show that four users erroneously identified the areas of health (task 1). We counted two errors respectively in identifying the measurement with the furthest deviation from the recommendation (task 4) and determining at least one measurement that improved after the coaching program (task 6). A single error occurred in identifying a measurement inside and another outside the recommendation (task 3), determining the measurement that improved the most after the coaching(task 8) and understanding the difference between the points inside and outside the recommendation (task 9). The mistakes in counting the areas of health was due to a maladjustment in the zoom default value of the library. This bug was corrected after the evaluation of the system.
+The Controlled User Testing allowed us to find the most problematic tasks. The results are summarized in table \ref{tbl:tasksResults}. The table \ref{tbl:tasksResults} shows both, crucial or non-crucial errors as a total. Tasks that were not completed by all 14 participants are those in which crucial errors occurred.
+
+A total of 7 out of the 9 tasks were successfully completed by all 14 participants. The most problematic task was to find the measurements in the area of health (task 2) with 3 out of the 14 participants unable to complete the task. Difficulties with this task were caused by a maladjustment in the zoom default value of the library. This bug was corrected after we concluded the full usability testing.
+
+The tests show that four users erroneously identified the areas of health (task 1). We counted two errors respectively in identifying the measurement with the furthest deviation from the recommendation (task 4) and determining at least one measurement that improved after the coaching program (task 6). A single error occurred in identifying a measurement inside and another outside the recommendation (task 3), determining the measurement that improved the most after the coaching(task 8) and understanding the difference between the points inside and outside the recommendation (task 9). 
 
 \subsection*{Usability Questionnaires}
+
+We present the results of the CSUQ divided by sections. The first section is the evaluates the System Usefulness and the results are presented in table \ref{tbl:CSUQSystemUsefulnessResults}.
 
 \subsection*{Identified Issues and Suggested Improvements}
 
@@ -735,11 +738,11 @@ AL and HN are part of the Personal Health Informatics research group from the De
         Time series data source                  & \ding{51} & ---       \\ 
         Immutable shape                          & \ding{51} & ---       \\ 
         Weighted score                           & ---       & \ding{51} \\ 
-		Multiple graphs                          & \ding{51} & ---       \\
-		Visible category labels                  & \ding{51} & ---       \\
-		Label space distribution                 & \ding{51} & Partially \\
-		Grouped measurements                     & \ding{51} & ---       \\
-		SVG export                               & \ding{51} & ---        \\ \hline
+     		Multiple graphs                          & \ding{51} & ---       \\
+    		Visible category labels                  & \ding{51} & ---       \\
+    		Label space distribution                 & \ding{51} & Partially \\
+    		Grouped measurements                     & \ding{51} & ---       \\
+    		SVG export                               & \ding{51} & ---        \\ \hline
 		
       \end{tabular}
 \label{tbl:features}
@@ -752,12 +755,12 @@ AL and HN are part of the Personal Health Informatics research group from the De
         Questionnaire & Questions & Reliability & Metrics \\ \hline
         \multirow{4}{*}{CSUQ} & \multirow{4}{*}{19} & \multirow{4}{*}{0.95} & System Usefulness \\
          & & & Information Quality \\
-		 & & & Interface Quality \\
-		 & & & Overall Usability \\ \hline
+    		 & & & Interface Quality \\
+    		 & & & Overall Usability \\ \hline
         \multirow{2}{*}{ASQ} & \multirow{2}{*}{3} & \multirow{2}{*}{0.93} & Effectiveness \\
          & & & User Satisfaction \\ \hline
-		\multirow{2}{*}{USE} & \multirow{2}{*}{30} & \multirow{2}{*}{---} & Usefulness \\ 
-		 & & & Ease of Use \\ \hline
+		    \multirow{2}{*}{USE} & \multirow{2}{*}{30} & \multirow{2}{*}{---} & Usefulness \\ 
+    		 & & & Ease of Use \\ \hline
 		
       \end{tabular}
 \label{tbl:questionnaires}
@@ -792,12 +795,30 @@ AL and HN are part of the Personal Health Informatics research group from the De
       Task 3 & 14 & 1 & 10.8 & 5.4 \\
       Task 4 & 14 & 2 & 6.8 & 5.0 \\
       Task 5 & 14 & 0 & 17.5 & 6.6 \\ 
-      Task 6 & 2 & 0 & 16.1 & 16.5 \\ 
+      Task 6 & 14 & 0 & 16.1 & 16.5 \\ 
       Task 7 & 14 & 0 & 6.2 & 5.6 \\ 
       Task 8 & 14 & 1 & 7.9 & 5.9 \\ 
       Task 9 & 13 & 1 & 9.2 & 4.7 \\ \hline
       \end{tabular}
 \label{tbl:tasksResults}
+\end{table}
+
+\begin{table}[h!]
+\caption{Computer System Usability Questionnaire Results for System Usefulness. The table shows the results of the questions corresponding to the System Usefulness with its average and standard deviation.}
+      \begin{tabular}{L{4cm}R{1.2cm}R{1.2cm}}
+      \hline
+      Question & Average Time (seconds) & Standard Deviation (seconds)\\ \hline
+      Overall, I am satisfied with how easy it is to use this system & 6.29 & 0.99 \\
+      It was simple to use this system & 6.07 & 1.20 \\
+      I can effectively complete my work using this system & 6.07 & 1.07 \\
+      I am able to complete my work quickly using this system & 5.86 & 1.40 \\
+      I am able to efficiently complete my work using this system & 6.21 & 0.89 \\
+      I feel comfortable using this system & 6.21 & 0.97 \\
+      It was easy to learn to use this system & 6.43 & 0.85 \\
+      I believe I became productive quickly using this system & 5.93 & 1.26 \\ \hline
+      System Usefulness & 6.13 & 0.93 \\ \hline
+      \end{tabular}
+\label{tbl:CSUQSystemUsefulnessResults}
 \end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
