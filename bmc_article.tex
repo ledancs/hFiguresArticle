@@ -55,7 +55,11 @@
 %\usepackage[applemac]{inputenc} %applemac support if unicode package fails
 %\usepackage[latin1]{inputenc} %UNIX support if unicode package fails
 \usepackage{multirow}
-
+% Check : http://tex.stackexchange.com/questions/12703/how-to-create-fixed-width-table-columns-with-text-raggedright-centered-raggedlef
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                             %%
@@ -521,6 +525,8 @@ During the Cognitive Walkthrough, the concept of the health monitoring applicati
 
 \subsection*{Controlled User Testing}
 
+The Controlled User Testing allowed us to find the most problematic tasks. The tests show that four users erroneously identified the areas of health (task 1). We counted two errors respectively in identifying the measurement with the furthest deviation from the recommendation (task 4) and determining at least one measurement that improved after the coaching program (task 6). A single error occurred in identifying a measurement inside and another outside the recommendation (task 3), determining the measurement that improved the most after the coaching(task 8) and understanding the difference between the points inside and outside the recommendation (task 9). The mistakes in counting the areas of health was due to a maladjustment in the zoom default value of the library. This bug was corrected after the evaluation of the system.
+
 \subsection*{Usability Questionnaires}
 
 \subsection*{Identified Issues and Suggested Improvements}
@@ -759,7 +765,7 @@ AL and HN are part of the Personal Health Informatics research group from the De
 
 \begin{table}[h!]
 \caption{Heuristic Evaluation Results. The table summarizes the results of the Heuristic Evaluation conducted by three usability experts.}
-      \begin{tabular}{p{3.85cm}p{1.2cm}p{1.2cm}}
+      \begin{tabular}{p{3.85cm}R{1.2cm}R{1.2cm}}
       \hline
       Heuristic & Average Response & Standard Deviation \\ \hline
       Visibility of system status & 6.00 & 1.00 \\
@@ -771,9 +777,27 @@ AL and HN are part of the Personal Health Informatics research group from the De
       Flexibility and efficiency of use & 6.67 & 0.57 \\
       Aesthetic and minimalist design & 7.00 & 0.00 \\
       Help users recognize, diagnose, and recover from errors & 6.33 & 0.57 \\
-      Help and documentation & 6.67 & 0.57 \\
+      Help and documentation & 6.67 & 0.57 \\ \hline
       \end{tabular}
 \label{tbl:heuristicsResults}
+\end{table}
+
+\begin{table}[h!]
+\caption{Controlled User Testing Results. The table summarizes the results of the 14 users performing the 9 tasks.}
+      \begin{tabular}{lC{1.5cm}C{0.75cm}R{1.2cm}R{1.2cm}}
+      \hline
+      Task & Successfully Completed & Errors & Average Time (seconds) & Standard Deviation (seconds)\\ \hline
+      Task 1 & 14 & 4 & 12.2 & 12.6 \\
+      Task 2 & 11 & 0 & 10.0 & 12.4 \\
+      Task 3 & 14 & 1 & 10.8 & 5.4 \\
+      Task 4 & 14 & 2 & 6.8 & 5.0 \\
+      Task 5 & 14 & 0 & 17.5 & 6.6 \\ 
+      Task 6 & 2 & 0 & 16.1 & 16.5 \\ 
+      Task 7 & 14 & 0 & 6.2 & 5.6 \\ 
+      Task 8 & 14 & 1 & 7.9 & 5.9 \\ 
+      Task 9 & 13 & 1 & 9.2 & 4.7 \\ \hline
+      \end{tabular}
+\label{tbl:tasksResults}
 \end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
