@@ -396,18 +396,11 @@ The possibility to export the generated figure as an SVG file, allows the integr
 
 \section*{Evaluation}
 
-Nielsen suggests that ```usability has multiple components and is traditionally associated with the five usability attributes, which are learnability, efficiency, memorability, errors, and satisfaction'' \cite{nielsen1994usability}. Following these guidelines, we designed our evaluation following the schema presented in table \ref{}. The evaluation was designed to discover usability problems, find possible improvements and determine the overall usefulness of the library.
-
 The health data visualization library was placed in the context of a full applications so as to provide a story to the participants of the user evaluation. This provides a contextualized evaluation of the library. In this section we present the methods we followed for the evaluation of the library in the context of the application. We explain the methods with their techniques in detail. We also explain what these techniques measure from our library in the context of usability evaluation.
 
-\subsection*{Continuous Health Monitoring Application}
+Nielsen suggests that ```usability has multiple components and is traditionally associated with the five usability attributes, which are learnability, efficiency, memorability, errors, and satisfaction'' \cite{nielsen1994usability}. In order to assess the usability of the software solution, multiple alternatives exist in industry and research.
 
-In order to test the hFigures library, we designed an application for visualizing the changes in the health status of a modelled patient over time. The application visualized a set of health interventions as part of a health coaching program with the objective to present to the user the changes of the health status as a result of the many actions that comprise the coaching program. The application has thee components: activity timeline, the hFigures visualization and longitudinal measurements.
-
-The \textbf{activity timeline} represents the health interventions the modelled patient has done over a period of time. At certain times, the modelled patient has a snapshot of a set of measurements visualized as \textbf{longitudinal measurements} also represented in the \textbf{hFigures} visualization. The changes in the status of the patient are displayed by two plots of the hFigures. Adjustable points in time animate these two hFgures. The adjustable points are represented as lines in the activity timeline and the longitudinal measurements. Users are allowed to drag and drop these lines to see the status of the patient at those specific times.
-
-The purpose of the user evaluation is to assess the hFigures library and understand how the users see the overall health status of the modelled patient, ask questions to verify their understanding as well as to obtain their feedback regarding any problems or suggestions for improvements. 
-
+Johnson \textit{et al}. conducted an extensive survey and built a toolkit for usability testing of Electronic Health Records commissioned by the Agency for Healthcare Research and Quality of the U.S. Department of Health and Human Services \cite{johnson2011ehr}. We followed the suggestions of Johnson \textit{et al}. by evaluating our software solution using the following methods: Heuristic Evaluation, Cognitive Walkthrough, Laboratory Testing and Usability Questionnaires. Since we recruited the participants and they attended the evaluation sessions, we did not need to use Remote Evaluation. We did not include the other Human Factor Methods described by Johnson \textit{et al}. as we already selected the most common methods of evaluation. Additionally these other methods required an extensive time for preparation which we did not deem to be for the purpose of testing our software solution.
 
 \subsection*{Recruitment}
 
@@ -418,15 +411,24 @@ How we recruited them...
 What we gave in return...
 Informed consent signed...
 
+\subsection*{Continuous Health Monitoring Application}
+
+In order to test the hFigures library, we designed an application for visualizing the changes in the health status of a modelled patient over time. The application visualized a set of health interventions as part of a health coaching program with the objective to present to the user the changes of the health status as a result of the many actions that comprise the coaching program. The application has thee components: activity timeline, the hFigures visualization and longitudinal measurements.
+
+The \textbf{activity timeline} represents the health interventions the modelled patient has done over a period of time. At certain times, the modelled patient has a snapshot of a set of measurements visualized as \textbf{longitudinal measurements} also represented in the \textbf{hFigures} visualization. The changes in the status of the patient are displayed by two plots of the hFigures. Adjustable points in time animate these two hFgures. The adjustable points are represented as lines in the activity timeline and the longitudinal measurements. Users are allowed to drag and drop these lines to see the status of the patient at those specific times.
+
+The purpose of the user evaluation is to assess the hFigures library and understand how the users see the overall health status of the modelled patient, ask questions to verify their understanding as well as to obtain their feedback regarding any problems or suggestions for improvements. 
+
 
 \subsection*{Heuristic Evaluation}
 
-Usability testing requires at least one expert in the area of human-computer interaction. For our evaluation we recruited 3 experts who assess the application using Nielsen's heuristics \cite{nielsen1994usability}. The evaluation has 11 metrics evaluated using a seven point Likert scale, where the value 1 indicates ``strongly disagree'' and 7 ``strongly agree''
+As summarized by Johnson \textit{et al}. \cite{johnson2011ehr} and defined by Nielsen \cite{nielsen1994usability}, Heuristic Evaluation requires at least one expert in the area of human-computer interaction. For our evaluation we recruited 3 experts who assess the application using Nielsen's heuristics \cite{nielsen1994usability}. The evaluation has 11 metrics evaluated using a seven point Likert scale, where the value 1 indicates ``strongly disagree'' and 7 ``strongly agree''
 
 % REF here!
 % http://www.nngroup.com/articles/ten-usability-heuristics/
 
 Heuristics are rules of thumb that usability experts verify in a system. Nielsen describes 10 guidelines that are to be understood as ``broad rules'' and as such they depend on the expertise of the specialist in Human-Computer Interaction \cite{Nielsen10UsabilityHeuristics}. The rules are listed and explained in the following list.
+
 \begin{enumerate}
 \item \textit{Visibility of the System Status}: Refers to continuous feedback on the status of the system ``within reasonable time'' (Feedback).
 \item \textit{Match between system and the real world}: The use of the language should be familiar to the user so that conversations follow a ``natural and logical order'' avoiding technical terminology unfamiliar to the intended user audience (Speak the User's Language).
@@ -466,19 +468,6 @@ The list of tasks is presented below.
 In addition the the previous methods we also used standardized questionnaires for two main reasons. Firstly, they allow users to express their feedback using validated questions. Secondly, they help us identify problems with the usability of the system.
 
 We used three standard questionnaires in order to obtain additional information about the usability of the library. The questionnaires we used are Computer System Usability Questionnaire (CSUQ), After Scenario Questionnaire and Usefullness (ASQU), Satisfaction and Ease-of-Use Questionnaire (USE). All three questionnaires use a seven point Likert scale.
-
-To further understand these metrics we explain their concept in the following list:
-\begin{enumerate}
-\item System Usefulness
-\item Information Quality
-\item Interface Quality
-\item Overall Usability
-\item Efficiency
-\item Effectiveness
-\item User Satisfaction
-\item Usefulness
-\item Ease of Use
-\end{enumerate}
 
 Table \ref{tbl:questionnaires} shows the length, reliability and the metrics of the questionnaires. 
 
