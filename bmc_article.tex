@@ -743,14 +743,13 @@ AL and HN are part of the Personal Health Informatics research group from the De
       \begin{tabular}{lccl}
         \hline
         Questionnaire & Questions & Reliability & Metrics \\ \hline
-        \multirow{4}{*}{CSUQ} & \multirow{4}{*}{19} & \multirow{4}{*}{0.95} & System Usefulness \\
-         & & & Information Quality \\
-    		 & & & Interface Quality \\
-    		 & & & Overall Usability \\ \hline
-        \multirow{2}{*}{ASQ} & \multirow{2}{*}{3} & \multirow{2}{*}{0.93} & Effectiveness \\
-         & & & User Satisfaction \\ \hline
-		    \multirow{2}{*}{USE} & \multirow{2}{*}{30} & \multirow{2}{*}{---} & Usefulness \\ 
-    		 & & & Ease of Use \\ \hline
+        \multirow{4}{*}{CSUQ} & \multirow{4}{*}{19} & 0.93 & Usefulness \\
+         & & 0.91 & Information Quality \\
+    		 & & 0.89 & Interface Quality \\
+    		 & & 0.95 & Overall Usability \\ \hline
+        \multirow{3}{*}{ASQ} & \multirow{3}{*}{3} & \multirow{3}{*}{0.93} & Efficiency \\
+         & & & Effectiveness \\
+         & & & Satisfaction \\ \hline
 		
       \end{tabular}
 \label{tbl:questionnaires}
@@ -771,6 +770,7 @@ AL and HN are part of the Personal Health Informatics research group from the De
       Aesthetic and minimalist design & 7.00 & 0.00 \\
       Help users recognize, diagnose, and recover from errors & 6.33 & 0.57 \\
       Help and documentation & 6.67 & 0.57 \\ \hline
+      Nielsen heuristic evaluation & 6.30 & .562 \\ \hline
       \end{tabular}
 \label{tbl:heuristicsResults}
 \end{table}
@@ -842,15 +842,14 @@ AL and HN are part of the Personal Health Informatics research group from the De
 \end{table}
 
 \begin{table}[h!]
-\caption{Computer System Usability Questionnaire Results for Overall Usability and User Satisfaction.}
-      \begin{tabular}{L{4cm}R{1.2cm}R{1.2cm}}
+\caption{Computer System Usability Questionnaire Results for Overall Usability, System Usefulness, Information and Interface Quality.}
+      \begin{tabular}{L{2.5cm}lR{1.2cm}R{1.2cm}}
       \hline
-      Question & Average Time (seconds) & Standard Deviation (seconds)\\ \hline
-  		System Usefulness & 6.13 & .930 \\
-  		Information Quality & 5.66 & 1.20 \\
-  		Interface Quality & 6.24 & .999 \\
-  		Overall, I am satisfied with this system & 6.07 & 1.07 \\ \hline
-  		Overall user satisfaction & 6.02 & 1.04 \\ \hline
+      Metric & Questions & Average Time (seconds) & Standard Deviation (seconds)\\ \hline
+  		Overall Usability   &  1-19 & 6.02 & 1.04 \\ 
+      System Usefulness   &  1-8  & 6.13 & 0.93 \\ 
+      Information Quality &  9-15 & 5.66 & 1.20 \\ 
+      Interface Quality   & 16-18 & 6.24 & .999 \\ \hline
       \end{tabular}
 \label{tbl:CSUQOverallUsabilityResults}
 \end{table}
@@ -867,17 +866,6 @@ AL and HN are part of the Personal Health Informatics research group from the De
 \label{tbl:ASQResults}
 \end{table}
 
-\begin{table}[h!]
-\caption{Summarized Results of the Questionnaires. The table presents the average and standard deviation of the three questionnaires we used in the evaluation.}
-      \begin{tabular}{L{4cm}R{1.2cm}R{1.2cm}}
-      \hline
-      Questionnaire & Average response & Standard deviation \\ \hline
-      After-Scenario Questionnaire (ASQ) & 6.46 & .531 \\
-      Computer System Usability (CSUQ) & 6.02 & 1.04 \\
-      Nielsen heuristic evaluation & 6.30 & .562 \\ \hline
-      \end{tabular}
-\label{tbl:QuestionnairesSummarizedResults}
-\end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                               %%
