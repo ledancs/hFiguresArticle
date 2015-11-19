@@ -540,6 +540,10 @@ We present the results of the CSUQ divided by sections. The first section is the
 
 The value of a data visualization depends on the knowledge that it can convey to the public. In this section, we claim that hFigures has the potential to be used both in the clinical and personal wellness applications. Large amounts of measurements do not clutter the visualization area as a result of our implementation, figure \ref{figureHFiguresComplex} shows an example of a complex holistic visualization of a modelled patient. The comparison of multiple graphs can provide a meaningful visualization to individuals and clinicians alike. The implementation of hFigures follows an extensible approach and even though it was designed to be used for health data visualization, any dataset that has a target range of values as a reference, can be visualized.
 
+\subsection*{Further Development}
+
+We plan to develop the library further to address the suggestions obtained from the participants of the usability testing.
+
 \subsection*{Translation to Health Care}
 
 Nowadays, the formats of EHR and application data follow a large variety of formats. It remains an open challenge to incorporate these data sources into a holistic repository that portrays a patient using every possible measurement, from laboratory tests to activity trackers. Currently, most of the data sources contain the date when the sample was extracted, whether it is a tracking device or a blood test. This sample date already provides the timestamp required by the hFigures data source file. The values of the samples are the main object of study in a measurement, for instance the levels of cholesterol or sugar at a given time, the number of steps per day, the percentage of body fat and several others. This information can be transformed in a simple process to build the hFigures data source following the JSON structure.
