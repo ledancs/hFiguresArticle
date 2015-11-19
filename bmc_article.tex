@@ -448,17 +448,21 @@ Heuristics are ``rules of thumb'' comprised of 10 principles meant to assist the
 
 \subsection*{Cognitive Walkthrough}
 
-Cognitive Walkthrough was developed by Wharton \textit{et al}. \cite{wharton1994cognitive} and summarized by Johnson \textit{et al}. as a ''usability inspection method that compares the users’ and designers’ conceptual model and can identify numerous problems within an interface``. This method was ported to evaluate usability in Web Information Systems by Blackmon \textit{et al}. \cite{blackmon2002cognitive}. 
+Wharton \textit{et al}. developed the Cognitive Walkthrough for usability testing \cite{wharton1994cognitive}. Johnson \textit{et al}. summarize this method as a ``usability inspection method that compares the users’ and designers’ conceptual model and can identify numerous problems within an interface'' \cite{johnson2011ehr, wharton1994cognitive}.
 
-Additionally, Johnson \textit{et al}. lists a number of cases where this method has been used to address usability issues in Health Information Systems \cite{johnson2011ehr}. 
+Cognitive Walkthrough has successfully been used to evaluate usability of Healthcare Information Systems \cite{johnson2011ehr, peute2007significance, karahoca2010information, cohen2004cognitive, khajouei2009usability} and Web Information Systems \cite{blackmon2002cognitive}.
 
-\subsection*{Controlled User Testing}
+Since Cognitive Walkthroughs ``tend to find more severe problems'' \cite{sears1997heuristic, johnson2011ehr} but ``fewer problems than a Heuristic Evaluation'' \cite{beuscart2007human, johnson2011ehr} we included both methods in our evaluation.
 
-Rubin and Chisnell \cite{rubin2008handbook} as well as Nielsen \cite{nielsen1994usability} recommend to design a set of tasks for users to perform in a controlled environment. We can then measure the time to complete the tasks, errors (crucial and non-crucial) and whether the task was successfully completed. Controlled user testing allows us to find out any obstacles in the application that prevent users from completing a set of tasks. The tasks are the intended use of the application, thus we aim at providing the users with a system that minimizes errors as well as the time required to complete the tasks. For the hFigures library we created a list of tasks which required the user to understand the data visualization of the patient's health status.
+\subsection*{Laboratory Testing}
 
-\paragraph*{Usability Scenario}
+Regarded as the ``golden standard'' for usability testing \citep{newman199810}, Laboratory Testing collects ``qualitative and quantitative'' data ``since it collects both objective data such as performance metrics (e.g., time to accomplish the task, number of key strokes, errors, and severity of errors) and subjective data such as the vocalizations of users thinking aloud as they work through representative tasks or scenarios'' \cite{johnson2011ehr}. 
 
-The list of tasks is presented below.
+Controlled user testing is comprised of ``a series of commonly used task scenarios'' where users are asked to conduct these tasks using a ``thinking aloud'' \cite{johnson2011ehr, ericsson1980verbal, nielsen1994usability}. This process requires ``users to talk aloud about what they are doing and thinking'' while they complete the tasks using the system \cite{johnson2011ehr, ericsson1980verbal, nielsen1994usability}.
+
+As the ``golden standard'' in usability testing, this method has been widely used in evaluating Health Information Systems \cite{johnson2011ehr, borycki2009novice, currie2003clinical, hasman2006development, wu2008usability}
+
+The data exploration tasks are designed to assist the decision making process on the health situation of the modelled patient. The list of tasks is structured as follows:
 \begin{enumerate}
 \item How many areas of health are displayed in the hFigures?
 \item Choose one of these areas and point to its measurements.
