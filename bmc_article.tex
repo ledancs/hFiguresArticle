@@ -475,18 +475,11 @@ The data exploration tasks are designed to assist the decision making process on
 
 \subsection*{Usability Questionnaires}
 
-In addition the the previous methods we also used standardized questionnaires for two main reasons. Firstly, they allow users to express their feedback using validated questions. Secondly, they help us identify problems with the usability of the system.
+We followed the recommendations from Johnson \textit{et al}. and used this method in our evaluation. Usability Questionnaires are ``the most common'' method to ``collect self-reported data'' from the ``users’ experience and perceptions after using the system in question'' \cite{johnson2011ehr}. Although the data collected is self-reported, some questionnaires have reliability in measuring several usability metrics such as ``satisfaction, efficiency, effectiveness, learnability, perceived usefulness, ease of use, information quality, and interface quality'' \cite{johnson2011ehr}.
 
-We used three standard questionnaires in order to obtain additional information about the usability of the library. The questionnaires we used are Computer System Usability Questionnaire (CSUQ), After Scenario Questionnaire and Usefullness (ASQU), Satisfaction and Ease-of-Use Questionnaire (USE). All three questionnaires use a seven point Likert scale.
+We used two Usability Questionnaires to evaluate the usability of our application, Computer System Usability Questionnaire (CSUQ) and After Scenario Questionnaire (ASQ) \cite{lewis1995ibm}. Table \ref{tbl:questionnaires} shows the length, reliability and the metrics of the questionnaires. 
 
-Table \ref{tbl:questionnaires} shows the length, reliability and the metrics of the questionnaires. 
-
-\subsubsection*{Computer System Usability Questionnaire} Explain and cite again.
-
-\subsubsection*{After Scenario Questionnaire} Explain and cite again.
-
-\subsubsection*{Usefulness, Satisfaction and Ease of Use Questionnaire} Explain and cite again.
-
+\paragraph*{Computer System Usability Questionnaire (CSUQ)} The questionnaire was developed by IBM and it is a ``slight'' modification of the Post-Study System Usability Questionnaire (PSSUQ) \cite{lewis1992psychometric}. Table \ref{tbl:questionnaires} shows the reliability of this questionnaire. The questionnaire has high `` coefficient alpha'' with a reliability 0.95 in total and ``0.93 for system usefulness, 0.91 for informational quality, and 0.89 for interface quality''  \cite{johnson2011ehr, lewis1995ibm, lewis1992psychometric}. We selected this questionnaire since it has been successfully used in the Healthcare domain \cite{johnson2011ehr, jaspers2008pre} and in the evaluation of ``of a guideline-based decision support system'' \cite{johnson2011ehr, goud2008subjective}.
 
 \subsection*{Data Model}
 
@@ -530,7 +523,10 @@ The tests show that four users erroneously identified the areas of health (task 
 
 \subsection*{Usability Questionnaires}
 
-We present the results of the CSUQ divided by sections. The first section is the evaluates the System Usefulness and the results are presented in table \ref{tbl:CSUQSystemUsefulnessResults}.
+\paragraph*{Computer System Usability Questionnaire (CSUQ)}
+We computed the results according to Lewis, obtaining the average of ``items 1 through 19'' to determine the overall usability rating of the system. System usefulness is the average of items 1 to 8, information quality 9 through 15 and interface quality 16 through 18 \cite{lewis2002psychometric}.
+
+Table \ref{tbl:CSUQSystemUsefulnessResults} shows the results of the system usefulness. The system obtained an average of 6.13 out of 7. Table \ref{tbl:CSUQInformationQualityResults} shows the results of the information quality metric where the application scored a total average of 5.66. The average value is still within the ``agree'' response of the participants, however the notable low value compare to the other metrics might be due to the amount of information presented in textual format in the application. The information was encoded using graphical representations and even though a help document was included in the system, the text was not likely to fulfil the users' expectations. Table \ref{tbl:CSUQInterfaceQualityResults} shows the score for the interface quality where the application obtained an average of 6.24 out of 7. The combined results are shown in table \ref{tbl:CSUQOverallUsabilityResults}. The score of the overall usability is 6.02 with a standard deviation of 1.04. We can determine that all the participants at least ``agreed'' in the Likert scale that the application was useful for the decision making process of assessing the health situation and evolution of the modelled patient.
 
 \subsection*{Identified Issues and Suggested Improvements}
 
@@ -811,7 +807,7 @@ AL and HN are part of the Personal Health Informatics research group from the De
 \caption{Computer System Usability Questionnaire Results for the System Usefulness assessment. The table shows the results of the questions corresponding to the System Usefulness with its average and standard deviation.}
       \begin{tabular}{L{4cm}R{1.2cm}R{1.2cm}}
       \hline
-      Question & Average Time (seconds) & Standard Deviation (seconds)\\ \hline
+      Question & Average Response & Standard Deviation \\ \hline
       Overall, I am satisfied with how easy it is to use this system & 6.29 & 0.99 \\
       It was simple to use this system & 6.07 & 1.20 \\
       I can effectively complete my work using this system & 6.07 & 1.07 \\
@@ -829,7 +825,7 @@ AL and HN are part of the Personal Health Informatics research group from the De
 \caption{Computer System Usability Questionnaire Results for Information Quality.}
       \begin{tabular}{L{4cm}R{1.2cm}R{1.2cm}}
       \hline
-      Question & Average Time (seconds) & Standard Deviation (seconds)\\ \hline
+      Question & Average Response & Standard Deviation \\ \hline
       The system gives error messages that clearly tell me how to fix problems & 4.50 & 2.44 \\
       Whenever I make a mistake using the system, I recover easily and quickly & 5.43 & 1.95 \\
       The information (such as online help, on-screen mes-sages, and other documentation) provided     with this system is clear & 5.29 & 1.90 \\
@@ -846,7 +842,7 @@ AL and HN are part of the Personal Health Informatics research group from the De
 \caption{Computer System Usability Questionnaire Results for Interface Quality.}
       \begin{tabular}{L{4cm}R{1.2cm}R{1.2cm}}
       \hline
-      Question & Average Time (seconds) & Standard Deviation (seconds)\\ \hline
+      Question & Average Response & Standard Deviation \\ \hline
       The interface of this system is pleasant & 6.36 & 1.00 \\
       I like using the interface of this system & 6.36 & .929 \\
       This system has all the functions and capabilities I expect it to have & 6.00 & 1.18 \\ \hline
@@ -859,7 +855,7 @@ AL and HN are part of the Personal Health Informatics research group from the De
 \caption{Computer System Usability Questionnaire Results for Overall Usability, System Usefulness, Information and Interface Quality.}
       \begin{tabular}{L{2.5cm}lR{1.2cm}R{1.2cm}}
       \hline
-      Metric & Questions & Average Time (seconds) & Standard Deviation (seconds)\\ \hline
+      Metric & Questions & Average Response & Standard Deviation \\ \hline
   		Overall Usability   &  1-19 & 6.02 & 1.04 \\ 
       System Usefulness   &  1-8  & 6.13 & 0.93 \\ 
       Information Quality &  9-15 & 5.66 & 1.20 \\ 
