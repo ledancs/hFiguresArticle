@@ -398,10 +398,23 @@ The possibility to export the generated figure as an SVG file, allows the integr
 
 The health data visualization library was placed in the context of a full application. We tested the library in a contextualized scenario where the users conducted a series of tasks and answered usability questionnaires. In this section we present the methods we used for recruiting the participants and for the usability testing of the library. We also explain the metrics measured and the rationale behind the selection of the usability testing methods.
 
-Nielsen suggests that ```usability has multiple components and is traditionally associated with the five usability attributes, which are learnability, efficiency, memorability, errors, and satisfaction'' \cite{nielsen1994usability}. In order to assess the usability of the software solution, multiple alternatives exist in industry and research. Johnson \textit{et al}. developed a toolkit for usability testing of Electronic Health Records commissioned by the Agency for Healthcare Research and Quality of the U.S. Department of Health and Human Services \cite{johnson2011ehr}. The toolkit provides a recommendation of suitable usability testing methods and the rationale that justifies the choice.
+Nielsen suggests that ```usability has multiple components and is traditionally associated with the five usability attributes, which are learnability, efficiency, memorability, errors, and satisfaction'' \cite{nielsen1994usability}. In order to assess the usability of the software solution, multiple alternatives exist in industry and research. Johnson \textit{et al}. developed a toolkit for usability testing of Electronic Health Records commissioned by the Agency for Healthcare Research and Quality of the U.S. Department of Health and Human Services \cite{johnson2011ehr}. The toolkit is built on the basis of the assessment of existing usability methods in the context of Electronic Health Records and Health Information systems. The toolkit is a detailed analysis of the usability methods, their advantages, disadvantages and appropriateness ranking.
 
-We used the Usability Questionnaires for our evaluation since it is highly recommended by Johnson \textit{et al}. In addition, we were able to recruit three usability experts to conduct the Heuristic Evaluation and the Cognitive Walkthrough. We concluded the evaluation with Controlled User Testing since we had a laboratory and the necessary tools to conduct the tests.
+We selected the Usability Questionnaires since it has a high appropriateness ranking \cite{johnson2011ehr}. We were able to recruit three usability experts to conduct the Heuristic Evaluation and the Cognitive Walkthrough, both are recommended techniques to complement the evaluation. We concluded the evaluation with Controlled User Testing since we had a laboratory and the necessary tools to conduct the tests.
 
+We conducted usability testing on an application with the hFigures as a visualization component of the overall health situation of a modelled patient. The testing process started with the signature of an informed consent where we explained the participants the purpose of the test. Afterwards we proceed to explain a usability scenario and the tasks that the participants were asked to complete. The participants were allowed to ask questions at any time. After performing the tasks we asked the participants to fill in the Usability Questionnaires. We close the session with a briefing interview where we asked the users what they liked and disliked about the application as well as what were their recommendations for further improvements.
+
+\subsection*{Continuous Health Monitoring Application}
+
+In order to test the hFigures library, we designed an application for visualizing the health situation of a modelled patient and how this has changed over time within health coaching program. The objective is to help the users in the decision making process of assessing the overall health situation and weather or not the health program has provided benefits.
+
+The application has three components: activity timeline, the hFigures data visualization library and longitudinal measurements.
+
+\paragraph*{Activity Timeline} This component represents the health interventions (particular actions) that the modelled patient has done during the health coaching program. During the program, several snapshots of the patient's overall health are taken and visualized using the hFigures library.
+
+\paragraph*{hFigures} The set of measurements taken during the health coaching program is a holistic view of the health situation of the modelled patient. This is suitable to be displayed using the hFigures library which we present in the application. Users can change the time at which the snapshot was taken to compare changes over time as a result of the health interventions.
+
+\paragraph*{Longitudinal Measurements} The application also displays the same set of measurements using longitudinal representation. We included this component to provide additional details on how measurements have changed over the coaching program.
 
 \subsection*{Recruitment}
 
@@ -412,21 +425,14 @@ How we recruited them...
 What we gave in return...
 Informed consent signed...
 
-\subsection*{Continuous Health Monitoring Application}
-
-In order to test the hFigures library, we designed an application for visualizing the changes in the health status of a modelled patient over time. The application provides a graphical representation of the data comprised of a set of health interventions as part of a health coaching program. The objective is to present to the user the changes of the health status as a result of the many actions that comprise the coaching program. We structured the application into three components: activity timeline, the hFigures data visualization library and the longitudinal measurements of the dataset.
-
-The \textbf{activity timeline} represents the health interventions the modelled patient has done over a period of time. At certain times, the modelled patient has a snapshot of a set of measurements visualized as \textbf{longitudinal measurements} also represented in the \textbf{hFigures} visualization. The changes in the status of the patient are displayed by two plots of the hFigures. Adjustable points in time animate these two hFgures. The adjustable points are represented as lines in the activity timeline and the longitudinal measurements. Users are allowed to drag and drop these lines to see the status of the patient at those specific times.
-
 \subsection*{Heuristic Evaluation}
 
-As summarized by Johnson \textit{et al}. \cite{johnson2011ehr} and defined by Nielsen \cite{nielsen1994usability}, Heuristic Evaluation requires at least one expert in the area of human-computer interaction. For our evaluation we recruited three experts, they assessed the application using Nielsen's heuristics \cite{nielsen1994usability}. The evaluation has 11 metrics evaluated using a seven point Likert scale, where the value 1 indicates ``strongly disagree'' and 7 ``strongly agree''
+Heuristic Evaluation requires at least one expert in the area of human-computer interaction \cite{nielsen1994usability, johnson2011ehr}. For our evaluation we recruited three experts, they assessed the application using Nielsen's heuristics \cite{nielsen1994usability}. The evaluation has 11 metrics evaluated using a seven point Likert scale, where the value 1 indicates ``strongly disagree'' and 7 ``strongly agree''
 
 % REF here!
 % http://www.nngroup.com/articles/ten-usability-heuristics/
 
-As summarized by Johnson \textit{et al}. \cite{johnson2011ehr}, heuristics are rules of thumb that usability experts verify in a system. Nielsen \cite{Nielsen10UsabilityHeuristics} describes 10 guidelines that are to be understood as ``broad rules'' and as such they depend on the expertise of the specialist in Human-Computer Interaction. We explain in the following list the principles of the Heuristic Evaluation according to Nielsen \cite{Nielsen10UsabilityHeuristics}.
-
+Heuristics are ``rules of thumb'' comprised of 10 principles meant to assist the Human-Computer Interaction specialist in the usability assessment \cite{johnson2011ehr, Nielsen10UsabilityHeuristics}. We explain the principles of the Heuristic Evaluation according Nielsen \cite{Nielsen10UsabilityHeuristics}.
 \begin{enumerate}
 \item \textit{Visibility of the System Status}: Refers to continuous feedback on the status of the system ``within reasonable time'' (Feedback).
 \item \textit{Match between system and the real world}: The use of the language should be familiar to the user so that conversations follow a ``natural and logical order'' avoiding technical terminology unfamiliar to the intended user audience (Speak the User's Language).
