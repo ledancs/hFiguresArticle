@@ -400,8 +400,6 @@ Nielsen suggests that ```usability has multiple components and is traditionally 
 
 We selected the Usability Questionnaires since it has a high appropriateness ranking \cite{johnson2011ehr}. We were able to recruit three usability experts to conduct the Heuristic Evaluation and the Cognitive Walkthrough, both are recommended techniques to complement the evaluation. We concluded the evaluation with Controlled User Testing since we had a laboratory and the necessary tools to conduct the tests.
 
-We conducted usability testing on an application with the hFigures as a visualization component of the overall health situation of a modelled patient. The testing process started with the signature of an informed consent where we explained the participants the purpose of the test. Afterwards we proceed to explain a usability scenario and the tasks that the participants were asked to complete. The participants were allowed to ask questions at any time. After performing the tasks we asked the participants to fill in the Usability Questionnaires. We close the session with a briefing interview where we asked the users what they liked and disliked about the application as well as what were their recommendations for further improvements.
-
 \subsection*{Continuous Health Monitoring Application}
 
 In order to test the hFigures library, we designed an application for visualizing the health situation of a modelled patient and how this has changed over time within health coaching program. The objective is to help the users in the decision making process of assessing the overall health situation and weather or not the health program has provided benefits.
@@ -413,15 +411,6 @@ The application has three components: activity timeline, the hFigures data visua
 \paragraph*{hFigures} The set of measurements taken during the health coaching program is a holistic view of the health situation of the modelled patient. This is suitable to be displayed using the hFigures library which we present in the application. Users can change the time at which the snapshot was taken to compare changes over time as a result of the health interventions.
 
 \paragraph*{Longitudinal Measurements} The application also displays the same set of measurements using longitudinal representation. We included this component to provide additional details on how measurements have changed over the coaching program.
-
-\subsection*{Recruitment}
-
-How many according to Falk and for Expert Users how many according to Nielsen.
-
-We recruited...
-How we recruited them...
-What we gave in return...
-Informed consent signed...
 
 \subsection*{Heuristic Evaluation}
 
@@ -460,7 +449,7 @@ Controlled user testing is comprised of ``a series of commonly used task scenari
 
 As the ``golden standard'' in usability testing, this method has been widely used in evaluating Health Information Systems \cite{johnson2011ehr, borycki2009novice, currie2003clinical, hasman2006development, wu2008usability}
 
-The data exploration tasks are designed to assist the decision making process on the health situation of the modelled patient. The list of tasks is structured as follows:
+The data exploration tasks are designed to assist the decision making process on the health situation of the modelled patient. The usability scenario was the main goal of the intended use of the application. We explain the participants the purpose of the application, which is to facilitate the decision making process weather or not the overall health situation of the modelled patient is favourable and weather or not the health coaching program was beneficial for the patient. The tasks are designed to represent the common usage of the application, namely to find the measurements inside and outside of the recommendation and to identify the areas that improved and need even further improvement. The tasks given to the participants are shown in the following list.
 \begin{enumerate}
 \item How many areas of health are displayed in the hFigures?
 \item Choose one of these areas and point to its measurements.
@@ -499,12 +488,26 @@ Similar to the study we conducted in the insight-based methodology \citep{EMBCLe
     \item Emotional wellbeing: depression level \cite{poutanen2010validity}, stress level and stress recovery \cite{firstbeat2014, teisala2014associations} and optimism \cite{scheier1994distinguishing}.
 \end{itemize}	
 
+\subsection*{Recruitment}
+
+How many according to Falk and for Expert Users how many according to Nielsen.
+
+We recruited...
+How we recruited them...
+What we gave in return...
+Informed consent signed...
+
 \subsection*{Experiment Protocol}
 
-Here we described briefly the sequence of steps we took to conduct the experiments. Important to mention we used the camera and microphone to record the test session and review them later for evaluation purposes. 
+% Here we described briefly the sequence of steps we took to conduct the experiments. Important to mention we used the camera and microphone to record the test session and review them later for evaluation purposes. 
+
+The testing process started with the signature of an informed consent where we explained the participants the purpose of the test. Afterwards we proceed to explain a usability scenario and the tasks that the participants were asked to complete. The participants were allowed to ask questions at any time. After performing the tasks we asked the participants to fill in the Usability Questionnaires. We close the session with a briefing interview where we asked the users what they liked and disliked about the application as well as what were their recommendations for further improvements. The sessions were recorded for further study and to find the correct timing of the task completion.
+
+\subsection*{Materials and Tools} 
 
 % http://garyperlman.com/quest/
 Mention the source and tool used for the questionnaires developed by Perlman.
+
 
 \section*{Results}
 
@@ -534,7 +537,11 @@ We computed the results according to Lewis, obtaining the average of ``items 1 t
 
 Table \ref{tbl:CSUQSystemUsefulnessResults} shows the results of the system usefulness. The system obtained an average of 6.13 out of 7. Table \ref{tbl:CSUQInformationQualityResults} shows the results of the information quality metric where the application scored a total average of 5.66. The average value is still within the ``agree'' response of the participants, however the notable low value compare to the other metrics might be due to the amount of information presented in textual format in the application. The information was encoded using graphical representations and even though a help document was included in the system, the text was not likely to fulfil the users' expectations. Table \ref{tbl:CSUQInterfaceQualityResults} shows the score for the interface quality where the application obtained an average of 6.24 out of 7. The combined results are shown in table \ref{tbl:CSUQOverallUsabilityResults}. The score of the overall usability is 6.02 with a standard deviation of 1.04. We can determine that all the participants at least ``agreed'' in the Likert scale that the application was useful for the decision making process of assessing the health situation and evolution of the modelled patient.
 
+\paragraph*{After Scenario Questionnaire (ASQ)} The average response for the ease of task completion was 6.64 with a standard deviation of 0.842 and for the time required to complete the task 6.64 and a standard deviation of 0.497. The overall satisfaction was 6.46 and a standard deviation of 0.53. The usability of the system had a high score in the ASQ results meaning that the system was suitable for the scenario in the context of the health data visualization of the modelled patient and its evolution over time.
+
 \subsection*{Identified Issues and Suggested Improvements}
+
+The feedback shows that the main problem was the incomplete visibility of the hFigures in the application component window. Users also requested to show the detailed information as a hovering pop up window in the second figure (measurements before the coaching program). Currently only the latest measurements have the hovering window however users requested that both measurements (the before and after) should contain the same functionality. Additional information was needed in the measurements that contained numerical scales, such as the depression index. A more contextualized approach explaining the meaning of the values can help the user understand the measurements and thus the overall health situation of the patient better.
 
 \section*{Discussion}
 
@@ -756,15 +763,16 @@ AL and HN are part of the Personal Health Informatics research group from the De
 
 \begin{table}[h!]
 \caption{Standard Questionnaires Table. The table lists the standard questionnaires we used for the user evaluation of the system with their length, reliability and metrics.}
-      \begin{tabular}{lccl}
+      \begin{tabular}{lccL{3.5cm}}
         \hline
-        Questionnaire & Questions & Reliability & Metrics \\ \hline
+         & Items & Reliability & Metrics \\ \hline
         \multirow{4}{*}{CSUQ} & \multirow{4}{*}{19} & 0.93 & Usefulness \\
          & & 0.91 & Information Quality \\
-    		 & & 0.89 & Interface Quality \\
-    		 & & 0.95 & Overall Usability \\ \hline
-        \multirow{3}{*}{ASQ} & \multirow{3}{*}{3} & \multirow{3}{*}{0.93} & Efficiency \\
-         & & & Effectiveness \\
+   		 & & 0.89 & Interface Quality \\
+   		 & & 0.95 & Overall Usability \\ \hline
+% ease of task completion, time required to complete tasks, and satisfaction
+        \multirow{3}{*}{ASQ} & \multirow{3}{*}{3} & \multirow{3}{*}{0.93} & Ease of Task Completion \\
+         & & & Time Required to Complete the Task \\
          & & & Satisfaction \\ \hline
 		
       \end{tabular}
@@ -862,7 +870,7 @@ AL and HN are part of the Personal Health Informatics research group from the De
       \begin{tabular}{L{2.5cm}lR{1.2cm}R{1.2cm}}
       \hline
       Metric & Questions & Average Response & Standard Deviation \\ \hline
-  		Overall Usability   &  1-19 & 6.02 & 1.04 \\ 
+      Overall Usability   &  1-19 & 6.02 & 1.04 \\ 
       System Usefulness   &  1-8  & 6.13 & 0.93 \\ 
       Information Quality &  9-15 & 5.66 & 1.20 \\ 
       Interface Quality   & 16-18 & 6.24 & .999 \\ \hline
