@@ -470,7 +470,7 @@ The data exploration tasks are designed to assist the decision making process on
 \item Has the overall health improved after coaching?
 \item Which area of health has improved the most after health coaching?
 \item Which measurements show the biggest improvement?
-\item Understand the difference between the points inside and outside the hFigures.
+\item Understand the difference between the points inside and outside the recommended area.
 \end{enumerate}
 
 \subsection*{Usability Questionnaires}
@@ -523,19 +523,9 @@ During the Cognitive Walkthrough, the concept of the health monitoring applicati
 
 \subsection*{Controlled User Testing}
 
-The Controlled User Testing allowed us to find the most problematic tasks. The results are summarized in table \ref{tbl:tasksResults}. The table \ref{tbl:tasksResults} shows both, crucial or non-crucial errors as a total. Tasks that were not completed by all 14 participants are those in which crucial errors occurred.
+Table \ref{tbl:tasksResults} summarizes the results of the completed, number of errors, average time to complete the task and the standard deviation. All participants completed 7 of the 9 tasks. Task 2 was the most problematic, we asked users to ``choose one of these areas and point to its measurements'', we found that 3 participants were not able to understand the task thus unable to complete it. The second most problematic task was number 9, ``understand the difference between the points inside and outside the recommended area'', where one participant was unable to complete it successfully incurring in one non-crucial mistake (an error that prevent the task to be completed). 
 
-A total of 7 out of the 9 tasks were successfully completed by all 14 participants. The most problematic task was to find the measurements in the area of health (task 2) with 3 out of the 14 participants unable to complete the task. Difficulties with this task were caused by an incorrect default value of the zoom level. This bug was corrected after we concluded the full usability testing.
-
-
-Four participants mistakenly identified the areas of health (task 1) but eventually succeeded.
-
-% The table says that we had no errors in task 6 -> Check.
-
-We counted two errors respectively in identifying the measurement with the furthest deviation from the recommendation (task 4) and determining at least one measurement that improved after the coaching program (task 6).
-
-
-A single error occurred in identifying a measurement inside and another outside the recommendation (task 3), determining the measurement that improved the most after the coaching(task 8) and understanding the difference between the points inside and outside the recommendation (task 9). 
+Additional non-crucial errors occurred in tasks 1, 3, 4, 6 and 8. The large number occurred in the first task due to the initial values set in the default zoom level of the hFigures component. After the usability testing, we corrected this problem by adjusting the initial zoom level to include the whole figures inside the container.
 
 \subsection*{Usability Questionnaires}
 
