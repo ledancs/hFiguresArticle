@@ -192,13 +192,13 @@
 \begin{abstract} % abstract
 
 \parttitle{Background} %if any
-The way we look at data has a great impact on how we can understand it, particularly when the data is related to health and wellness. Due to the increased use of self-tracking devices and the ongoing shift towards preventive medicine, better understanding of our health data is an important part of improving the general welfare of the citizens. Electronic Health Records, self-tracking devices and mobile applications provide a rich variety of data but it often becomes complex and difficult to understand. Recent insight-based studies have shown that normalized visualizations of health data can provides a better understanding on health behaviors and their relationship with the overall wellness. Based on the hGraph visualization developed earlier, we implemented an open source library that addresses some usability issues found on the hGraph and extends its functionality to further enhance health data understanding and analysis including a time-based visualization of the data. We named this library hFigures. The hFigures library provides features to improve the understanding of health data. The library enables comparison of multiple health measurements organizing the measurements in groups separated by a structured layout. The purpose is to enable a visual representation of the evolution of health measurements in a comprehensive and holistic manner. 
+The way we look at data has a great impact on how we can understand it, particularly when the data is related to health and wellness. Due to the increased use of self-tracking devices and the ongoing shift towards preventive medicine, better understanding of our health data is an important part of improving the general welfare of the citizens. Electronic Health Records, self-tracking devices and mobile applications provide a rich variety of data but it often becomes complex and difficult to understand. We implemented the hFigures library inspired on the hGraph visualization with additional improvements. The purpose of the library is to provide a visual representation of the evolution of health measurements in a comprehensive and holistic manner. 
 
 \parttitle{Results} %if any
-We built an application using the hFigures library for health data visualization of a modelled patient in a health coaching program. We performed a user evaluation with Heuristic Evaluation, Controlled User Testing and Usability Questionnaires. The results were satisfactory, users found the library informative and usable with a high score in user satisfaction.
+We built an application using the hFigures library for health data visualization of a modeled patient in a health coaching program. We performed a user evaluation with Heuristic Evaluation, Controlled User Testing and Usability Questionnaires. The results show that users find the application helpful in the decision making process of the health assessment of the modeled patient during the health coaching program.
 
 \parttitle{Conclusions} %if any
-We developed hFigures, an open source library for visualizing a holistic, normalized and comprehensive graphical representation of health data. The idea is based on the concept of the hGraph but it provides additional key features, including a comparison of multiple health measurements over time. We evaluated the library in an application and obtained positive results.
+We developed hFigures, an open source library for visualizing a holistic, normalized and comprehensive graphical representation of health data. The idea is based on the concept of the hGraph but it provides additional key features, including a comparison of multiple health measurements over time. We conducted a comprehensive usability evaluation of the library as a key component of an application for health and wellness monitoring. The results show that the data visualization library has indeed helped users to better understand health data.
 
 \end{abstract}
 
@@ -353,7 +353,7 @@ In the implementation, the library verifies if these additional ranges are prese
 
 \subsection*{Multiple Graph}
 
-The dataset is structured as a set of measurements where each has its own collection of samples. In order to compare the evolution of these measurements, the hFigures library allows the graphical representation of any number of samples. The result is a set of graphs or polygons overlapping or stacking with each other. In order to differentiate them, we use a lighter set of colors so that the users can see the difference between two points in time. As an example, figure \ref{figureHFiguresSimple} shows two different samples for each measurement. This example portrays a modelled person that has been active in a health coach program. Some measurements have improved and are closer to the recommendation. Users repeatedly expressed that it would be very helpful to visualize two or more different points in time so as to compare how the person has evolved. 
+The dataset is structured as a set of measurements where each has its own collection of samples. In order to compare the evolution of these measurements, the hFigures library allows the graphical representation of any number of samples. The result is a set of graphs or polygons overlapping or stacking with each other. In order to differentiate them, we use a lighter set of colors so that the users can see the difference between two points in time. As an example, figure \ref{figureHFiguresSimple} shows two different samples for each measurement. This example portrays a modeled person that has been active in a health coach program. Some measurements have improved and are closer to the recommendation. Users repeatedly expressed that it would be very helpful to visualize two or more different points in time so as to compare how the person has evolved. 
 
 Including multiple graphs has implications in the structure and procedures of the visualization construction. For instance, we structured the SVG document such that each measurement includes one or many plotted circles that map to each sample. The measurement labels need to be positioned considering that a plotted circles can (and probably will) overlap. This is challenge that we address in the next section by finding an optimal label space distribution to avoid labels from overlapping and also to reduce the clutter in the visualization space.
 
@@ -406,13 +406,13 @@ We selected the Usability Questionnaires since it has a high appropriateness ran
 
 \subsection*{Continuous Health Monitoring Application}
 
-In order to test the hFigures library, we designed an application for visualizing the health situation of a modelled patient and how this has changed over time within health coaching program. The objective is to help the users in the decision making process of assessing the overall health situation and weather or not the health program has provided benefits.
+In order to test the hFigures library, we designed an application for visualizing the health situation of a modeled patient and how this has changed over time within health coaching program. The objective is to help the users in the decision making process of assessing the overall health situation and weather or not the health program has provided benefits.
 
 The application has three components: activity timeline, the hFigures data visualization library and longitudinal measurements.
 
-\paragraph*{Activity Timeline} This component represents the health interventions (particular actions) that the modelled patient has done during the health coaching program. During the program, several snapshots of the patient's overall health are taken and visualized using the hFigures library.
+\paragraph*{Activity Timeline} This component represents the health interventions (particular actions) that the modeled patient has done during the health coaching program. During the program, several snapshots of the patient's overall health are taken and visualized using the hFigures library.
 
-\paragraph*{hFigures} The set of measurements taken during the health coaching program is a holistic view of the health situation of the modelled patient. This is suitable to be displayed using the hFigures library which we present in the application. Users can change the time at which the snapshot was taken to compare changes over time as a result of the health interventions.
+\paragraph*{hFigures} The set of measurements taken during the health coaching program is a holistic view of the health situation of the modeled patient. This is suitable to be displayed using the hFigures library which we present in the application. Users can change the time at which the snapshot was taken to compare changes over time as a result of the health interventions.
 
 \paragraph*{Longitudinal Measurements} The application also displays the same set of measurements using longitudinal representation. We included this component to provide additional details on how measurements have changed over the coaching program.
 
@@ -453,7 +453,7 @@ Controlled user testing is comprised of ``a series of commonly used task scenari
 
 As the ``golden standard'' in usability testing, this method has been widely used in evaluating Health Information Systems \cite{johnson2011ehr, borycki2009novice, currie2003clinical, hasman2006development, wu2008usability}
 
-The data exploration tasks are designed to assist the decision making process on the health situation of the modelled patient. The usability scenario was the main goal of the intended use of the application. We explain the participants the purpose of the application, which is to facilitate the decision making process weather or not the overall health situation of the modelled patient is favourable and weather or not the health coaching program was beneficial for the patient. The tasks are designed to represent the common usage of the application, namely to find the measurements inside and outside of the recommendation and to identify the areas that improved and need even further improvement. The tasks given to the participants are shown in the following list.
+The data exploration tasks are designed to assist the decision making process on the health situation of the modeled patient. The usability scenario was the main goal of the intended use of the application. We explain the participants the purpose of the application, which is to facilitate the decision making process weather or not the overall health situation of the modeled patient is favourable and weather or not the health coaching program was beneficial for the patient. The tasks are designed to represent the common usage of the application, namely to find the measurements inside and outside of the recommendation and to identify the areas that improved and need even further improvement. The tasks given to the participants are shown in the following list.
 \begin{enumerate}
 \item How many areas of health are displayed in the hFigures?
 \item Choose one of these areas and point to its measurements.
@@ -478,7 +478,7 @@ We used two Usability Questionnaires to evaluate the usability of our applicatio
 
 \subsection*{Data Model}
 
-Similar to the study we conducted in the insight-based methodology \citep{EMBCLedNiem}, we modeled a patient using clinical expertise of a physician along with the most common symptoms for developing Type II Diabetes. The modelled patient consisted of a set of measurements over time comprised of the following parameters:
+Similar to the study we conducted in the insight-based methodology \citep{EMBCLedNiem}, we modeled a patient using clinical expertise of a physician along with the most common symptoms for developing Type II Diabetes. The modeled patient consisted of a set of measurements over time comprised of the following parameters:
 
 \begin{itemize}
 	\item Blood pressure: systolic and diastolic blood pressure 
@@ -526,7 +526,7 @@ The three expert users answered the Heuristic Questionnaire in order to identify
 % The notation has a dot at the end of 'al' and both words are italliced :
 % http://blog.apastyle.org/apastyle/2011/02/et-al-when-and-how.html
 
-During the Cognitive Walkthrough, the concept of the health monitoring application was explained to the usability experts. The purpose of the application was explained in the context of the health situation of the modelled patient and how the application visualizes the changes in the health situation over time. We used the usability scenario and tasks to confirm that the interface supports the intended use of the application. The questions comprising the walkthrough, as described by Wharton \textit{et al} \cite{wharton1994cognitive}., were correctly answered by the expert users thus no design or mismatch errors were found.
+During the Cognitive Walkthrough, the concept of the health monitoring application was explained to the usability experts. The purpose of the application was explained in the context of the health situation of the modeled patient and how the application visualizes the changes in the health situation over time. We used the usability scenario and tasks to confirm that the interface supports the intended use of the application. The questions comprising the walkthrough, as described by Wharton \textit{et al} \cite{wharton1994cognitive}., were correctly answered by the expert users thus no design or mismatch errors were found.
 
 \subsection*{Controlled User Testing}
 
@@ -539,9 +539,9 @@ Additional non-crucial errors occurred in tasks 1, 3, 4, 6 and 8. The large numb
 \paragraph*{Computer System Usability Questionnaire (CSUQ)}
 We computed the results according to Lewis, obtaining the average of ``items 1 through 19'' to determine the overall usability rating of the system. System usefulness is the average of items 1 to 8, information quality 9 through 15 and interface quality 16 through 18 \cite{lewis2002psychometric}.
 
-Table \ref{tbl:CSUQSystemUsefulnessResults} shows the results of the system usefulness. The system obtained an average of 6.13 out of 7. Table \ref{tbl:CSUQInformationQualityResults} shows the results of the information quality metric where the application scored a total average of 5.66. The average value is still within the ``agree'' response of the participants, however the notable low value compare to the other metrics might be due to the amount of information presented in textual format in the application. The information was encoded using graphical representations and even though a help document was included in the system, the text was not likely to fulfil the users' expectations. Table \ref{tbl:CSUQInterfaceQualityResults} shows the score for the interface quality where the application obtained an average of 6.24 out of 7. The combined results are shown in table \ref{tbl:CSUQOverallUsabilityResults}. The score of the overall usability is 6.02 with a standard deviation of 1.04. We can determine that all the participants at least ``agreed'' in the Likert scale that the application was useful for the decision making process of assessing the health situation and evolution of the modelled patient.
+Table \ref{tbl:CSUQSystemUsefulnessResults} shows the results of the system usefulness. The system obtained an average of 6.13 out of 7. Table \ref{tbl:CSUQInformationQualityResults} shows the results of the information quality metric where the application scored a total average of 5.66. The average value is still within the ``agree'' response of the participants, however the notable low value compare to the other metrics might be due to the amount of information presented in textual format in the application. The information was encoded using graphical representations and even though a help document was included in the system, the text was not likely to fulfil the users' expectations. Table \ref{tbl:CSUQInterfaceQualityResults} shows the score for the interface quality where the application obtained an average of 6.24 out of 7. The combined results are shown in table \ref{tbl:CSUQOverallUsabilityResults}. The score of the overall usability is 6.02 with a standard deviation of 1.04. We can determine that all the participants at least ``agreed'' in the Likert scale that the application was useful for the decision making process of assessing the health situation and evolution of the modeled patient.
 
-\paragraph*{After Scenario Questionnaire (ASQ)} The average response for the ease of task completion was 6.64 with a standard deviation of 0.842 and for the time required to complete the task 6.64 and a standard deviation of 0.497. The overall satisfaction was 6.46 and a standard deviation of 0.53. The usability of the system had a high score in the ASQ results meaning that the system was suitable for the scenario in the context of the health data visualization of the modelled patient and its evolution over time.
+\paragraph*{After Scenario Questionnaire (ASQ)} The average response for the ease of task completion was 6.64 with a standard deviation of 0.842 and for the time required to complete the task 6.64 and a standard deviation of 0.497. The overall satisfaction was 6.46 and a standard deviation of 0.53. The usability of the system had a high score in the ASQ results meaning that the system was suitable for the scenario in the context of the health data visualization of the modeled patient and its evolution over time.
 
 \subsection*{Identified Issues and Suggested Improvements}
 
@@ -549,7 +549,7 @@ The feedback shows that the main problem was the incomplete visibility of the hF
 
 \section*{Discussion}
 
-The value of a data visualization depends on the knowledge that it can convey to the public. In this section, we claim that hFigures has the potential to be used both in the clinical and personal wellness applications. Large amounts of measurements do not clutter the visualization area as a result of our implementation, figure \ref{figureHFiguresComplex} shows an example of a complex holistic visualization of a modelled patient. The comparison of multiple graphs can provide a meaningful visualization to individuals and clinicians alike. The implementation of hFigures follows an extensible approach and even though it was designed to be used for health data visualization, any dataset that has a target range of values as a reference, can be visualized.
+The value of a data visualization depends on the knowledge that it can convey to the public. In this section, we claim that hFigures has the potential to be used both in the clinical and personal wellness applications. Large amounts of measurements do not clutter the visualization area as a result of our implementation, figure \ref{figureHFiguresComplex} shows an example of a complex holistic visualization of a modeled patient. The comparison of multiple graphs can provide a meaningful visualization to individuals and clinicians alike. The implementation of hFigures follows an extensible approach and even though it was designed to be used for health data visualization, any dataset that has a target range of values as a reference, can be visualized.
 
 \subsection*{Limitations of the Evaluation}
 
@@ -733,7 +733,7 @@ AL and HN are part of the Personal Health Informatics research group from the De
 
 % hFigures complex
 \begin{figure}[h!]
-  \caption{\csentence{A complex hFigures example.} A holistic health assessment of a modelled person comprised of several measurements with two time snapshots showing the person's evolution.}
+  \caption{\csentence{A complex hFigures example.} A holistic health assessment of a modeled person comprised of several measurements with two time snapshots showing the person's evolution.}
   \label{figureHFiguresComplex}
 \end{figure}
 
