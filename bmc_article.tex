@@ -261,8 +261,6 @@ The ongoing shift from reactive to preventive medicine requires that citizens ha
 
 To better understand our health, we need to combine heterogeneous data sources and present the information to the user with a comprehensive and holistic approach. In order to accomplish this, ``new hybrid professionals'' need to integrate health information technologies and visualization design \cite{lesselroth2011data}. The goal is to provide tools for individuals to take better decisions regarding their health. Similarly, doctors and other medical experts need tools and solutions for getting a comprehensive view of the patients health, combining together patient's own measurements and clinical data.
 
-Graphical perception is the ability of an individual to decode the information displayed as graphical objects \cite{baird1978fundamentals} and it is a widely researched field \cite{cleveland1984graphical}. Graphical perception affect how we understand visualized information. In the context of health data, it remains a challenge to design graphical representations for non-medical experts. Graphical representations in this context should enhance the users' ability to understand their health situation and take informed decisions. With this ``deep'' understanding on the health situation, individuals can move towards healthier behaviors.
-
 An innovative approach for health data visualization is the Health Graph (hGraph), released publicly by MITRE corporation \cite{follett2012hgraph}. Based on a previous study \cite{EMBCLedNiem}, we found that the hGraph enhances deep understanding of health data and enables the user to create meaningful health insights based on the interrelationships between the measurements. However, the hGraph shows a static overview of a persons wellness. That is, the values of multiple measurements at one point in time. While this visualization is useful for the purpose of understanding with a quick glance the overall situation, it lacks features such as a clear division of measurements according to their category, a distribution of the labels to avoid clutter and the notion of time or \textit{evolution} of the data. In our previous study \cite{EMBCLedNiem}, users provided feedback on what the hGraph was missing to help them understand the data. We built a visualization library based on this feedback. and open sourced our library under the name Health Figures, or hFigures for short. 
 
 Our hypothesis is postulated as follows, if we fulfill the users' needs from the previous study, we can develop a visualization library that can assist users in the decision making process of assessing the situation of a patient and its evolution over time. In order to test our hypothesis, we built an application for health monitoring. The application is a visualization tool that shows a health coaching program and its effects on the evolution of a modeled patient. We evaluated the software solution using usability tests (Heuristic Evaluation, Controlled User Testing and Usability Questionnaires). The results show that the library helped users to understand better the patient's health situation and its changes over time.
@@ -273,7 +271,7 @@ In this article we present the background research we did on health data visuali
 
 \section*{Background}
 
-\subsection*{Related Work}
+% \subsection*{Related Work}
 
 % This needs to flow a bit better... DONE!
 
@@ -290,6 +288,9 @@ An extensive choice of graphical representation is listed and explained by S. Fe
 DeRidder \textit{et al.} developed a combined approach that retrieves data from Personal Health Records (PHRs), and presents them to individual patients using a ``3D medical graphical avatar'' \cite{de2013web}. The solution is built using HTML5 and WebGL to render 3D graphics using the web browser. Patients can browse ``regions of interests'' on their avatar and explore further the information contained in EHRs as well as in PHRs.
 
 However, as stated by Shneiderman \textit{et al.} \cite{shneiderman2013improving}, new visual representations are needed for ``systematic yet flexible visual analytics processes''. We present an existing tentative solution known as the hGraph, released publicly by MITRE corporation. We describe its main advantages and how they can address these challenges. In a previous study we identified possible improvements and based on our own implementation we addressed these issues and extended the features of the hGraph to better address complex data sources.
+
+\paragraph*{Graphical Perception}
+Graphical perception is the ability of an individual to decode the information displayed as graphical objects \cite{baird1978fundamentals} and it is a widely researched field \cite{cleveland1984graphical}. Graphical perception affect how we understand visualized information. In the context of health data, it remains a challenge to design graphical representations for non-medical experts. Graphical representations in this context should enhance the users' ability to understand their health situation and take informed decisions. With this ``deep'' understanding on the health situation, individuals can move towards healthier behaviors.
 
 \subsection*{Radar Plots}
 
