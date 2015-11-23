@@ -304,31 +304,55 @@ As stated by Shneiderman \textit{et al.} \cite{shneiderman2013improving}, new vi
 
 However, a data visualization is only as good as the ability of the intended audience to decode graphical objects into numerical values which conveys a clear message. Therefore, we have to consider the graphical perception of the users who will benefit from the data visualization. Graphical perception is the ability of an individual to decode the information displayed as graphical objects \cite{baird1978fundamentals}, it has been a widely researched field \cite{cleveland1984graphical}. Graphical perception affect how we understand visualized information. In the context of health data, it remains a challenge to design graphical representations for non-medical experts. Graphical representations in this context should enhance the users' ability to understand their health situation and take informed decisions. With this ``deep'' understanding on the health situation, individuals can move towards healthier behaviors.
 
+The graphical representation of health data requires a holistic approach. A holistic overview of a patient usually is comprised of large amounts of measurements which in turn translates to large datasets. Data visualizations need to scale to accommodate large datasets. Radar Visualizations scale to large datasets due to their circular distribution of the space.
+
 \subsection*{Radar Visualization}
 
 % Background research on radar plots.
 
-Radar visualization scale to large amounts of data entries because the points are distributed among the circumference. Bar charts, lines or scattered plots, pie charts and similar visualizations can quickly grow to a large scale with large datasets. In the case of radar visualizations, the graphical representation scales with the number of points plotted causing the circumference to grow in order to accommodate all the plotted values. Plotted values remain uniformly distributed along the circumference.
+Radar visualization scale to large amounts of data entries because the points are distributed among the circumference. Bar charts, lines or scattered plots, pie charts and similar visualizations can quickly grow to a large scale with large datasets. In the case of radar visualizations, the graphical representation scales with the number of points plotted causing the circumference to grow in order to accommodate all the plotted values. 
+
+% Plotted values remain uniformly distributed along the circumference.
 
 Hoffman \textit{et al}. seem to have ``coined'' the term of ``radial visualization'' \cite{hoffman1997dna, draper2009survey}. The term was the foundation of `` pie chart, starplot, and radar plot'' which are the basis of ``virtually all the radial visualization methods found in the state-of-the-art research'' \cite{draper2009survey}.
 
-Draper \textit{et al}. surveyed radar visualization extensively \cite{draper2009survey}, and proposed ``three main divisions'' in which we can classify them. We review these classification along with common examples.
+Draper \textit{et al}. propose a classification of radial visualizations into ``three main divisions'' each comprised of ``design patterns'' \cite{draper2009survey}.
 
-\paragraph*{Plot Plots} encompass the visualizations that have the center of the radar as the starting point from which ``line segments'' originate \cite{draper2009survey}.
+\paragraph*{Polar Plots}
+These are radar visualizations where the center is the starting point from which ``line segments'' originate \cite{draper2009survey}. According to this classification, polar plots are divided into \textbf{trees} and \textbf{stars}.
 
-\paragraph*{Space Filling} comprises the visualizations that fill ``most or all of the area of a circle'' \cite{draper2009survey}.
+Trees have segments that ``branch off'' and are mostly used for visualizing hierarchical data \cite{draper2009survey}. Examples include \textit{Moiregraph} \cite{draper2009survey, jankun2003moiregraphs} and the \textit{Hyperbolic Browser} \cite{draper2009survey, lamping1996hyperbolic}.
 
-\paragraph*{Ring} groups the visualizations that distribute the nodes ``around the circumference'' \cite{draper2009survey}.
+Stars do not have branches but rather straight segments originating from the center, their common uses include ``ranking of search results'' and ``viewing relationships among disparate entities'' \cite{draper2009survey}. Examples of star patterns include  \textit{Starstruck} \cite{draper2009survey, hetzler1998multi} and \textit{Neighbourhood Explorer} \cite{draper2009survey, Spence2001Information}.
+
+\paragraph*{Space Filling}
+Also referred to as \textit{Radial Space Filling} (RSF) \cite{draper2009survey, yang2002interring}, this category comprises the visualizations that fill ``most or all of the area of a circle'' \cite{draper2009survey}. The classification identifies three patterns: \textbf{Concentric}, \textbf{Spiral} and \textbf{Euler}.
+
+Concentric visualizations ...
+
+Spirals ...
+
+Euler plots
+
+\paragraph*{Ring}
+
+This visualizations distribute the nodes ``around the circumference'' \cite{draper2009survey}. The classification divides these visualizations into \textbf{Connected} and \textbf{Disconnected}.
+
 
 % TODO: Interactivity also according to \cite{draper2009survey}
 
+% hGraph is Ring and Pl
+
+In the context of health data visualization, radar visualizations have a potential to  visualize large amount of datasets due to their clarity in the data representation.
 
 \subsection*{The Health Graph}
 
 The health graph, or hGraph was developed by MITRE Corporation and released to the public in 2010 under the Apache v2.0 license. The design intention of the hGraph is to facilitate the graphical representation and understanding of health data. The data can come from a wide-range of sources such as laboratory tests, physical activity, nutrition, sleep monitors and other sources. The domain of this visualization technique includes Personal Health Informatics, EHR and Personal Health Record (PHR) visualization \cite{follett2012hgraph}.
 
+Following the classification from Draper \textit{et al}, the hGraph could be classified as a Polar Plot and Ring, following the design patterns of a Star and a Connected Ring.
+
 % refer to the figure to improve clarity
-The design consists of a circular space with an area defined by to circumferences. The area represents the minimum and maximum recommended values for a given measurement. For instance, the minimum and maximum fat percentage of a person in a given age. The measurements are represented as circles and their position in the circular space represents how far or close they are from the recommended values. The position is normalized according to the recommended values.
+The hGraph design consists of a circular space with an area defined by to circumferences. The area represents the minimum and maximum recommended values for a given measurement. For instance, the minimum and maximum fat percentage of a person in a given age. The measurements are represented as circles and their position in the circular space represents how far or close they are from the recommended values. The position is normalized according to the recommended values.
 
 The values are distributed in a circular space. A graph is formed by joining the data points around the circular area. This polygon or graph reveals a pattern and its shape provides a quick overview of the general situation of all the values and how they deviate from the recommendations. The hGraph design highlights values outside of the recommendation by using the red color on the data points and by modifying the shape of the graph. The rationale of the hGraph is that if the same measurements are plotted in the same order for various cases, then the graph patterns can reveal similar shapes associated with certain health conditions.
 
