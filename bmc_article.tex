@@ -257,7 +257,7 @@ We developed hFigures, an open source library for visualizing a holistic, normal
 %% Background %%
 
 \section*{Introduction}
-The ongoing shift from reactive to preventive medicine requires that citizens have the skills and means to take an active role in developing and maintaining their wellness. Use of self-tracking devices and personal wellness applications is more and common, ranging from sports tracking applications to personal genome sequence analysis sevices. These services and devices produce large amounts of data. In addition, Electronic Health Records are increasingly replacing paper records in hospitals and clinics around the world. The combination of these large and heterogeneous data sources is expected to provide a ``predictive, preventive, personalized and participatory'' ecosystem for the benefit of the general welfare \cite{Hood2012613}.
+The ongoing shift from reactive to preventive medicine requires that citizens have the skills and means to take an active role in developing and maintaining their wellness. Use of self-tracking devices and personal wellness applications is more and more common, ranging from sports tracking applications to personal genome sequence analysis sevices. These services and devices produce large amounts of data. In addition, Electronic Health Records are increasingly replacing paper records in hospitals and clinics around the world. The combination of these large and heterogeneous data sources is expected to provide a ``predictive, preventive, personalized and participatory'' ecosystem for the benefit of the general welfare \cite{Hood2012613}.
 
 To better understand our health, we need to combine heterogeneous data sources and present the information to the user with a comprehensive and holistic approach. In order to accomplish this, health information technologies and visualization design need to be integrated \cite{lesselroth2011data}. The goal is to provide tools for individuals to take better  decisions regarding their health. Similarly, doctors and other medical experts need tools and solutions for getting a comprehensive view of the patients health, combining together patient's own measurements and clinical data.
 
@@ -270,8 +270,7 @@ An innovative approach for health data visualization is the Health Graph (hGraph
 % Here is the earler text for reference
 %An innovative approach for health data visualization is the Health Graph (hGraph), released publicly by MITRE corporation \cite{follett2012hgraph}. Based on a previous study \cite{EMBCLedNiem}, we found that the hGraph enhances deep understanding of health data and enables the user to create meaningful health insights based on the interrelationships between the measurements. However, the hGraph shows a static overview of a persons wellness. That is, the values of multiple measurements at one point in time. While this visualization is useful for the purpose of understanding with a quick glance the overall situation, it lacks features such as a clear division of measurements according to their category, a distribution of the labels to avoid clutter and the notion of time or \textit{evolution} of the data. In our previous study \cite{EMBCLedNiem}, users provided feedback on what the hGraph was missing to help them understand the data. We built a visualization library based on this feedback. and open sourced our library under the name Health Figures, or hFigures for short. 
 
-% Hannu's comment to address...
-% We should add some sentences about that link to reviewer one comments about the polar plot. This could be a new paragraph after the second chapter (now ending “…. And clinical data”.  In the introduction we could state first something about “ … several parameters are interlinked and affect the disease and wellness…” and justify why a snapshot of the current state is important. But then we should also state that l“…Disease and wellness are processes that change over time.  This it is also essentially important to be able to follow up also the trajectories in the different parameters, what is the rate of the change  and how they respond to events such as medical care actions and interventions.”  
+% Hannu's comment to address... (Hannu: I think this is now addressed after my changes, I now remove this comment .... removed :-)
  
 % This hypothesis part does not work yet
 % we cannot I think refer in this kind of way to an earlier study
@@ -281,7 +280,7 @@ In this article we present a visualization library that aims to assist experts a
 % this was your earlier text
 %Our hypothesis is postulated as follows, if we fulfill the users' needs from the previous study, we can develop a visualization library that can assist users in the decision making process of assessing the situation of a patient and its evolution over time. In order to test our hypothesis, we built an application for health monitoring. The application is a visualization tool that shows a health coaching program and its effects on the evolution of a modeled patient. We evaluated the software solution using usability tests (Heuristic Evaluation, Controlled User Testing and Usability Questionnaires). The results show that the library helped users to understand better the patient's health situation and its changes over time.
 
-First in this article we present the background research we did on health data visualizations, the hGraph and the previous study as a motivation for the development of hFigures. The article details the design and implementation of the hFigures library, the features we implemented and how they address the users' needs. We also describe the usability test process we utilized to assess the library in the context of an application for health monitoring. We present the results and discuss the further improvements of the library and its pitfalls. We also discuss how this library can be used in Personal Health Informatics and in the Health Care processes.
+First in this article we review the state-of-the-art on health data visualizations and describe the hGraph and results related to its usability and usefulness, which motivated us to develop hGraph further. We named the new library built on top of the hGraph core ideas as hFigures. The article details the design and implementation of the hFigures library, the features we implemented and how they address the users' needs. We also describe the usability test process we utilized to assess the library in the context of an application for health monitoring. We present the results and discuss the further improvements of the library and its pitfalls. We also discuss how this library can be used in Personal Health Informatics and in the Health Care processes.
 
 \section*{Background}
 
@@ -323,6 +322,8 @@ The values are distributed in a circular space. A graph is formed by joining the
 \paragraph*{Web-based Solution}
 Web-based solutions for data visualization provide flexibility, as they can be accessed by any web browser, either from mobile devices or personal computers. The hGraph uses a web approach via HyperText Markup Language (HTML) and Scalable Vector Graphics (SVG). The programming language of the library is JavaScript and is built using the Data-Driven Documents library. Data-Driven Documents (D3.js) library provides free access to the Document Object Model (DOM), which is the substrate that enables the programmer to interface with the graphical representations in a web browser \cite{bostock2011d3}.
 
+% Addressing Hannu's comment. We should refer to the EMBC article as an independent research not as "our" previous study.
+% Cite the paper after the words .."... a previous study...."
 \paragraph*{hGraph as an Insightful Visualization}
 Based on the approach proposed by C. North \cite{north2006toward}, a previous study compared visualizations based on how well users derived meaningful insights. The study compared the hGraph visualization along with four alternatives based on the Graphical Perception Framework proposed by Cleveland McGill \cite{cleveland1984graphical}. The study compared the same data plotted with these five alternatives plus a control group which had the numerical data with no visualization. The data was comprised by a set of measurements of two modelled patients. The first patient had an elevated at risk of developing Type II Diabetes and the second one had a low risk due to a healthy lifestyle (regular exercise and a balanced diet). The evaluation followed the insight-based methodology similar to other experiments for visualizing genetic expressions \cite{saraiya2004evaluation}. The experiment determined how these visualizations can enable users to understand the overall health situation of the modelled patient with poor health, as well as the possible causes behind that patient's situation. The hGraph was found to be the most effective solutions for creating meaningful insights and to help users to better understand the data.
 
@@ -337,9 +338,9 @@ Figure \ref{figureHGraphZoom} is an example of the hGraph visualization. The fig
 
 \section*{Implementation} 
 
-% Throughout the design and implementation of our library, we adopted a user-centered approach. Invited users gave us continuous feedback on how they would understand the data better and what features would improve their experience with the library. Based on iterative design sessions and implementation of prototypes we developed the features based on how they enhance the usability and utility of the library.
+% Throughout the design and implementation of our library, we adopted a user-centered approach. Invited users gave us continuous feedback on how they would understand the data better and what features would improve their experience with the library. Based on iterative design sessions and implementation of prototypes we developed the features based on how they enhance the usability and utility of the library. We named our library Health Figures (hFigures) based on the fact that we obtained our inspiration from the hGraph but eventually extended the library to include multiple graphs giving the notion of several intertwined figures.
 
-In this chapter we detailed the implementation methodology and the key features implemented in the library. We named the library Health Figures (hFigures) because it is based on the design principles of the hGraph. hFigures makes an emphasis on multiple graphs, or figures, in order to provide a graphical representation of evolution of the data over time (multiple snapshots of the data at certain points in time).
+% This chapter explains the implementation process in our approach based on user feedback and on previous experiments \cite{EMBCLedNiem}. 
 
 \subsection*{Methodology}
 
@@ -350,11 +351,11 @@ In this chapter we detailed the implementation methodology and the key features 
 % "Design Patterns and Refactoring", University of Pennsylvania, 2003, webpage: UPenn-Lectures-design-patterns.
 % "Extreme Programming" USFCA-edu-601-lecture.
 
-The implementation of the hFigres followed the Extreme Programming methodology \cite{roebuck2012agile, beck2000extreme}. The implementation of the library was driven by the main features the hGraph was missing according to a previous insight-based study  \cite{EMBCLedNiem}, the main key requirement was to provide a visualization which represents the changes in the overall health situation.
+The implementation of the hFigres followed the Extreme Programming methodology \cite{roebuck2012agile, beck2000extreme}. The requirements came from the previous study using insight-based methodology and briefing interviews \cite{EMBCLedNiem}. Extreme Programming focuses on continuous release of software and constant validation with its users. Often these requirements change and the programming practice is to address this changes to the ``extreme'', meaning to prioritize them at the top of the change list in order to produce a new release and receive feedback as soon as possible.
 
-Extreme Programming focuses on continuous software releases which undergo a review process \cite{beck2000extreme}. Often these requirements change and the programming practice is to address this changes to the ``extreme'', meaning to prioritize them at the top of the change list in order to produce a new release and receive feedback as soon as possible \cite{roebuck2012agile, beck2000extreme}.
+In our development stage our research group provided feedback on the library. Our research group has expertise in Health Sciences, Signal Processing, User Design, Software Engineering and Machine Learning. Requirements often changed and constant releases were assessed by our research group. The development of the health monitoring application for the usability testing followed the practice of pair reviewing.
 
-During the implementation of the library, our research group provided the continuous review process of the software. Our research group has expertise in Health Sciences, Signal Processing, User Design, Software Engineering and Machine Learning. Requirements often changed and constant releases were assessed by our research group. The development of the health monitoring application followed the practice of pair programming, as it is often the case in Extreme Programming \cite{roebuck2012agile}.
+
 
 \subsection*{Data Source}
 
@@ -433,7 +434,7 @@ We selected the Usability Questionnaires since it has a high appropriateness ran
 
 \subsection*{Continuous Health Monitoring Application}
 
-In order to test the hFigures library, we designed an application for visualizing the health situation of a modeled patient and how this has changed over time within health coaching program. The objective is to help the users in the decision making process of assessing the overall health situation and weather or not the health program has provided benefits.
+In order to test the hFigures library, we designed an application for visualizing the health situation of a modeled patient and how this has changed over time within health coaching program. The objective is to help the users in the decision making process of assessing the overall health situation and whether or not the health program has provided benefits.
 
 The application has three components: activity timeline, the hFigures data visualization library and longitudinal measurements.
 
