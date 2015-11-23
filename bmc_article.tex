@@ -337,9 +337,9 @@ Figure \ref{figureHGraphZoom} is an example of the hGraph visualization. The fig
 
 \section*{Implementation} 
 
-% Throughout the design and implementation of our library, we adopted a user-centered approach. Invited users gave us continuous feedback on how they would understand the data better and what features would improve their experience with the library. Based on iterative design sessions and implementation of prototypes we developed the features based on how they enhance the usability and utility of the library. We named our library Health Figures (hFigures) based on the fact that we obtained our inspiration from the hGraph but eventually extended the library to include multiple graphs giving the notion of several intertwined figures.
+% Throughout the design and implementation of our library, we adopted a user-centered approach. Invited users gave us continuous feedback on how they would understand the data better and what features would improve their experience with the library. Based on iterative design sessions and implementation of prototypes we developed the features based on how they enhance the usability and utility of the library.
 
-% This chapter explains the implementation process in our approach based on user feedback and on previous experiments \cite{EMBCLedNiem}. 
+In this chapter we detailed the implementation methodology and the key features implemented in the library. We named the library Health Figures (hFigures) because it is based on the design principles of the hGraph. hFigures makes an emphasis on multiple graphs, or figures, in order to provide a graphical representation of evolution of the data over time (multiple snapshots of the data at certain points in time).
 
 \subsection*{Methodology}
 
@@ -350,11 +350,11 @@ Figure \ref{figureHGraphZoom} is an example of the hGraph visualization. The fig
 % "Design Patterns and Refactoring", University of Pennsylvania, 2003, webpage: UPenn-Lectures-design-patterns.
 % "Extreme Programming" USFCA-edu-601-lecture.
 
-The implementation of the hFigres followed the Extreme Programming methodology \cite{roebuck2012agile, beck2000extreme}. The requirements came from the previous study using insight-based methodology and briefing interviews \cite{EMBCLedNiem}. Extreme Programming focuses on continuous release of software and constant validation with its users. Often these requirements change and the programming practice is to address this changes to the ``extreme'', meaning to prioritize them at the top of the change list in order to produce a new release and receive feedback as soon as possible.
+The implementation of the hFigres followed the Extreme Programming methodology \cite{roebuck2012agile, beck2000extreme}. The implementation of the library was driven by the main features the hGraph was missing according to a previous insight-based study  \cite{EMBCLedNiem}, the main key requirement was to provide a visualization which represents the changes in the overall health situation.
 
-In our development stage our research group provided feedback on the library. Our research group has expertise in Health Sciences, Signal Processing, User Design, Software Engineering and Machine Learning. Requirements often changed and constant releases were assessed by our research group. The development of the health monitoring application for the usability testing followed the practice of pair reviewing.
+Extreme Programming focuses on continuous software releases which undergo a review process \cite{beck2000extreme}. Often these requirements change and the programming practice is to address this changes to the ``extreme'', meaning to prioritize them at the top of the change list in order to produce a new release and receive feedback as soon as possible \cite{roebuck2012agile, beck2000extreme}.
 
-
+During the implementation of the library, our research group provided the continuous review process of the software. Our research group has expertise in Health Sciences, Signal Processing, User Design, Software Engineering and Machine Learning. Requirements often changed and constant releases were assessed by our research group. The development of the health monitoring application followed the practice of pair programming, as it is often the case in Extreme Programming \cite{roebuck2012agile}.
 
 \subsection*{Data Source}
 
