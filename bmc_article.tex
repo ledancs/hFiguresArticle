@@ -632,7 +632,7 @@ In order to specify the recommended range for these measurements in the hFigures
 
 \subsection*{Limitations}
 
-Shortcomings and problems we want to address in the further release.
+The library reads the data in JSON format and does not support XML, which is still used by some Health Information Systems. Data files need to be included in the same HTML file and used to create an instance of the hFigures class. The library does not retrieve the data remotely by itself so the data provision is the responsibility of the developer. Other libraries provide an AJAX interface through HTTP(S) communication to an endpoint in order to retrieve the data. The information in the nodes comes entirely from data source file, which means that additional information about the measurements cannot be supplied otherwise. The extraction of the SVG file requires to export the code embedded in the HTML file. Currently no automatic export functionality is implemented.
 
 \subsection*{Further Development}
 
