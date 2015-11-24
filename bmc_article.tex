@@ -195,10 +195,10 @@
 The way we look at data has a great impact on how we can understand it, particularly when the data is related to health and wellness. Due to the increased use of self-tracking devices and the ongoing shift towards preventive medicine, better understanding of our health data is an important part of improving the general welfare of the citizens. Electronic Health Records, self-tracking devices and mobile applications provide a rich variety of data but it often becomes complex and difficult to understand. We implemented the hFigures library inspired on the hGraph visualization with additional improvements. The purpose of the library is to provide a visual representation of the evolution of health measurements in a comprehensive and holistic manner. 
 
 \parttitle{Results} %if any
-We built an application using the hFigures library for health data visualization of a modeled patient in a health coaching program. We performed a user evaluation with Heuristic Evaluation, Controlled User Testing and Usability Questionnaires. The results show that users find the application helpful in the decision making process of the health assessment of the modeled patient during the health coaching program.
+We researched the usefulness and usability of the library by building an application for health data visualization in a health coaching program. We performed a user evaluation with Heuristic Evaluation, Controlled User Testing and Usability Questionnaires. In the Heuristics Evaluation the average response was 6.3 out of 7 points and the Cognitive Walkthrough done by usability experts indicated no design or mismatch errors. In the CSUQ usability test the system obtained an average score of 6.13 out of 7, and in the ASQ usability test the overall satisfaction score was 6.64 out of 7.
 
 \parttitle{Conclusions} %if any
-We developed hFigures, an open source library for visualizing a holistic, normalized and comprehensive graphical representation of health data. The idea is based on the concept of the hGraph but it provides additional key features, including a comparison of multiple health measurements over time. We conducted a comprehensive usability evaluation of the library as a key component of an application for health and wellness monitoring. The results show that the data visualization library has indeed helped users to better understand health data.
+We developed hFigures, an open source library for visualizing a holistic, normalized and comprehensive graphical representation of health data. The idea is based on the concept of the hGraph but it provides additional key features, including a comparison of multiple health measurements over time. We conducted a comprehensive usability evaluation of the library as a key component of an application for health and wellness monitoring. The results indicate that the data visualization library was helpful in assisting users in understanding health data and its evolution over time.
 
 \end{abstract}
 
@@ -257,7 +257,7 @@ We developed hFigures, an open source library for visualizing a holistic, normal
 %% Background %%
 
 \section*{Introduction}
-The ongoing shift from reactive to preventive medicine requires that citizens have the skills and means to take an active role in developing and maintaining their wellness. Use of self-tracking devices and personal wellness applications is more and more common, ranging from sports tracking applications to personal genome sequence analysis sevices. These services and devices produce large amounts of data. In addition, Electronic Health Records are increasingly replacing paper records in hospitals and clinics around the world. The combination of these large and heterogeneous data sources is expected to provide a ``predictive, preventive, personalized and participatory'' ecosystem for the benefit of the general welfare \cite{Hood2012613}.
+The ongoing shift from reactive to preventive medicine requires that citizens have the skills and means to take an active role in developing and maintaining their wellness. Use of self-tracking devices and personal wellness applications is more and more common, ranging from sports tracking applications to personal genome sequence analysis services. These services and devices produce large amounts of data. In addition, Electronic Health Records are increasingly replacing paper records in hospitals and clinics around the world. The combination of these large and heterogeneous data sources is expected to provide a ``predictive, preventive, personalized and participatory'' ecosystem for the benefit of the general welfare \cite{Hood2012613}.
 
 To better understand our health, we need to combine heterogeneous data sources and present the information to the user with a comprehensive and holistic approach. In order to accomplish this, health information technologies and visualization design need to be integrated \cite{lesselroth2011data}. The goal is to provide tools for individuals to take better  decisions regarding their health. Similarly, doctors and other medical experts need tools and solutions for getting a comprehensive view of the patients health, combining together patient's own measurements and clinical data.
 
@@ -275,7 +275,7 @@ An innovative approach for health data visualization is the Health Graph (hGraph
 % This hypothesis part does not work yet
 % we cannot I think refer in this kind of way to an earlier study
 % Test both during and after development the user satisfaction, ease-of-use and usefulness of the developed solution. I propose the following text
-In this article we present a visualization library that aims to assist experts and non-experts in the decision making process of assessing the situation of a patient and its evolution over time. To test the user satisfaction, ease-of-use and usefulness of the solution, we built an application for health monitoring using the visualization library . The application is a visualization tool that shows a health coaching program and its effects on the evolution of a modeled patient. We evaluated the software solution using usability tests (Heuristic Evaluation, Controlled User Testing and Usability Questionnaires).  
+In this article we present a visualization library based on extending the core ideas of the hGraph. Aim of the library is to provide tools to assist experts and non-experts in the decision making process of assessing the situation of a patient and its evolution over time. To test the user satisfaction, ease-of-use and usefulness of the solution, we built an application for health monitoring using the visualization library. The application is a visualization tool that shows a health coaching program and its effects on the evolution of health and wellness of a modeled patient. We evaluated the software solution using usability tests (Heuristic Evaluation, Controlled User Testing and Usability Questionnaires).  
 
 % this was your earlier text
 %Our hypothesis is postulated as follows, if we fulfill the users' needs from the previous study, we can develop a visualization library that can assist users in the decision making process of assessing the situation of a patient and its evolution over time. In order to test our hypothesis, we built an application for health monitoring. The application is a visualization tool that shows a health coaching program and its effects on the evolution of a modeled patient. We evaluated the software solution using usability tests (Heuristic Evaluation, Controlled User Testing and Usability Questionnaires). The results show that the library helped users to understand better the patient's health situation and its changes over time.
@@ -294,13 +294,13 @@ Additionally, the growing market for mobile health applications (mHealth) have d
 
 Goetze \cite{goetz2015} demonstrated the impact of data visualization as means to represent health data in a comprehensive manner. He conducted a project that redesigned laboratory test results from numerical tables into colored graphics. He demonstrated that the patients were able to understand better their health situation when presented with the new designs.
 
-Data integration for health monitoring as a Big Data process for personalized medicine has been approached by \cite{7072838}. The visualization of this information uses traditional bar and pie charts to report to the user a historical view of a variety of data including mental, social, physical aspects. The novelty of this work is the integration of heterogeneous data sources while the presentation of the information was done following existing graphical representations.
+Data integration for health monitoring as a Big Data process for personalized medicine has been approached by Idris \textit{et al}. \cite{7072838}. The visualization of this information uses traditional bar and pie charts to report to the user a historical view of a variety of data including mental, social, physical aspects. The novelty of this work is the integration of heterogeneous data sources while the presentation of the information was done following existing graphical representations.
 
 An extensive choice of graphical representation is listed and explained by S. Few \cite{few2006information}. These techniques have been studied and used widely among researchers and individuals alike. Examples include: bar, stacked bar, line and bullet graphs. These visualizations can be combined to provide a personalized wellness indicator system, as proposed by Soomlek and Benedicenti \cite{Soomlek:2013:AWI:2532685.2532686}.
 
 DeRidder \textit{et al.} developed a combined approach that retrieves data from Personal Health Records (PHRs), and presents them to individual patients using a ``3D medical graphical avatar'' \cite{de2013web}. The solution is built using HTML5 and WebGL to render 3D graphics using the web browser. Patients can browse ``regions of interests'' on their avatar and explore further the information contained in EHRs as well as in PHRs.
 
-As stated by Shneiderman \textit{et al.} \cite{shneiderman2013improving}, new visual representations are needed for ``systematic yet flexible visual analytics processes''. We present an existing tentative solution known as the hGraph, released publicly by MITRE corporation. We describe its main advantages and how they can address these challenges. In a previous study we identified possible improvements and based on our own implementation we addressed these issues and extended the features of the hGraph to better address complex data sources.
+As stated by Shneiderman \textit{et al.} \cite{shneiderman2013improving}, new visual representations are needed for ``systematic yet flexible visual analytics processes''. We present an existing tentative solution known as the hGraph, released publicly by MITRE corporation. We describe its main advantages and how they can address these challenges. In a previous study \cite{EMBCLedNiem} we identified possible improvements and based on our own implementation we addressed these issues and extended the features of the hGraph to better address complex data sources.
 
 However, a data visualization is only as good as the ability of the intended audience to decode graphical objects into numerical values which conveys a clear message. Therefore, we have to consider the graphical perception of the users who will benefit from the data visualization. Graphical perception is the ability of an individual to decode the information displayed as graphical objects \cite{baird1978fundamentals}, it has been a widely researched field \cite{cleveland1984graphical}. Graphical perception affect how we understand visualized information. In the context of health data, it remains a challenge to design graphical representations for non-medical experts. Graphical representations in this context should enhance the users' ability to understand their health situation and take informed decisions. With this ``deep'' understanding on the health situation, individuals can move towards healthier behaviors.
 
@@ -310,11 +310,11 @@ The graphical representation of health data requires a holistic approach. A holi
 
 % Background research on radar plots.
 
-Radar visualization scale to large amounts of data entries because the points are distributed among the circumference. Bar charts, lines or scattered plots, pie charts and similar visualizations can quickly grow to a large scale with large datasets. In the case of radar visualizations, the graphical representation scales with the number of points plotted causing the circumference to grow in order to accommodate all the plotted values. 
+Radar visualization scales to large amounts of data entries because the points are distributed among the circumference. Bar charts, lines or scattered plots, pie charts and similar visualizations can quickly grow to a large scale with large datasets. In the case of radar visualizations, the graphical representation scales with the number of points plotted causing the circumference to grow in order to accommodate all the plotted values. 
 
 % Plotted values remain uniformly distributed along the circumference.
 
-Hoffman \textit{et al}. seem to have ``coined'' the term of ``radial visualization'' \cite{hoffman1997dna, draper2009survey}. The term was the foundation of `` pie chart, starplot, and radar plot'' which are the basis of ``virtually all the radial visualization methods found in the state-of-the-art research'' \cite{draper2009survey}.
+Hoffman \textit{et al}. seem to have coined the term of ``radial visualization'' \cite{hoffman1997dna, draper2009survey}. The term was the foundation of `` pie chart, starplot, and radar plot'' which are the basis of ``virtually all the radial visualization methods found in the state-of-the-art research'' \cite{draper2009survey}.
 
 Draper \textit{et al}. propose a classification of radial visualizations into ``three main divisions'' each comprised of ``design patterns'' \cite{draper2009survey}.
 
@@ -355,7 +355,7 @@ The health graph, or hGraph was developed by MITRE Corporation and released to t
 Following the classification from Draper \textit{et al}, the hGraph could be classified as a Polar Plot and Ring, following the design patterns of a Star and a Connected Ring.
 
 % refer to the figure to improve clarity
-The hGraph design consists of a circular space with an area defined by to circumferences. The area represents the minimum and maximum recommended values for a given measurement. For instance, the minimum and maximum fat percentage of a person in a given age. The measurements are represented as circles and their position in the circular space represents how far or close they are from the recommended values. The position is normalized according to the recommended values.
+The hGraph design consists of a circular space with an area defined by to circumferences. The area represents the minimum and maximum recommended values for a given measurement. For instance, the minimum and maximum recommended fat percentage of a person in a given age. The measurements are represented as circles and their position in the circular space represents how far or close they are from the recommended values. The position is normalized according to the recommended values.
 
 The values are distributed in a circular space. A graph is formed by joining the data points around the circular area. This polygon or graph reveals a pattern and its shape provides a quick overview of the general situation of all the values and how they deviate from the recommendations. The hGraph design highlights values outside of the recommendation by using the red color on the data points and by modifying the shape of the graph. The rationale of the hGraph is that if the same measurements are plotted in the same order for various cases, then the graph patterns can reveal similar shapes associated with certain health conditions.
 
@@ -365,7 +365,7 @@ Web-based solutions for data visualization provide flexibility, as they can be a
 % Addressing Hannu's comment. We should refer to the EMBC article as an independent research not as "our" previous study.
 % Cite the paper after the words .."... a previous study...."
 \paragraph*{hGraph as an Insightful Visualization}
-Based on the approach proposed by C. North \cite{north2006toward}, a previous study compared visualizations based on how well users derived meaningful insights. The study compared the hGraph visualization along with four alternatives based on the Graphical Perception Framework proposed by Cleveland McGill \cite{cleveland1984graphical}. The study compared the same data plotted with these five alternatives plus a control group which had the numerical data with no visualization. The data was comprised by a set of measurements of two modelled patients. The first patient had an elevated at risk of developing Type II Diabetes and the second one had a low risk due to a healthy lifestyle (regular exercise and a balanced diet). The evaluation followed the insight-based methodology similar to other experiments for visualizing genetic expressions \cite{saraiya2004evaluation}. The experiment determined how these visualizations can enable users to understand the overall health situation of the modelled patient with poor health, as well as the possible causes behind that patient's situation. The hGraph was found to be the most effective solutions for creating meaningful insights and to help users to better understand the data.
+Based on the approach proposed by C. North \cite{north2006toward}, a previous study \cite{EMBCLedNiem} compared visualizations based on how well users derived meaningful insights. The study compared the hGraph visualization along with four alternatives based on the Graphical Perception Framework proposed by Cleveland McGill \cite{cleveland1984graphical}. The study compared the same data plotted with these five alternatives plus a control group which had the numerical data with no visualization. The data was comprised by a set of measurements of two modelled patients. The first patient had an elevated at risk of developing Type II Diabetes and the second one had a low risk due to a healthy lifestyle (regular exercise and a balanced diet). The evaluation followed the insight-based methodology similar to other experiments for visualizing genetic expressions \cite{saraiya2004evaluation}. The experiment determined how these visualizations can enable users to understand the overall health situation of the modelled patient with poor health, as well as the possible causes behind that patient's situation. The hGraph was found to be the most effective solutions for creating meaningful insights and to help users to better understand the data.
 
 % HANNU: This next chapter starting with Data points... need sclarification, the meaning is not totally clear.
 
@@ -382,7 +382,7 @@ In this chapter we detailed the implementation methodology and the key features 
 
 \subsection*{Methodology}
 
-The implementation of the hFigres followed the Extreme Programming methodology \cite{roebuck2012agile, beck2000extreme}. The main key requirement was to provide a visualization which represents the changes in the overall health situation. In addition, the implementation addressed the features that the users requested in a previous study \citep{EMBCLedNiem}.
+The implementation of the hFigures followed the Extreme Programming methodology \cite{roebuck2012agile, beck2000extreme}. The main key requirement was to provide a visualization which represents the changes in the overall health situation. In addition, the implementation addressed the features that the users requested in a previous study \citep{EMBCLedNiem}.
 
 Extreme Programming focuses on releasing and reviewing functional software continuously \cite{beck2000extreme}. Often these requirements change and the programming practice is to address this changes by prioritizing them at the top of the change list.
 
@@ -461,23 +461,23 @@ The health data visualization library was placed in the context of a full applic
 
 Nielsen suggests that ```usability has multiple components and is traditionally associated with the five usability attributes, which are learnability, efficiency, memorability, errors, and satisfaction'' \cite{nielsen1994usability}. In order to assess the usability of the software solution, multiple alternatives exist in industry and research. Johnson \textit{et al}. developed a toolkit for usability testing of Electronic Health Records commissioned by the Agency for Healthcare Research and Quality of the U.S. Department of Health and Human Services \cite{johnson2011ehr}. The toolkit is built on the basis of the assessment of existing usability methods in the context of Electronic Health Records and Health Information systems. The toolkit is a detailed analysis of the usability methods, their advantages, disadvantages and appropriateness ranking.
 
-We selected the Usability Questionnaires since it has a high appropriateness ranking \cite{johnson2011ehr}. We were able to recruit three usability experts to conduct the Heuristic Evaluation and the Cognitive Walkthrough, both are recommended techniques to complement the evaluation. We concluded the evaluation with Controlled User Testing since we had a laboratory and the necessary tools to conduct the tests.
+We selected the Usability Questionnaires since it has a high appropriateness ranking \cite{johnson2011ehr}. We were able to recruit three usability experts to conduct the Heuristic Evaluation and the Cognitive Walkthrough, both are recommended techniques to complement the evaluation. We concluded the evaluation using the principles of Controlled User Testing.
 
 \subsection*{Continuous Health Monitoring Application}
 
-In order to test the hFigures library, we designed an application for visualizing the health situation of a modeled patient and how this has changed over time within health coaching program. The objective is to help the users in the decision making process of assessing the overall health situation and whether or not the health program has provided benefits.
+In order to test the hFigures library, we designed an application for visualizing the health situation of a modeled patient and how this has changed over time within a health coaching program. The objective is to help the users in the decision making process of assessing the overall health situation and whether or not the health program has provided benefits.
 
 The application has three components: activity timeline, the hFigures data visualization library and longitudinal measurements.
 
 \paragraph*{Activity Timeline} This component represents the health interventions (particular actions) that the modeled patient has done during the health coaching program. During the program, several snapshots of the patient's overall health are taken and visualized using the hFigures library.
 
-\paragraph*{hFigures} The set of measurements taken during the health coaching program is a holistic view of the health situation of the modeled patient. This is suitable to be displayed using the hFigures library which we present in the application. Users can change the time at which the snapshot was taken to compare changes over time as a result of the health interventions.
+\paragraph*{hFigures} The developed hFigures library is utilized to display the set of measurements taken during the health coaching program. These measurements describe a holistic view of the health situation of the modeled patient. Users can change the time at which the snapshot was taken to compare changes over time as a result of the health interventions.
 
-\paragraph*{Longitudinal Measurements} The application also displays the same set of measurements using longitudinal representation. We included this component to provide additional details on how measurements have changed over the coaching program.
+\paragraph*{Longitudinal Measurements} The application also displays the same set of measurements using longitudinal temporal representation. We included this component to provide additional details and trends on how the measurements have changed over the coaching program.
 
 \subsection*{Heuristic Evaluation}
 
-Heuristic Evaluation requires at least one expert in the area of human-computer interaction \cite{nielsen1994usability, johnson2011ehr}. For our evaluation we recruited three experts, they assessed the application using Nielsen's heuristics \cite{nielsen1994usability}. The evaluation has 11 metrics evaluated using a seven point Likert scale, where the value 1 indicates ``strongly disagree'' and 7 ``strongly agree''
+Heuristic Evaluation requires at least one expert in the area of human-computer interaction \cite{nielsen1994usability, johnson2011ehr}. For our evaluation we recruited three experts, and they assessed the application using Nielsen's heuristics \cite{nielsen1994usability}. The evaluation has 11 metrics evaluated using a seven point Likert scale, where the value 1 indicates ``strongly disagree'' and 7 ``strongly agree''
 
 % REF here!
 % http://www.nngroup.com/articles/ten-usability-heuristics/
@@ -493,7 +493,7 @@ Heuristics are ``rules of thumb'' comprised of 10 principles meant to assist the
 \item \textit{Flexibility and efficiency of use} : The interface should accommodate the novice and advance user by providing ``tailored frequent actions'' (Shortcuts).
 \item \textit{Aesthetic and minimalist design} : The dialogues should only contain relevant and clear information that is timely needed at that particular state of the interface (Simple and Natural Dialogue).
 \item \textit{Help Users recognize, diagnose, and recover from errors} : Plain language should be used in error messages, and whenever possible they should provide helpful information so that the users can take constructive actions. (Good Error Messages)
-\item Help and documentation : In some, systems require documentation and guidelines to explain briefly how to accomplish specific tasks in ``concrete steps''.
+\item \textit{Help and documentation} : Some systems require documentation and guidelines to explain briefly how to accomplish specific tasks in concrete steps.
 \end{enumerate}
 
 \subsection*{Cognitive Walkthrough}
@@ -573,7 +573,7 @@ We conducted the usability tests in our laboratory. We used a computer with a lo
 
 \subsection*{Heuristic Evaluation}
 
-The three expert users answered the Heuristic Questionnaire in order to identify problems with the user interface of the health monitoring application. The three experts agreed and in some cases strongly agreed most of the indicators. One expert found the instructions for adjusting the time of the visualization tool to be demanding. The expert addressed this comment to the integration interface that allows the time to be adjusted and thus visualized. The remark was not addressed to the graphical representation of the data using hFigures. The results of the evaluation are summarized in table \ref{tbl:heuristicsResults}. The average response was 6.3 out of 7 points.
+The three expert users answered the Heuristic Questionnaire in order to identify problems with the user interface of the health monitoring application. The three experts agreed and in some cases strongly agreed with most of the indicators. One expert found the instructions for adjusting the time of the visualization tool to be demanding. The expert addressed this comment to the integration interface that allows the time to be adjusted and thus visualized. The remark was not addressed to the graphical representation of the data using hFigures. The results of the evaluation are summarized in table \ref{tbl:heuristicsResults}. The average response was 6.3 out of 7 points.
 
 
 \subsection*{Cognitive Walkthrough}
@@ -605,13 +605,7 @@ The feedback shows that the main problem was the incomplete visibility of the hF
 
 \section*{Discussion}
 
-The value of a data visualization depends on the knowledge that it can convey to the public. In this section, we claim that hFigures has the potential to be used both in the clinical and personal wellness applications. Large amounts of measurements do not clutter the visualization area as a result of our implementation, figure \ref{figureHFiguresComplex} shows an example of a complex holistic visualization of a modeled patient. The comparison of multiple graphs can provide a meaningful visualization to individuals and clinicians alike. The implementation of hFigures follows an extensible approach and even though it was designed to be used for health data visualization, any dataset that has a target range of values as a reference, can be visualized.
-
-\subsection*{Further Development}
-
-We plan to develop the library further to address the suggestions obtained from the participants of the usability testing. The next release of the library already included the fixes for the automatic adjustment of the initial zoom level to show the complete figures within the given container, usually a \texttt{<div>} element in the HTML document. The next item to address is the inclusion of additional information explaining the measurements in the hover pop up window. Additionally we need to develop an algorithm to display the values when hovering on the two figures so that the pop up windows do not overlap.
-
-Further development contemplates a Web Service which consumes a JSON data source file and produces an SVG or a HTML document with the interaction features as a JavaScript file attached. Such service has been already requested in other projects for research purposes in order to provide a better software tool for medical decision making processes.
+The value of a data visualization depends on the knowledge that it can convey to the public. In this section, we claim that hFigures has the potential to be used both in the clinical and personal wellness applications. Large amounts of measurements do not clutter the visualization area as a result of our implementation, figure \ref{figureHFiguresComplex} shows an example of a complex holistic visualization of a modeled patient. The comparison of multiple graphs can provide a meaningful visualization to individuals and clinicians alike. The implementation of hFigures follows an extensible approach and even though it was designed to be used for health data visualization, any dataset that has a target range of values as a reference can be visualized.
 
 \subsection*{Translation to Health Care}
 
@@ -636,6 +630,16 @@ Other device manufacturers such as Withings or Jawbone provide their users the p
 
 In order to specify the recommended range for these measurements in the hFigures data source file, it is possible to use websites such as WebMD or Mayo Clinic to obtain their recommendation for such values.
 
+\subsection*{Limitations}
+
+Shortcomings and problems we want to address in the further release.
+
+\subsection*{Further Development}
+
+We plan to develop the library further to address the suggestions obtained from the participants of the usability testing. The next release of the library already included the fixes for the automatic adjustment of the initial zoom level to show the complete figures within the given container, usually a \texttt{<div>} element in the HTML document. The next item to address is the inclusion of additional information explaining the measurements in the hover pop up window. Additionally we need to develop an algorithm to display the values when hovering on the two figures so that the pop up windows do not overlap.
+
+Further development contemplates a Web Service which consumes a JSON data source file and produces an SVG or a HTML document with the interaction features as a JavaScript file attached. Such service has been already requested in other projects for research purposes in order to provide a better software tool for medical decision making processes.
+
 % Already explained in the Further Development sub section.
 % \subsection*{Future Work}
 % We plan to add features to the library and use it in future studies. Animation effects and other graphical elements will be incorporated so as to facilitate the understanding of how the measurements have changed over time. A potential addition to the library includes persuasive design elements to enhance the attitudes towards behavior change.
@@ -652,7 +656,7 @@ Comprehensive and holistic visualizations of health data empower individuals, ci
 
 % We postulated the hypothesis that based on the successful insight-based evaluation of the hGraph and by addressing users' needs, we can build a visualization library that can assist users in the decision making process by visualizing health data.
 
-We tested the visualization library in the context of an application by conducting usability tests comprised of Heuristics Evaluation, Cognitive Walkthrough and Usability Questionnaires. The results showed that the library was helpful in assisting users in understanding health data and its evolution over time.
+We tested the visualization library in the context of an application by conducting usability tests comprised of Heuristics Evaluation, Cognitive Walkthrough and Usability Questionnaires. In the Heuristics Evaluation the average response was 6.3 out of 7 points and the Cognitive Walkthrough done by usability experts indicated no design or mismatch errors. In the CSUQ usability test the system obtained an average score of 6.13 out of 7, and in the ASQ test the overall satisfaction score was 6.64 out of 7. The results indicate that the library was helpful in assisting users in understanding health data and its evolution over time. 
 
 The library is an open source tool inspired by the hGraph but with additional key improvements. However, additional improvements and fixes are needed to further develop this tool. In this article, we also discussed how this library can be used in wellness and health processes to understand the evolution of a patient's health and wellness.
 
@@ -667,7 +671,7 @@ Open challenges remain in studying alternative features that can help users iden
 \item \textbf{Operating System:} Platform independent.
 \item \textbf{Programming language:} JavaScript.
 \item \textbf{Other requirements:} Developers willing to deploy the application need to serve the files via a Web server. Users require a Web browser to visualize the application.
-\item \textbf{License:} Text for this section.
+\item \textbf{License:} MIT License.
 \item \textbf{Any restrictions to use by non-academics:} No.
 \end{itemize}
 
