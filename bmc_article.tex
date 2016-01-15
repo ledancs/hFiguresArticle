@@ -192,13 +192,13 @@
 \begin{abstract} % abstract
 
 \parttitle{Background} %if any
-The way we look at data has a great impact on how we can understand it, particularly when the data is related to health and wellness. Due to the increased use of self-tracking devices and the ongoing shift towards preventive medicine, better understanding of our health data is an important part of improving the general welfare of the citizens. Electronic Health Records, self-tracking devices and mobile applications provide a rich variety of data but it often becomes complex and difficult to understand. We implemented the hFigures library inspired on the hGraph visualization with additional improvements. The purpose of the library is to provide a visual representation of the evolution of health measurements in a comprehensive and holistic manner. 
+The way we look at data has a great impact on how we can understand it, particularly when the data is related to health and wellness. Due to the increased use of self-tracking devices and the ongoing shift towards preventive medicine, better understanding of our health data is an important part of improving the general welfare of the citizens. Electronic Health Records, self-tracking devices and mobile applications provide a rich variety of data but it often becomes difficult to understand. We implemented the hFigures library inspired on the hGraph visualization with additional improvements. The purpose of the library is to provide a visual representation of the evolution of health measurements in a complete and useful manner. 
 
 \parttitle{Results} %if any
 We researched the usefulness and usability of the library by building an application for health data visualization in a health coaching program. We performed a user evaluation with Heuristic Evaluation, Controlled User Testing and Usability Questionnaires. In the Heuristics Evaluation the average response was 6.3 out of 7 points and the Cognitive Walkthrough done by usability experts indicated no design or mismatch errors. In the CSUQ usability test the system obtained an average score of 6.13 out of 7, and in the ASQ usability test the overall satisfaction score was 6.64 out of 7.
 
 \parttitle{Conclusions} %if any
-We developed hFigures, an open source library for visualizing a holistic, normalized and comprehensive graphical representation of health data. The idea is based on the concept of the hGraph but it provides additional key features, including a comparison of multiple health measurements over time. We conducted a comprehensive usability evaluation of the library as a key component of an application for health and wellness monitoring. The results indicate that the data visualization library was helpful in assisting users in understanding health data and its evolution over time.
+We developed hFigures, an open source library for visualizing a complete, accurate and normalized graphical representation of health data. The idea is based on the concept of the hGraph but it provides additional key features, including a comparison of multiple health measurements over time. We conducted a usability evaluation of the library as a key component of an application for health and wellness monitoring. The results indicate that the data visualization library was helpful in assisting users in understanding health data and its evolution over time.
 
 \end{abstract}
 
@@ -259,7 +259,7 @@ We developed hFigures, an open source library for visualizing a holistic, normal
 \section*{Introduction}
 The ongoing shift from reactive to preventive medicine requires that citizens have the skills and means to take an active role in developing and maintaining their wellness. Use of self-tracking devices and personal wellness applications is more and more common, ranging from sports tracking applications to personal genome sequence analysis services. These services and devices produce large amounts of data. In addition, Electronic Health Records are increasingly replacing paper records in hospitals and clinics around the world. The combination of these large and heterogeneous data sources is expected to provide a ``predictive, preventive, personalized and participatory'' ecosystem for the benefit of the general welfare \cite{Hood2012613}.
 
-To better understand our health, we need to combine heterogeneous data sources and present the information to the user with a comprehensive and holistic approach. In order to accomplish this, health information technologies and visualization design need to be integrated \cite{lesselroth2011data}. The goal is to provide tools for individuals to take better  decisions regarding their health. Similarly, doctors and other medical experts need tools and solutions for getting a comprehensive view of the patients health, combining together patient's own measurements and clinical data.
+To better understand our health, we need to combine heterogeneous data sources and present the information to the user in a complete and accurate manner. In order to accomplish this, health information technologies and visualization design need to be integrated \cite{lesselroth2011data}. The goal is to provide tools for individuals to take better  decisions regarding their health. Similarly, doctors and other medical experts need tools and solutions for getting a complete and accurate view of the patients health, combining together patient's own measurements and clinical data.
 
 % I think we cannot say that the "earlier study users provided feedback what hGraph was missing"
 % it was not the scope and focus of the paper.... 
@@ -292,7 +292,7 @@ Visualization tools have mostly focused on Healthcare Information Systems and El
 
 Additionally, the growing market for mobile health applications (mHealth) have drawn the attention of researchers, developers and investors \cite{mHealth2014}. These applications provide large volumes of personal health data. While the market and demand are expected to grow, the use of the data has the potential to contribute to a better understanding of our health.
 
-Goetze \cite{goetz2015} demonstrated the impact of data visualization as means to represent health data in a comprehensive manner. He conducted a project that redesigned laboratory test results from numerical tables into colored graphics. He demonstrated that the patients were able to understand better their health situation when presented with the new designs.
+Goetze \cite{goetz2015} demonstrated the impact of data visualization as means to represent health data in a complete and accurate manner. He conducted a project that redesigned laboratory test results from numerical tables into colored graphics. He demonstrated that the patients were able to understand better their health situation when presented with the new designs.
 
 Data integration for health monitoring as a Big Data process for personalized medicine has been approached by Idris \textit{et al}. \cite{7072838}. The visualization of this information uses traditional bar and pie charts to report to the user a historical view of a variety of data including mental, social, physical aspects. The novelty of this work is the integration of heterogeneous data sources while the presentation of the information was done following existing graphical representations.
 
@@ -300,11 +300,11 @@ An extensive choice of graphical representation is listed and explained by S. Fe
 
 DeRidder \textit{et al.} developed a combined approach that retrieves data from Personal Health Records (PHRs), and presents them to individual patients using a ``3D medical graphical avatar'' \cite{de2013web}. The solution is built using HTML5 and WebGL to render 3D graphics using the web browser. Patients can browse ``regions of interests'' on their avatar and explore further the information contained in EHRs as well as in PHRs.
 
-As stated by Shneiderman \textit{et al.} \cite{shneiderman2013improving}, new visual representations are needed for ``systematic yet flexible visual analytics processes''. We present an existing tentative solution known as the hGraph, released publicly by MITRE corporation. We describe its main advantages and how they can address these challenges. In a previous study \cite{EMBCLedNiem} we identified possible improvements and based on our own implementation we addressed these issues and extended the features of the hGraph to better address complex data sources.
+As stated by Shneiderman \textit{et al.} \cite{shneiderman2013improving}, new visual representations are needed for ``systematic yet flexible visual analytics processes''. We present an existing tentative solution known as the hGraph, released publicly by MITRE corporation. We describe its main advantages and how they can address these challenges. In a previous study \cite{EMBCLedNiem} we identified possible improvements and based on our own implementation we addressed these issues and extended the features of the hGraph to better address large data sources.
 
 However, a data visualization is only as good as the ability of the intended audience to decode graphical objects into numerical values which conveys a clear message. Therefore, we have to consider the graphical perception of the users who will benefit from the data visualization. Graphical perception is the ability of an individual to decode the information displayed as graphical objects \cite{baird1978fundamentals}, it has been a widely researched field \cite{cleveland1984graphical}. Graphical perception affect how we understand visualized information. In the context of health data, it remains a challenge to design graphical representations for non-medical experts. Graphical representations in this context should enhance the users' ability to understand their health situation and take informed decisions. With this ``deep'' understanding on the health situation, individuals can move towards healthier behaviors.
 
-The graphical representation of health data requires a holistic approach. A holistic overview of a patient usually is comprised of large amounts of measurements which in turn translates to large datasets. Therefore, health data visualizations need to scale to accommodate large datasets. 
+The graphical representation of health data requires a complete and accurate overview of a patient often including large amounts of measurements, which in turn translates to large datasets. Therefore, health data visualizations need to scale to accommodate large datasets. 
 
 \subsection*{Radar Visualization}
 
@@ -345,7 +345,7 @@ Disconnected Rings follow the same principle but the nodes have no connections b
 
 % TODO: Interactivity also according to \cite{draper2009survey}
 
-In the context of health data visualization, radar visualizations have a potential to  visualize large amount of datasets due to their clarity in the data representation. However, the potential use of interactivity needs to be addressed by these visualization tools. The ability to represent relevant information comprehensively should be embedded in the visualization tool leveraging from modern technologies such as Web browsers and Web services as well as with current interfaces such as touchscreens.
+In the context of health data visualization, radar visualizations have a potential to  visualize large amount of datasets due to their clarity in the data representation. However, the potential use of interactivity needs to be addressed by these visualization tools. The ability to represent relevant information should be embedded in the visualization tool leveraging from modern technologies such as Web browsers and Web services as well as with current interfaces such as touchscreens.
 
 \subsection*{The Health Graph}
 
@@ -471,7 +471,7 @@ The application has three components: activity timeline, the hFigures data visua
 
 \paragraph*{Activity Timeline} This component represents the health interventions (particular actions) that the modeled patient has done during the health coaching program. During the program, several snapshots of the patient's overall health are taken and visualized using the hFigures library.
 
-\paragraph*{hFigures} The developed hFigures library is utilized to display the set of measurements taken during the health coaching program. These measurements describe a holistic view of the health situation of the modeled patient. Users can change the time at which the snapshot was taken to compare changes over time as a result of the health interventions.
+\paragraph*{hFigures} The developed hFigures library is utilized to display the set of measurements taken during the health coaching program. These measurements describe an overview of the health situation of the modeled patient. Users can change the time at which the snapshot was taken to compare changes over time as a result of the health interventions.
 
 \paragraph*{Longitudinal Measurements} The application also displays the same set of measurements using longitudinal temporal representation. We included this component to provide additional details and trends on how the measurements have changed over the coaching program.
 
@@ -607,17 +607,17 @@ The feedback shows that the main problem was the incomplete visibility of the hF
 
 \section*{Discussion}
 
-The value of a data visualization depends on the knowledge that it can convey to the public. In this section, we claim that hFigures has the potential to be used both in the clinical and personal wellness applications. Large amounts of measurements do not clutter the visualization area as a result of our implementation, figure \ref{figureHFiguresComplex} shows an example of a complex holistic visualization of a modeled patient. The comparison of multiple graphs can provide a meaningful visualization to individuals and clinicians alike. The implementation of hFigures follows an extensible approach and even though it was designed to be used for health data visualization, any dataset that has a target range of values as a reference can be visualized.
+The value of a data visualization depends on the knowledge that it can convey to the public. In this section, we claim that hFigures has the potential to be used both in the clinical and personal wellness applications. Large amounts of measurements do not clutter the visualization area as a result of our implementation, figure \ref{figureHFiguresComplex} shows an example of a large visualization of a modeled patient. The comparison of multiple graphs can provide a meaningful visualization to individuals and clinicians alike. The implementation of hFigures follows an extensible approach and even though it was designed to be used for health data visualization, any dataset that has a target range of values as a reference can be visualized.
 
 \subsection*{Translation to Health Care}
 
-The wide variety of EHR formats and data sources from self monitoring applications comprise a challenge in unifying the data in order to provide a holistic overview of a patient. Currently, most of the data sources contain the date when the sample was extracted, whether it is a tracking device or a blood test. This sample date already provides the timestamp required by the hFigures data source file. The values of the samples are the main object of study in a measurement, for instance the levels of cholesterol or sugar at a given time, the number of steps per day, the percentage of body fat and several others. This information can be transformed in a simple process to build the hFigures data source following the JSON structure.
+The wide variety of EHR formats and data sources from self monitoring applications comprise a challenge in unifying the data in order to provide an overview of a patient. Currently, most of the data sources contain the date when the sample was extracted, whether it is a tracking device or a blood test. This sample date already provides the timestamp required by the hFigures data source file. The values of the samples are the main object of study in a measurement, for instance the levels of cholesterol or sugar at a given time, the number of steps per day, the percentage of body fat and several others. This information can be transformed in a simple process to build the hFigures data source following the JSON structure.
 
 hFigures is a visualization library based on Web technologies, it uses a Web browser and the rendering of the SVG is compatible with current HTML standards. Thus providing interoperability across multiple devices including tablets, smartphones, workstations or laptops is indeed feasible. The D3.js library that hFigures is built on, enables compatibility with Internet Explorer versions 8 and higher using a component named \textit{Aight} \cite{aight}. Internet Explorer 8 is prevalent in hospitals and clinics due to the restrictions in installing custom software.
 
 \subsubsection*{Patient Evolution}
 
-Multiple graphs plotted on the layout of recommended values shows the change in the data over time. This could allow clinicians to understand the evolution of certain aspects in the health of the patient. For instance, health professionals would be able to look at the effect of a trail drug treatment over time. Possibly, the collected samples of a patient before and after starting the trial would be plotted as the multiple graphs portraying the evolution of the patient. Figure \ref{figureHFiguresComplex} shows an example of a more complex dataset. The labels for each individual measurement are usually hidden when a full zoom out is performed by the user. For the purpose of demonstrating the visualization library we have made all the labels visible. 
+Multiple graphs plotted on the layout of recommended values shows the change in the data over time. This could allow clinicians to understand the evolution of certain aspects in the health of the patient. For instance, health professionals would be able to look at the effect of a trail drug treatment over time. Possibly, the collected samples of a patient before and after starting the trial would be plotted as the multiple graphs portraying the evolution of the patient. Figure \ref{figureHFiguresComplex} shows an example of a more heterogeneous dataset. The labels for each individual measurement are usually hidden when a full zoom out is performed by the user. For the purpose of demonstrating the visualization library we have made all the labels visible. 
 
 
 \subsubsection*{Personal Health Monitoring}
@@ -654,7 +654,7 @@ Further development contemplates a Web Service which consumes a JSON data source
 
 % Based on literature surveys and previous studies \cite{EMBCLedNiem}, we developed hFigures is an open source library that aims to improve the understanding of health data through visualization techniques. The goal is to enhance individuals to take informed decisions in order to change their health behaviors towards a healthier society.
 
-Comprehensive and holistic visualizations of health data have been thought to empower individuals, citizens and health professionals alike, to better understand situations and take better informed decisions \cite{lesselroth2011data, shneiderman2013improving, rind2011interactive}. These decisions can be medical treatment, behaviour change practices, wellness development, health coaching program and more. In this article we detailed the underlying motivation to develop a visualization library inspired by the hGraph. 
+Complete and accurate visualizations of health data have been thought to empower individuals, citizens and health professionals alike, to better understand situations and take better informed decisions \cite{lesselroth2011data, shneiderman2013improving, rind2011interactive}. These decisions can be medical treatment, behaviour change practices, wellness development, health coaching program and more. In this article we detailed the underlying motivation to develop a visualization library inspired by the hGraph. 
 
 % We postulated the hypothesis that based on the successful insight-based evaluation of the hGraph and by addressing users' needs, we can build a visualization library that can assist users in the decision making process by visualizing health data.
 
@@ -810,7 +810,7 @@ AL and HN are part of the Personal Health Informatics research group from the De
 
 % hFigures complex
 \begin{figure}[h!]
-  \caption{\csentence{A complex hFigures example.} A holistic health assessment of a modeled person comprised of several measurements with two time snapshots showing the person's evolution.}
+  \caption{\csentence{A heterogeneous hFigures example.} An overview of a modeled person comprised of several measurements with two time snapshots showing its evolution over time.}
   \label{figureHFiguresComplex}
 \end{figure}
 
