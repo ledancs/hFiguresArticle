@@ -1,0 +1,2188 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{75}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\textsf{#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem{Hood2012613}
+\begin{barticle}
+\bauthor{\bsnm{Hood}, \binits{L.}},
+\bauthor{\bsnm{Flores}, \binits{M.}}:
+\batitle{A personal view on systems medicine and the emergence of proactive
+  \{P4\} medicine: predictive, preventive, personalized and participatory}.
+\bjtitle{New Biotechnology}
+\bvolume{29}(\bissue{6}),
+\bfpage{613}--\blpage{624}
+(\byear{2012}).
+doi:\doiurl{10.1016/j.nbt.2012.03.004}.
+\bcomment{Molecular Diagnostics and Personalised Medicine}
+\end{barticle}
+\endbibitem
+
+%%% 2
+\bibitem{lesselroth2011data}
+\begin{bchapter}
+\bauthor{\bsnm{Lesselroth}, \binits{B.J.}},
+\bauthor{\bsnm{Pieczkiewicz}, \binits{D.S.}}:
+\bctitle{Data visualization strategies for the electronic health record}.
+In: \beditor{\bsnm{Berhardt}, \binits{L.V.}} (ed.)
+\bbtitle{Advances in Medicine and Biology}
+vol. \bseriesno{16},
+pp. \bfpage{107}--\blpage{140}.
+\bpublisher{Nova Science Publishers, Inc},
+\blocation{New York}
+(\byear{2012})
+\end{bchapter}
+\endbibitem
+
+%%% 3
+\bibitem{follett2012hgraph}
+\begin{botherref}
+\oauthor{\bsnm{Follett}, \binits{J.}},
+\oauthor{\bsnm{Sonin}, \binits{J.}}:
+{hGraph: An Open System for Visualizing Personal Health Metrics}.
+Technical report,
+Involution Studios,
+Arlington, Massachusetts
+(April 2012).
+Accessed 25 Mar 2015
+\end{botherref}
+\endbibitem
+
+%%% 4
+\bibitem{EMBCLedNiem}
+\begin{bchapter}
+\bauthor{\bsnm{Ledesma}, \binits{A.}},
+\bauthor{\bsnm{Nieminen}, \binits{H.}},
+\bauthor{\bsnm{Valve}, \binits{P.}},
+\bauthor{\bsnm{Ermes}, \binits{M.}},
+\bauthor{\bsnm{Jimison}, \binits{H.}},
+\bauthor{\bsnm{Pavel}, \binits{M.}}:
+\bctitle{The shape of health: A comparison of five alternative ways of
+  visualizing personal health and wellbeing}.
+In: \bbtitle{Engineering in Medicine and Biology Society (EMBC), 2015 37th
+  Annual International Conference of the IEEE}
+(\byear{2015}).
+doi:\doiurl{10.13140/RG.2.1.1321.6725}
+\end{bchapter}
+\endbibitem
+
+%%% 5
+\bibitem{bui2007information}
+\begin{barticle}
+\bauthor{\bsnm{Bui}, \binits{A.A.T.}},
+\bauthor{\bsnm{Aberle}, \binits{D.R.}},
+\bauthor{\bsnm{Kangarloo}, \binits{H.}}:
+\batitle{Timeline: Visualizing integrated patient records}.
+\bjtitle{Information Technology in Biomedicine, IEEE Transactions on}
+\bvolume{11}(\bissue{4}),
+\bfpage{462}--\blpage{473}
+(\byear{2007}).
+doi:\doiurl{10.1109/TITB.2006.884365}
+\end{barticle}
+\endbibitem
+
+%%% 6
+\bibitem{mHealth2014}
+\begin{botherref}
+research2guidance:
+{mHealth App Developer Economics 2014}.
+Berlin
+(2014).
+research2guidance
+\end{botherref}
+\endbibitem
+
+%%% 7
+\bibitem{goetz2015}
+\begin{botherref}
+\oauthor{\bsnm{Goetz}, \binits{T.}}:
+It's Time to Redesign Medical Data.
+\url{http://www.ted.com/talks/thomas\_goetz\_it\_s\_time\_to\_redesign\_medical\_data?language=en}
+\end{botherref}
+\endbibitem
+
+%%% 8
+\bibitem{7072838}
+\begin{bchapter}
+\bauthor{\bsnm{Idris}, \binits{M.}},
+\bauthor{\bsnm{Hussain}, \binits{S.}},
+\bauthor{\bsnm{Ahmad}, \binits{M.}},
+\bauthor{\bsnm{Lee}, \binits{S.}}:
+\bctitle{Big data service engine (bise): Integration of big data technologies
+  for human centric wellness data}.
+In: \bbtitle{Big Data and Smart Computing (BigComp), 2015 International
+  Conference On},
+pp. \bfpage{244}--\blpage{248}
+(\byear{2015}).
+doi:\doiurl{10.1109/35021BIGCOMP.2015.7072838}
+\end{bchapter}
+\endbibitem
+
+%%% 9
+\bibitem{few2006information}
+\begin{bbook}
+\bauthor{\bsnm{Few}, \binits{S.}}:
+\bbtitle{Information Dashboard Design}.
+\bpublisher{O'Reilly},
+\blocation{North Sebastopol, California}
+(\byear{2006})
+\end{bbook}
+\endbibitem
+
+%%% 10
+\bibitem{Soomlek:2013:AWI:2532685.2532686}
+\begin{barticle}
+\bauthor{\bsnm{Soomlek}, \binits{C.}},
+\bauthor{\bsnm{Benedicenti}, \binits{L.}}:
+\batitle{An agent-based wellness indicator: Experimental results and future
+  directions}.
+\bjtitle{J. Inf. Technol. Res.}
+\bvolume{6}(\bissue{2}),
+\bfpage{1}--\blpage{23}
+(\byear{2013}).
+doi:\doiurl{10.4018/jitr.2013040101}
+\end{barticle}
+\endbibitem
+
+%%% 11
+\bibitem{de2013web}
+\begin{bchapter}
+\bauthor{\bparticle{de} \bsnm{Ridder}, \binits{M.}},
+\bauthor{\bsnm{Constantinescu}, \binits{L.}},
+\bauthor{\bsnm{Bi}, \binits{L.}},
+\bauthor{\bsnm{Jung}, \binits{Y.H.}},
+\bauthor{\bsnm{Kumar}, \binits{A.}},
+\bauthor{\bsnm{Kim}, \binits{J.}},
+\bauthor{\bsnm{Feng}, \binits{D.D.}},
+\bauthor{\bsnm{Fulham}, \binits{M.}}:
+\bctitle{A web-based medical multimedia visualisation interface for personal
+  health records}.
+In: \bbtitle{Computer-Based Medical Systems (CBMS), 2013 IEEE 26th
+  International Symposium On},
+pp. \bfpage{191}--\blpage{196}
+(\byear{2013}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 12
+\bibitem{shneiderman2013improving}
+\begin{botherref}
+\oauthor{\bsnm{Shneiderman}, \binits{B.}},
+\oauthor{\bsnm{Plaisant}, \binits{C.}},
+\oauthor{\bsnm{Hesse}, \binits{B.W.}}:
+Improving health and healthcare with interactive visualization methods.
+Technical report,
+Citeseer
+(2013)
+\end{botherref}
+\endbibitem
+
+%%% 13
+\bibitem{baird1978fundamentals}
+\begin{bbook}
+\bauthor{\bsnm{Baird}, \binits{J.C.}},
+\bauthor{\bsnm{Noma}, \binits{E.J.}}:
+\bbtitle{Fundamentals of Scaling and Psychophysics}.
+\bpublisher{John Wiley \& Sons Canada, Limited},
+\blocation{New Jersey}
+(\byear{1978})
+\end{bbook}
+\endbibitem
+
+%%% 14
+\bibitem{cleveland1984graphical}
+\begin{barticle}
+\bauthor{\bsnm{Cleveland}, \binits{W.}},
+\bauthor{\bsnm{McGill}, \binits{R.}}:
+\batitle{Graphical perception: Theory, experimentation, and application to the
+  development of graphical methods}.
+\bjtitle{Journal of the American statistical association}
+\bvolume{79}(\bissue{387}),
+\bfpage{531}--\blpage{554}
+(\byear{1984})
+\end{barticle}
+\endbibitem
+
+%%% 15
+\bibitem{hoffman1997dna}
+\begin{bchapter}
+\bauthor{\bsnm{Hoffman}, \binits{P.}},
+\bauthor{\bsnm{Grinstein}, \binits{G.}},
+\bauthor{\bsnm{Marx}, \binits{K.}},
+\bauthor{\bsnm{Grosse}, \binits{I.}},
+\bauthor{\bsnm{Stanley}, \binits{E.}}:
+\bctitle{Dna visual and analytic data mining}.
+In: \bbtitle{Visualization'97., Proceedings},
+pp. \bfpage{437}--\blpage{441}
+(\byear{1997}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 16
+\bibitem{draper2009survey}
+\begin{barticle}
+\bauthor{\bsnm{Draper}, \binits{G.M.}},
+\bauthor{\bsnm{Livnat}, \binits{Y.}},
+\bauthor{\bsnm{Riesenfeld}, \binits{R.F.}}:
+\batitle{A survey of radial methods for information visualization}.
+\bjtitle{Visualization and Computer Graphics, IEEE Transactions on}
+\bvolume{15}(\bissue{5}),
+\bfpage{759}--\blpage{776}
+(\byear{2009})
+\end{barticle}
+\endbibitem
+
+%%% 17
+\bibitem{jankun2003moiregraphs}
+\begin{bchapter}
+\bauthor{\bsnm{Jankun-Kelly}, \binits{T.}},
+\bauthor{\bsnm{Ma}, \binits{K.-L.}}:
+\bctitle{Moiregraphs: Radial focus+ context visualization and interaction for
+  graphs with visual nodes}.
+In: \bbtitle{Information Visualization, 2003. INFOVIS 2003. IEEE Symposium On},
+pp. \bfpage{59}--\blpage{66}
+(\byear{2003}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 18
+\bibitem{lamping1996hyperbolic}
+\begin{barticle}
+\bauthor{\bsnm{Lamping}, \binits{J.}},
+\bauthor{\bsnm{Rao}, \binits{R.}}:
+\batitle{The hyperbolic browser: A focus+ context technique for visualizing
+  large hierarchies}.
+\bjtitle{Journal of Visual Languages \& Computing}
+\bvolume{7}(\bissue{1}),
+\bfpage{33}--\blpage{55}
+(\byear{1996})
+\end{barticle}
+\endbibitem
+
+%%% 19
+\bibitem{hetzler1998multi}
+\begin{bchapter}
+\bauthor{\bsnm{Hetzler}, \binits{B.}},
+\bauthor{\bsnm{Whitney}, \binits{P.}},
+\bauthor{\bsnm{Martucci}, \binits{L.}},
+\bauthor{\bsnm{Thomas}, \binits{J.}}:
+\bctitle{Multi-faceted insight through interoperable visual information
+  analysis paradigms}.
+In: \bbtitle{Information Visualization, 1998. Proceedings. IEEE Symposium On},
+pp. \bfpage{137}--\blpage{144}
+(\byear{1998}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 20
+\bibitem{Spence2001Information}
+\begin{botherref}
+\oauthor{\bsnm{Spence}, \binits{R.}}:
+Information visualization,
+pp. 85--88.
+{A}{C}{M} {P}ress,
+New York
+(2001)
+\end{botherref}
+\endbibitem
+
+%%% 21
+\bibitem{yang2002interring}
+\begin{bchapter}
+\bauthor{\bsnm{Yang}, \binits{J.}},
+\bauthor{\bsnm{Ward}, \binits{M.O.}},
+\bauthor{\bsnm{Rundensteiner}, \binits{E.}}, \betal:
+\bctitle{Interring: An interactive tool for visually navigating and
+  manipulating hierarchical structures}.
+In: \bbtitle{Information Visualization, 2002. INFOVIS 2002. IEEE Symposium On},
+pp. \bfpage{77}--\blpage{84}
+(\byear{2002}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 22
+\bibitem{HowellFilelight}
+\begin{botherref}
+\oauthor{\bsnm{Howell}, \binits{M.}}:
+Filelight.
+\url{http://www.methylblue.com/filelight/}
+\end{botherref}
+\endbibitem
+
+%%% 23
+\bibitem{carlis1998interactive}
+\begin{bchapter}
+\bauthor{\bsnm{Carlis}, \binits{J.V.}},
+\bauthor{\bsnm{Konstan}, \binits{J.A.}}:
+\bctitle{Interactive visualization of serial periodic data}.
+In: \bbtitle{Proceedings of the 11th Annual ACM Symposium on User Interface
+  Software and Technology},
+pp. \bfpage{29}--\blpage{38}
+(\byear{1998}).
+\bcomment{ACM}
+\end{bchapter}
+\endbibitem
+
+%%% 24
+\bibitem{spoerri2004rankspiral}
+\begin{bchapter}
+\bauthor{\bsnm{Spoerri}, \binits{A.}}:
+\bctitle{Rankspiral: Toward enhancing search results visualizations}.
+In: \bbtitle{Information Visualization, 2004. INFOVIS 2004. IEEE Symposium On},
+pp. \bfpage{18}--\blpage{18}
+(\byear{2004}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 25
+\bibitem{hong2003zoomology}
+\begin{botherref}
+\oauthor{\bsnm{Hong}, \binits{J.Y.}},
+\oauthor{\bsnm{D’Andries}, \binits{J.}},
+\oauthor{\bsnm{Richman}, \binits{M.}},
+\oauthor{\bsnm{Westfall}, \binits{M.}}:
+Zoomology: comparing two large hierarchical trees.
+Posters Compendium of Information Visualization,
+120--121
+(2003)
+\end{botherref}
+\endbibitem
+
+%%% 26
+\bibitem{krzywinski2009circos}
+\begin{barticle}
+\bauthor{\bsnm{Krzywinski}, \binits{M.}},
+\bauthor{\bsnm{Schein}, \binits{J.}},
+\bauthor{\bsnm{Birol}, \binits{I.}},
+\bauthor{\bsnm{Connors}, \binits{J.}},
+\bauthor{\bsnm{Gascoyne}, \binits{R.}},
+\bauthor{\bsnm{Horsman}, \binits{D.}},
+\bauthor{\bsnm{Jones}, \binits{S.J.}},
+\bauthor{\bsnm{Marra}, \binits{M.A.}}:
+\batitle{Circos: an information aesthetic for comparative genomics}.
+\bjtitle{Genome research}
+\bvolume{19}(\bissue{9}),
+\bfpage{1639}--\blpage{1645}
+(\byear{2009})
+\end{barticle}
+\endbibitem
+
+%%% 27
+\bibitem{draper2008votes}
+\begin{barticle}
+\bauthor{\bsnm{Draper}, \binits{G.M.}},
+\bauthor{\bsnm{Riesenfeld}, \binits{R.F.}}:
+\batitle{Who votes for what? a visual query language for opinion data}.
+\bjtitle{Visualization and Computer Graphics, IEEE Transactions on}
+\bvolume{14}(\bissue{6}),
+\bfpage{1197}--\blpage{1204}
+(\byear{2008})
+\end{barticle}
+\endbibitem
+
+%%% 28
+\bibitem{bostock2011d3}
+\begin{barticle}
+\bauthor{\bsnm{Bostock}, \binits{M.}},
+\bauthor{\bsnm{Ogievetsky}, \binits{V.}},
+\bauthor{\bsnm{Heer}, \binits{J.}}:
+\batitle{D$^3$ data-driven documents}.
+\bjtitle{Visualization and Computer Graphics, IEEE Transactions on}
+\bvolume{17}(\bissue{12}),
+\bfpage{2301}--\blpage{2309}
+(\byear{2011})
+\end{barticle}
+\endbibitem
+
+%%% 29
+\bibitem{north2006toward}
+\begin{barticle}
+\bauthor{\bsnm{Chris}, \binits{N.}}:
+\batitle{Toward measuring visualization insight}.
+\bjtitle{Computer Graphics and Applications, IEEE}
+\bvolume{26}(\bissue{3}),
+\bfpage{6}--\blpage{9}
+(\byear{2006})
+\end{barticle}
+\endbibitem
+
+%%% 30
+\bibitem{saraiya2004evaluation}
+\begin{bchapter}
+\bauthor{\bsnm{Saraiya}, \binits{P.}},
+\bauthor{\bsnm{North}, \binits{C.}},
+\bauthor{\bsnm{Duca}, \binits{K.}}:
+\bctitle{An evaluation of microarray visualization tools for biological
+  insight}.
+In: \bbtitle{Information Visualization, 2004. INFOVIS 2004. IEEE Symposium On},
+pp. \bfpage{1}--\blpage{8}
+(\byear{2004}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 31
+\bibitem{roebuck2012agile}
+\begin{bbook}
+\bauthor{\bsnm{Roebuck}, \binits{K.}}:
+\bbtitle{Agile Software Development: High-impact Strategies-What You Need to
+  Know: Definitions, Adoptions, Impact, Benefits, Maturity, Vendors}.
+\bpublisher{Emereo Publishing},
+\blocation{Brisbane, Australia}
+(\byear{2012})
+\end{bbook}
+\endbibitem
+
+%%% 32
+\bibitem{beck2000extreme}
+\begin{bbook}
+\bauthor{\bsnm{Beck}, \binits{K.}}:
+\bbtitle{Extreme Programming Explained: Embrace Change}.
+\bpublisher{Addison-Wesley Professional}, \blocation{???}
+(\byear{2000})
+\end{bbook}
+\endbibitem
+
+%%% 33
+\bibitem{poutanen2010validity}
+\begin{barticle}
+\bauthor{\bsnm{Poutanen}, \binits{O.}},
+\bauthor{\bsnm{Koivisto}, \binits{A.-M.}},
+\bauthor{\bsnm{K{\"a}{\"a}ri{\"a}}, \binits{S.}},
+\bauthor{\bsnm{Salokangas}, \binits{R.K.}}:
+\batitle{The validity of the depression scale (deps) to assess the severity of
+  depression in primary care patients}.
+\bjtitle{Family practice}
+\bvolume{27}(\bissue{5}),
+\bfpage{527}--\blpage{534}
+(\byear{2010})
+\end{barticle}
+\endbibitem
+
+%%% 34
+\bibitem{MDNJS}
+\begin{botherref}
+\oauthor{\bsnm{{The Mozilla Developer Network (MDN)}}}:
+The Typeof Operator - JavaScript Reference.
+\url{https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof}
+\end{botherref}
+\endbibitem
+
+%%% 35
+\bibitem{nielsen1994usability}
+\begin{bbook}
+\bauthor{\bsnm{Nielsen}, \binits{J.}}:
+\bbtitle{Usability Engineering}.
+\bpublisher{Elsevier},
+\blocation{Amsterdam}
+(\byear{1994})
+\end{bbook}
+\endbibitem
+
+%%% 36
+\bibitem{johnson2011ehr}
+\begin{botherref}
+\oauthor{\bsnm{Johnson}, \binits{C.}},
+\oauthor{\bsnm{Johnston}, \binits{D.}},
+\oauthor{\bsnm{Crowle}, \binits{P.}}, et al.:
+Ehr usability toolkit: A background report on usability and electronic health
+  records.
+Rockville, MD: Agency for Healthcare Research and Quality
+(2011)
+\end{botherref}
+\endbibitem
+
+%%% 37
+\bibitem{Nielsen10UsabilityHeuristics}
+\begin{botherref}
+\oauthor{\bsnm{Nielsen}, \binits{J.}}:
+10 Usability Heuristics for User Interface Design.
+\url{http://www.nngroup.com/articles/ten-usability-heuristics/}
+\end{botherref}
+\endbibitem
+
+%%% 38
+\bibitem{wharton1994cognitive}
+\begin{bchapter}
+\bauthor{\bsnm{Wharton}, \binits{C.}},
+\bauthor{\bsnm{Rieman}, \binits{J.}},
+\bauthor{\bsnm{Lewis}, \binits{C.}},
+\bauthor{\bsnm{Polson}, \binits{P.}}:
+\bctitle{The cognitive walkthrough method: A practitioner's guide}.
+In: \bbtitle{Usability Inspection Methods},
+pp. \bfpage{105}--\blpage{140}
+(\byear{1994}).
+\bcomment{John Wiley \& Sons, Inc.}
+\end{bchapter}
+\endbibitem
+
+%%% 39
+\bibitem{peute2007significance}
+\begin{barticle}
+\bauthor{\bsnm{Peute}, \binits{L.W.}},
+\bauthor{\bsnm{Jaspers}, \binits{M.W.}}:
+\batitle{The significance of a usability evaluation of an emerging laboratory
+  order entry system}.
+\bjtitle{International journal of medical informatics}
+\bvolume{76}(\bissue{2}),
+\bfpage{157}--\blpage{168}
+(\byear{2007})
+\end{barticle}
+\endbibitem
+
+%%% 40
+\bibitem{karahoca2010information}
+\begin{barticle}
+\bauthor{\bsnm{Karahoca}, \binits{A.}},
+\bauthor{\bsnm{Bayraktar}, \binits{E.}},
+\bauthor{\bsnm{Tatoglu}, \binits{E.}},
+\bauthor{\bsnm{Karahoca}, \binits{D.}}:
+\batitle{Information system design for a hospital emergency department: A
+  usability analysis of software prototypes}.
+\bjtitle{Journal of biomedical informatics}
+\bvolume{43}(\bissue{2}),
+\bfpage{224}--\blpage{232}
+(\byear{2010})
+\end{barticle}
+\endbibitem
+
+%%% 41
+\bibitem{cohen2004cognitive}
+\begin{barticle}
+\bauthor{\bsnm{Cohen}, \binits{T.}},
+\bauthor{\bsnm{Kaufman}, \binits{D.}},
+\bauthor{\bsnm{White}, \binits{T.}},
+\bauthor{\bsnm{Segal}, \binits{G.}},
+\bauthor{\bsnm{Staub}, \binits{A.B.}},
+\bauthor{\bsnm{Patel}, \binits{V.}},
+\bauthor{\bsnm{Finnerty}, \binits{M.}}:
+\batitle{Cognitive evaluation of an innovative psychiatric clinical knowledge
+  enhancement system}.
+\bjtitle{Medinfo}
+\bvolume{11}(\bissue{Pt 2}),
+\bfpage{1295}--\blpage{9}
+(\byear{2004})
+\end{barticle}
+\endbibitem
+
+%%% 42
+\bibitem{khajouei2009usability}
+\begin{bchapter}
+\bauthor{\bsnm{Khajouei}, \binits{R.}},
+\bauthor{\bparticle{de} \bsnm{Jongh}, \binits{D.}},
+\bauthor{\bsnm{Jaspers}, \binits{M.W.}}:
+\bctitle{Usability evaluation of a computerized physician order entry for
+  medication ordering.}
+In: \bbtitle{MIE},
+pp. \bfpage{532}--\blpage{536}
+(\byear{2009})
+\end{bchapter}
+\endbibitem
+
+%%% 43
+\bibitem{blackmon2002cognitive}
+\begin{bchapter}
+\bauthor{\bsnm{Blackmon}, \binits{M.H.}},
+\bauthor{\bsnm{Polson}, \binits{P.G.}},
+\bauthor{\bsnm{Kitajima}, \binits{M.}},
+\bauthor{\bsnm{Lewis}, \binits{C.}}:
+\bctitle{Cognitive walkthrough for the web}.
+In: \bbtitle{Proceedings of the SIGCHI Conference on Human Factors in Computing
+  Systems},
+pp. \bfpage{463}--\blpage{470}
+(\byear{2002}).
+\bcomment{ACM}
+\end{bchapter}
+\endbibitem
+
+%%% 44
+\bibitem{sears1997heuristic}
+\begin{barticle}
+\bauthor{\bsnm{Sears}, \binits{A.}}:
+\batitle{Heuristic walkthroughs: Finding the problems without the noise}.
+\bjtitle{International Journal of Human-Computer Interaction}
+\bvolume{9}(\bissue{3}),
+\bfpage{213}--\blpage{234}
+(\byear{1997})
+\end{barticle}
+\endbibitem
+
+%%% 45
+\bibitem{beuscart2007human}
+\begin{barticle}
+\bauthor{\bsnm{Beuscart-Z{\'e}phir}, \binits{M.-C.}},
+\bauthor{\bsnm{Elkin}, \binits{P.}},
+\bauthor{\bsnm{Pelayo}, \binits{S.}},
+\bauthor{\bsnm{Beuscart}, \binits{R.}}, \betal:
+\batitle{The human factors engineering approach to biomedical informatics
+  projects: state of the art, results, benefits and challenges}.
+\bjtitle{IMIA Yearbook}
+\bvolume{2},
+\bfpage{109}--\blpage{127}
+(\byear{2007})
+\end{barticle}
+\endbibitem
+
+%%% 46
+\bibitem{newman199810}
+\begin{barticle}
+\bauthor{\bsnm{Newman}, \binits{W.M.}}:
+\batitle{10. on simulation, measurement, and pfeeewiaie usability evaluation}.
+\bjtitle{Commentary on" Damaged Merchandise?}
+\bvolume{13},
+\bfpage{316}
+(\byear{1998})
+\end{barticle}
+\endbibitem
+
+%%% 47
+\bibitem{ericsson1980verbal}
+\begin{barticle}
+\bauthor{\bsnm{Ericsson}, \binits{K.A.}},
+\bauthor{\bsnm{Simon}, \binits{H.A.}}:
+\batitle{Verbal reports as data.}
+\bjtitle{Psychological review}
+\bvolume{87}(\bissue{3}),
+\bfpage{215}
+(\byear{1980})
+\end{barticle}
+\endbibitem
+
+%%% 48
+\bibitem{borycki2009novice}
+\begin{bchapter}
+\bauthor{\bsnm{Borycki}, \binits{E.M.}},
+\bauthor{\bsnm{Lemieux-Charles}, \binits{L.}},
+\bauthor{\bsnm{Nagle}, \binits{L.}},
+\bauthor{\bsnm{Eysenbach}, \binits{G.}}:
+\bctitle{Novice nurse information needs in paper and hybrid electronic-paper
+  environments: a qualitative analysis.}
+In: \bbtitle{MIE},
+pp. \bfpage{913}--\blpage{917}
+(\byear{2009})
+\end{bchapter}
+\endbibitem
+
+%%% 49
+\bibitem{currie2003clinical}
+\begin{bchapter}
+\bauthor{\bsnm{Currie}, \binits{L.M.}},
+\bauthor{\bsnm{Graham}, \binits{M.}},
+\bauthor{\bsnm{Allen}, \binits{M.}},
+\bauthor{\bsnm{Bakken}, \binits{S.}},
+\bauthor{\bsnm{Patel}, \binits{V.}},
+\bauthor{\bsnm{Cimino}, \binits{J.J.}}:
+\bctitle{Clinical information needs in context: an observational study of
+  clinicians while using a clinical information system}.
+In: \bbtitle{AMIA Annual Symposium Proceedings},
+vol. \bseriesno{2003},
+p. \bfpage{190}
+(\byear{2003}).
+\bcomment{American Medical Informatics Association}
+\end{bchapter}
+\endbibitem
+
+%%% 50
+\bibitem{hasman2006development}
+\begin{bchapter}
+\bauthor{\bsnm{Hasman}, \binits{A.}}, \betal:
+\bctitle{Development of methods for usability evaluations of ehr systems}.
+In: \bbtitle{Ubiquity: Technologies for Better Health in Aging Societies:
+  Proceedings of MIE2006},
+vol. \bseriesno{124},
+p. \bfpage{341}
+(\byear{2006}).
+\bcomment{IOS Press}
+\end{bchapter}
+\endbibitem
+
+%%% 51
+\bibitem{wu2008usability}
+\begin{barticle}
+\bauthor{\bsnm{Wu}, \binits{R.C.}},
+\bauthor{\bsnm{Orr}, \binits{M.S.}},
+\bauthor{\bsnm{Chignell}, \binits{M.}},
+\bauthor{\bsnm{Straus}, \binits{S.E.}}:
+\batitle{Usability of a mobile electronic medical record prototype: a verbal
+  protocol analysis}.
+\bjtitle{Informatics for Health and Social Care}
+\bvolume{33}(\bissue{2}),
+\bfpage{139}--\blpage{149}
+(\byear{2008})
+\end{barticle}
+\endbibitem
+
+%%% 52
+\bibitem{lewis1995ibm}
+\begin{barticle}
+\bauthor{\bsnm{Lewis}, \binits{J.R.}}:
+\batitle{Ibm computer usability satisfaction questionnaires: psychometric
+  evaluation and instructions for use}.
+\bjtitle{International Journal of Human-Computer Interaction}
+\bvolume{7}(\bissue{1}),
+\bfpage{57}--\blpage{78}
+(\byear{1995})
+\end{barticle}
+\endbibitem
+
+%%% 53
+\bibitem{lewis1992psychometric}
+\begin{bchapter}
+\bauthor{\bsnm{Lewis}, \binits{J.R.}}:
+\bctitle{Psychometric evaluation of the post-study system usability
+  questionnaire: The pssuq}.
+In: \bbtitle{Proceedings of the Human Factors and Ergonomics Society Annual
+  Meeting},
+vol. \bseriesno{36},
+pp. \bfpage{1259}--\blpage{1260}
+(\byear{1992}).
+\bcomment{SAGE Publications}
+\end{bchapter}
+\endbibitem
+
+%%% 54
+\bibitem{jaspers2008pre}
+\begin{barticle}
+\bauthor{\bsnm{Jaspers}, \binits{M.W.}},
+\bauthor{\bsnm{Peute}, \binits{L.W.}},
+\bauthor{\bsnm{Lauteslager}, \binits{A.}},
+\bauthor{\bsnm{Bakker}, \binits{P.J.}}:
+\batitle{Pre-post evaluation of physicians' satisfaction with a redesigned
+  electronic medical record system}.
+\bjtitle{Studies in health technology and informatics}
+\bvolume{136},
+\bfpage{303}
+(\byear{2008})
+\end{barticle}
+\endbibitem
+
+%%% 55
+\bibitem{goud2008subjective}
+\begin{barticle}
+\bauthor{\bsnm{Goud}, \binits{R.}},
+\bauthor{\bsnm{Jaspers}, \binits{M.W.}},
+\bauthor{\bsnm{Hasman}, \binits{A.}},
+\bauthor{\bsnm{Peek}, \binits{N.}}:
+\batitle{Subjective usability of the cardss guideline-based decision support
+  system.}
+\bjtitle{Studies in health technology and informatics}
+\bvolume{136},
+\bfpage{193}
+(\byear{2008})
+\end{barticle}
+\endbibitem
+
+%%% 56
+\bibitem{lewis1991psychometric}
+\begin{barticle}
+\bauthor{\bsnm{Lewis}, \binits{J.R.}}:
+\batitle{Psychometric evaluation of an after-scenario questionnaire for
+  computer usability studies: the asq}.
+\bjtitle{ACM SIGCHI Bulletin}
+\bvolume{23}(\bissue{1}),
+\bfpage{78}--\blpage{81}
+(\byear{1991})
+\end{barticle}
+\endbibitem
+
+%%% 57
+\bibitem{bangor2008empirical}
+\begin{barticle}
+\bauthor{\bsnm{Bangor}, \binits{A.}},
+\bauthor{\bsnm{Kortum}, \binits{P.T.}},
+\bauthor{\bsnm{Miller}, \binits{J.T.}}:
+\batitle{An empirical evaluation of the system usability scale}.
+\bjtitle{Intl. Journal of Human--Computer Interaction}
+\bvolume{24}(\bissue{6}),
+\bfpage{574}--\blpage{594}
+(\byear{2008})
+\end{barticle}
+\endbibitem
+
+%%% 58
+\bibitem{us2008physical}
+\begin{botherref}
+\oauthor{\bparticle{of} \bsnm{Health}, \binits{U.D.}},
+\oauthor{\bsnm{Services}, \binits{H.}}, et al.:
+Physical Activity Guidelines for Americans: Be Active, Healthy, and Happy!
+  ODPHP publication No. U0036. October 2008
+(2008)
+\end{botherref}
+\endbibitem
+
+%%% 59
+\bibitem{physical2008physical}
+\begin{barticle}
+\bauthor{\bsnm{Committee}, \binits{P.A.G.A.}}, \betal:
+\batitle{Physical activity guidelines advisory committee report, 2008}.
+\bjtitle{Washington, DC: US Department of Health and Human Services}
+\bvolume{2008},
+\bfpage{5}
+(\byear{2008})
+\end{barticle}
+\endbibitem
+
+%%% 60
+\bibitem{tudor2004many}
+\begin{barticle}
+\bauthor{\bsnm{Tudor-Locke}, \binits{C.}},
+\bauthor{\bsnm{Bassett~Jr}, \binits{D.R.}}:
+\batitle{How many steps/day are enough?}
+\bjtitle{Sports Medicine}
+\bvolume{34}(\bissue{1}),
+\bfpage{1}--\blpage{8}
+(\byear{2004})
+\end{barticle}
+\endbibitem
+
+%%% 61
+\bibitem{oja2013tester}
+\begin{botherref}
+\oauthor{\bsnm{Oja}, \binits{P.}},
+\oauthor{\bsnm{M{\"a}ntt{\"a}ri}, \binits{A.}},
+\oauthor{\bsnm{Pokki}, \binits{T.}},
+\oauthor{\bsnm{Kukkonen-Harjala}, \binits{K.}},
+\oauthor{\bsnm{Laukkanen}, \binits{R.}},
+\oauthor{\bsnm{Malmberg}, \binits{J.}}:
+Tester's guide: Ukk walk test
+(2013)
+\end{botherref}
+\endbibitem
+
+%%% 62
+\bibitem{laukkanen1992validity}
+\begin{barticle}
+\bauthor{\bsnm{Laukkanen}, \binits{R.}},
+\bauthor{\bsnm{Oja}, \binits{P.}},
+\bauthor{\bsnm{Pasanen}, \binits{M.}},
+\bauthor{\bsnm{Vuori}, \binits{I.}}:
+\batitle{Validity of a two kilometre walking test for estimating maximal
+  aerobic power in overweight adults.}
+\bjtitle{International journal of obesity and related metabolic disorders:
+  journal of the International Association for the Study of Obesity}
+\bvolume{16}(\bissue{4}),
+\bfpage{263}--\blpage{268}
+(\byear{1992})
+\end{barticle}
+\endbibitem
+
+%%% 63
+\bibitem{suni2009fitness}
+\begin{botherref}
+\oauthor{\bsnm{Suni}, \binits{J.}},
+\oauthor{\bsnm{Husu}, \binits{P.}},
+\oauthor{\bsnm{Rinne}, \binits{M.}}:
+Fitness for health: the alpha-fit test battery for adults aged 18--69
+(2009)
+\end{botherref}
+\endbibitem
+
+%%% 64
+\bibitem{firstbeat2014}
+\begin{botherref}
+\oauthor{\bsnm{{Firstbeat Technologies Ltd.}}}:
+Stress and Recovery Analysis Method Based on 24-hour Heart Rate Variability.
+  White Paper.
+\url{http://www.firstbeat.com/userData/firstbeat/research-publications/Stress-and-recovery_white-paper_2014.pdf}
+\end{botherref}
+\endbibitem
+
+%%% 65
+\bibitem{teisala2014associations}
+\begin{barticle}
+\bauthor{\bsnm{Teisala}, \binits{T.}},
+\bauthor{\bsnm{Mutikainen}, \binits{S.}},
+\bauthor{\bsnm{Tolvanen}, \binits{A.}},
+\bauthor{\bsnm{Rottensteiner}, \binits{M.}},
+\bauthor{\bsnm{Leskinen}, \binits{T.}},
+\bauthor{\bsnm{Kaprio}, \binits{J.}},
+\bauthor{\bsnm{Kolehmainen}, \binits{M.}},
+\bauthor{\bsnm{Rusko}, \binits{H.}},
+\bauthor{\bsnm{Kujala}, \binits{U.M.}}:
+\batitle{Associations of physical activity, fitness, and body composition with
+  heart rate variability-based indicators of stress and recovery on workdays: a
+  cross-sectional study}.
+\bjtitle{J Occup Med Toxicol}
+\bvolume{34},
+\bfpage{26}--\blpage{40}
+(\byear{2014})
+\end{barticle}
+\endbibitem
+
+%%% 66
+\bibitem{scheier1994distinguishing}
+\begin{barticle}
+\bauthor{\bsnm{Scheier}, \binits{M.F.}},
+\bauthor{\bsnm{Carver}, \binits{C.S.}},
+\bauthor{\bsnm{Bridges}, \binits{M.W.}}:
+\batitle{Distinguishing optimism from neuroticism (and trait anxiety,
+  self-mastery, and self-esteem): a reevaluation of the life orientation test.}
+\bjtitle{Journal of personality and social psychology}
+\bvolume{67}(\bissue{6}),
+\bfpage{1063}
+(\byear{1994})
+\end{barticle}
+\endbibitem
+
+%%% 67
+\bibitem{faulkner2003beyond}
+\begin{barticle}
+\bauthor{\bsnm{Faulkner}, \binits{L.}}:
+\batitle{Beyond the five-user assumption: Benefits of increased sample sizes in
+  usability testing}.
+\bjtitle{Behavior Research Methods, Instruments, \& Computers}
+\bvolume{35}(\bissue{3}),
+\bfpage{379}--\blpage{383}
+(\byear{2003})
+\end{barticle}
+\endbibitem
+
+%%% 68
+\bibitem{berry2015usability}
+\begin{barticle}
+\bauthor{\bsnm{Berry}, \binits{D.L.}},
+\bauthor{\bsnm{Halpenny}, \binits{B.}},
+\bauthor{\bsnm{Bosco}, \binits{J.L.}},
+\bauthor{\bsnm{Bruyere}, \binits{J.}},
+\bauthor{\bsnm{Sanda}, \binits{M.G.}}:
+\batitle{Usability evaluation and adaptation of the e-health personal patient
+  profile-prostate decision aid for spanish-speaking latino men}.
+\bjtitle{BMC medical informatics and decision making}
+\bvolume{15}(\bissue{1}),
+\bfpage{56}
+(\byear{2015})
+\end{barticle}
+\endbibitem
+
+%%% 69
+\bibitem{zhang2003using}
+\begin{barticle}
+\bauthor{\bsnm{Zhang}, \binits{J.}},
+\bauthor{\bsnm{Johnson}, \binits{T.R.}},
+\bauthor{\bsnm{Patel}, \binits{V.L.}},
+\bauthor{\bsnm{Paige}, \binits{D.L.}},
+\bauthor{\bsnm{Kubose}, \binits{T.}}:
+\batitle{Using usability heuristics to evaluate patient safety of medical
+  devices}.
+\bjtitle{Journal of biomedical informatics}
+\bvolume{36}(\bissue{1}),
+\bfpage{23}--\blpage{30}
+(\byear{2003})
+\end{barticle}
+\endbibitem
+
+%%% 70
+\bibitem{shneiderman1992designing}
+\begin{bbook}
+\bauthor{\bsnm{Shneiderman}, \binits{B.}}:
+\bbtitle{Designing the User Interface: Strategies for Effective Human-computer
+  Interaction}
+vol. \bseriesno{3}.
+\bpublisher{Addison-Wesley Reading, MA},
+\blocation{Boston}
+(\byear{1992})
+\end{bbook}
+\endbibitem
+
+%%% 71
+\bibitem{molich1990improving}
+\begin{barticle}
+\bauthor{\bsnm{Molich}, \binits{R.}},
+\bauthor{\bsnm{Nielsen}, \binits{J.}}:
+\batitle{Improving a human-computer dialogue}.
+\bjtitle{Communications of the ACM}
+\bvolume{33}(\bissue{3}),
+\bfpage{338}--\blpage{348}
+(\byear{1990})
+\end{barticle}
+\endbibitem
+
+%%% 72
+\bibitem{Tognazzini2014principles}
+\begin{botherref}
+\oauthor{\bsnm{Tognazzini}, \binits{B.}}:
+First Principles of Information Design.
+\url{http://www.asktog.com/basics/firstPrinciples.html}
+\end{botherref}
+\endbibitem
+
+%%% 73
+\bibitem{lewis2002psychometric}
+\begin{barticle}
+\bauthor{\bsnm{Lewis}, \binits{J.R.}}:
+\batitle{Psychometric evaluation of the pssuq using data from five years of
+  usability studies}.
+\bjtitle{International Journal of Human-Computer Interaction}
+\bvolume{14}(\bissue{3-4}),
+\bfpage{463}--\blpage{488}
+(\byear{2002})
+\end{barticle}
+\endbibitem
+
+%%% 74
+\bibitem{aight}
+\begin{botherref}
+\oauthor{\bsnm{Allen}, \binits{S.}}:
+Aight -- {JavaScript} Shims and Shams for Making {IE8-9} Behave Reasonably
+\end{botherref}
+\endbibitem
+
+%%% 75
+\bibitem{rind2011interactive}
+\begin{barticle}
+\bauthor{\bsnm{Rind}, \binits{A.}},
+\bauthor{\bsnm{Wang}, \binits{T.D.}},
+\bauthor{\bsnm{Wolfgang}, \binits{A.}},
+\bauthor{\bsnm{Miksch}, \binits{S.}},
+\bauthor{\bsnm{Wongsuphasawat}, \binits{K.}},
+\bauthor{\bsnm{Plaisant}, \binits{C.}},
+\bauthor{\bsnm{Shneiderman}, \binits{B.}}:
+\batitle{Interactive information visualization to explore and query electronic
+  health records}.
+\bjtitle{Foundations and Trends in Human-Computer Interaction}
+\bvolume{5}(\bissue{3}),
+\bfpage{207}--\blpage{298}
+(\byear{2011})
+\end{barticle}
+\endbibitem
+
+\end{thebibliography}
+
+\newcommand{\BMCxmlcomment}[1]{}
+
+\BMCxmlcomment{
+
+<refgrp>
+
+<bibl id="B1">
+  <title><p>A personal view on systems medicine and the emergence of proactive
+  \{P4\} medicine: predictive, preventive, personalized and
+  participatory</p></title>
+  <aug>
+    <au><snm>Hood</snm><fnm>L</fnm></au>
+    <au><snm>Flores</snm><fnm>M</fnm></au>
+  </aug>
+  <source>New Biotechnology</source>
+  <pubdate>2012</pubdate>
+  <volume>29</volume>
+  <issue>6</issue>
+  <fpage>613</fpage>
+  <lpage>624</lpage>
+  <url>http://www.sciencedirect.com/science/article/pii/S1871678412000477</url>
+  <note>Molecular Diagnostics and Personalised Medicine</note>
+</bibl>
+
+<bibl id="B2">
+  <title><p>Data visualization strategies for the electronic health
+  record</p></title>
+  <aug>
+    <au><snm>Lesselroth</snm><fnm>B J</fnm></au>
+    <au><snm>Pieczkiewicz</snm><fnm>D S</fnm></au>
+  </aug>
+  <source>Advances in Medicine and Biology</source>
+  <publisher>New York: Nova Science Publishers, Inc</publisher>
+  <editor>L V Berhardt</editor>
+  <pubdate>2012</pubdate>
+  <volume>16</volume>
+  <fpage>107</fpage>
+  <lpage>140</lpage>
+</bibl>
+
+<bibl id="B3">
+  <title><p>{hGraph: An Open System for Visualizing Personal Health
+  Metrics}</p></title>
+  <aug>
+    <au><snm>Follett</snm><fnm>J</fnm></au>
+    <au><snm>Sonin</snm><fnm>J</fnm></au>
+  </aug>
+  <source>\url{http://hgraph.org/docs/hGraph_Whitepaper.pdf}</source>
+  <publisher>Arlington, Massachusetts</publisher>
+  <pubdate>2012</pubdate>
+  <note>Accessed 25 Mar 2015</note>
+</bibl>
+
+<bibl id="B4">
+  <title><p>The Shape of Health: A Comparison of Five Alternative Ways of
+  Visualizing Personal Health and Wellbeing</p></title>
+  <aug>
+    <au><snm>Ledesma</snm><fnm>A</fnm></au>
+    <au><snm>Nieminen</snm><fnm>H</fnm></au>
+    <au><snm>Valve</snm><fnm>P</fnm></au>
+    <au><snm>Ermes</snm><fnm>M</fnm></au>
+    <au><snm>Jimison</snm><fnm>H</fnm></au>
+    <au><snm>Pavel</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Engineering in Medicine and Biology Society (EMBC), 2015 37th Annual
+  International Conference of the IEEE</source>
+  <pubdate>2015</pubdate>
+</bibl>
+
+<bibl id="B5">
+  <title><p>TimeLine: Visualizing Integrated Patient Records</p></title>
+  <aug>
+    <au><snm>Bui</snm><fnm>A.A.T.</fnm></au>
+    <au><snm>Aberle</snm><fnm>D.R.</fnm></au>
+    <au><snm>Kangarloo</snm><fnm>H.</fnm></au>
+  </aug>
+  <source>Information Technology in Biomedicine, IEEE Transactions on</source>
+  <pubdate>2007</pubdate>
+  <volume>11</volume>
+  <issue>4</issue>
+  <fpage>462</fpage>
+  <lpage>473</lpage>
+</bibl>
+
+<bibl id="B6">
+  <title><p>{mHealth App Developer Economics 2014}</p></title>
+  <aug><au><cnm>research2guidance</cnm></au></aug>
+  <publisher>Berlin</publisher>
+  <pubdate>2014</pubdate>
+</bibl>
+
+<bibl id="B7">
+  <title><p>It's time to redesign medical data</p></title>
+  <aug>
+    <au><snm>Goetz</snm><fnm>T</fnm></au>
+  </aug>
+  <url>http://www.ted.com/talks/thomas\_goetz\_it\_s\_time\_to\_redesign\_medical\_data?language=en</url>
+</bibl>
+
+<bibl id="B8">
+  <title><p>Big Data service engine (BISE): Integration of Big Data
+  technologies for human centric wellness data</p></title>
+  <aug>
+    <au><snm>Idris</snm><fnm>M.</fnm></au>
+    <au><snm>Hussain</snm><fnm>S.</fnm></au>
+    <au><snm>Ahmad</snm><fnm>M.</fnm></au>
+    <au><snm>Lee</snm><fnm>S</fnm></au>
+  </aug>
+  <source>Big Data and Smart Computing (BigComp), 2015 International Conference
+  on</source>
+  <pubdate>2015</pubdate>
+  <fpage>244</fpage>
+  <lpage>248</lpage>
+</bibl>
+
+<bibl id="B9">
+  <title><p>Information dashboard design</p></title>
+  <aug>
+    <au><snm>Few</snm><fnm>S</fnm></au>
+  </aug>
+  <publisher>North Sebastopol, California: O'Reilly</publisher>
+  <pubdate>2006</pubdate>
+</bibl>
+
+<bibl id="B10">
+  <title><p>An Agent-Based Wellness Indicator: Experimental Results and Future
+  Directions</p></title>
+  <aug>
+    <au><snm>Soomlek</snm><fnm>C</fnm></au>
+    <au><snm>Benedicenti</snm><fnm>L</fnm></au>
+  </aug>
+  <source>J. Inf. Technol. Res.</source>
+  <publisher>Hershey, PA, USA: IGI Global</publisher>
+  <pubdate>2013</pubdate>
+  <volume>6</volume>
+  <issue>2</issue>
+  <fpage>1</fpage>
+  <lpage>-23</lpage>
+  <url>http://dx.doi.org/10.4018/jitr.2013040101</url>
+</bibl>
+
+<bibl id="B11">
+  <title><p>A web-based medical multimedia visualisation interface for personal
+  health records</p></title>
+  <aug>
+    <au><snm>Ridder</snm><fnm>M</fnm></au>
+    <au><snm>Constantinescu</snm><fnm>L</fnm></au>
+    <au><snm>Bi</snm><fnm>L</fnm></au>
+    <au><snm>Jung</snm><fnm>YH</fnm></au>
+    <au><snm>Kumar</snm><fnm>A</fnm></au>
+    <au><snm>Kim</snm><fnm>J</fnm></au>
+    <au><snm>Feng</snm><fnm>DD</fnm></au>
+    <au><snm>Fulham</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Computer-Based Medical Systems (CBMS), 2013 IEEE 26th International
+  Symposium on</source>
+  <pubdate>2013</pubdate>
+  <fpage>191</fpage>
+  <lpage>-196</lpage>
+</bibl>
+
+<bibl id="B12">
+  <title><p>Improving health and healthcare with interactive visualization
+  methods</p></title>
+  <aug>
+    <au><snm>Shneiderman</snm><fnm>B</fnm></au>
+    <au><snm>Plaisant</snm><fnm>C</fnm></au>
+    <au><snm>Hesse</snm><fnm>BW</fnm></au>
+  </aug>
+  <pubdate>2013</pubdate>
+</bibl>
+
+<bibl id="B13">
+  <title><p>Fundamentals of scaling and psychophysics</p></title>
+  <aug>
+    <au><snm>Baird</snm><fnm>J C</fnm></au>
+    <au><snm>Noma</snm><fnm>E J</fnm></au>
+  </aug>
+  <publisher>New Jersey: John Wiley \& Sons Canada, Limited</publisher>
+  <pubdate>1978</pubdate>
+</bibl>
+
+<bibl id="B14">
+  <title><p>Graphical perception: Theory, experimentation, and application to
+  the development of graphical methods</p></title>
+  <aug>
+    <au><snm>Cleveland</snm><fnm>W</fnm></au>
+    <au><snm>McGill</snm><fnm>R</fnm></au>
+  </aug>
+  <source>Journal of the American statistical association</source>
+  <publisher>Taylor \& Francis</publisher>
+  <pubdate>1984</pubdate>
+  <volume>79</volume>
+  <issue>387</issue>
+  <fpage>531</fpage>
+  <lpage>-554</lpage>
+</bibl>
+
+<bibl id="B15">
+  <title><p>DNA visual and analytic data mining</p></title>
+  <aug>
+    <au><snm>Hoffman</snm><fnm>P</fnm></au>
+    <au><snm>Grinstein</snm><fnm>G</fnm></au>
+    <au><snm>Marx</snm><fnm>K</fnm></au>
+    <au><snm>Grosse</snm><fnm>I</fnm></au>
+    <au><snm>Stanley</snm><fnm>E</fnm></au>
+  </aug>
+  <source>Visualization'97., Proceedings</source>
+  <pubdate>1997</pubdate>
+  <fpage>437</fpage>
+  <lpage>-441</lpage>
+</bibl>
+
+<bibl id="B16">
+  <title><p>A survey of radial methods for information
+  visualization</p></title>
+  <aug>
+    <au><snm>Draper</snm><fnm>GM</fnm></au>
+    <au><snm>Livnat</snm><fnm>Y</fnm></au>
+    <au><snm>Riesenfeld</snm><fnm>RF</fnm></au>
+  </aug>
+  <source>Visualization and Computer Graphics, IEEE Transactions on</source>
+  <publisher>IEEE</publisher>
+  <pubdate>2009</pubdate>
+  <volume>15</volume>
+  <issue>5</issue>
+  <fpage>759</fpage>
+  <lpage>-776</lpage>
+</bibl>
+
+<bibl id="B17">
+  <title><p>MoireGraphs: Radial focus+ context visualization and interaction
+  for graphs with visual nodes</p></title>
+  <aug>
+    <au><snm>Jankun Kelly</snm><fnm>TJ</fnm></au>
+    <au><snm>Ma</snm><fnm>KL</fnm></au>
+  </aug>
+  <source>Information Visualization, 2003. INFOVIS 2003. IEEE Symposium
+  on</source>
+  <pubdate>2003</pubdate>
+  <fpage>59</fpage>
+  <lpage>-66</lpage>
+</bibl>
+
+<bibl id="B18">
+  <title><p>The hyperbolic browser: A focus+ context technique for visualizing
+  large hierarchies</p></title>
+  <aug>
+    <au><snm>Lamping</snm><fnm>J</fnm></au>
+    <au><snm>Rao</snm><fnm>R</fnm></au>
+  </aug>
+  <source>Journal of Visual Languages \& Computing</source>
+  <publisher>Elsevier</publisher>
+  <pubdate>1996</pubdate>
+  <volume>7</volume>
+  <issue>1</issue>
+  <fpage>33</fpage>
+  <lpage>-55</lpage>
+</bibl>
+
+<bibl id="B19">
+  <title><p>Multi-faceted insight through interoperable visual information
+  analysis paradigms</p></title>
+  <aug>
+    <au><snm>Hetzler</snm><fnm>B</fnm></au>
+    <au><snm>Whitney</snm><fnm>P</fnm></au>
+    <au><snm>Martucci</snm><fnm>L</fnm></au>
+    <au><snm>Thomas</snm><fnm>J</fnm></au>
+  </aug>
+  <source>Information Visualization, 1998. Proceedings. IEEE Symposium
+  on</source>
+  <pubdate>1998</pubdate>
+  <fpage>137</fpage>
+  <lpage>-144</lpage>
+</bibl>
+
+<bibl id="B20">
+  <title><p>Information Visualization</p></title>
+  <aug>
+    <au><snm>Spence</snm><fnm>R</fnm></au>
+  </aug>
+  <publisher>New York: {A}{C}{M} {P}ress</publisher>
+  <pubdate>2001</pubdate>
+  <fpage>85</fpage>
+  <lpage>88</lpage>
+</bibl>
+
+<bibl id="B21">
+  <title><p>Interring: An interactive tool for visually navigating and
+  manipulating hierarchical structures</p></title>
+  <aug>
+    <au><snm>Yang</snm><fnm>J</fnm></au>
+    <au><snm>Ward</snm><fnm>MO</fnm></au>
+    <au><snm>Rundensteiner</snm><fnm>E</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>Information Visualization, 2002. INFOVIS 2002. IEEE Symposium
+  on</source>
+  <pubdate>2002</pubdate>
+  <fpage>77</fpage>
+  <lpage>-84</lpage>
+</bibl>
+
+<bibl id="B22">
+  <title><p>Filelight</p></title>
+  <aug>
+    <au><snm>Howell</snm><fnm>M</fnm></au>
+  </aug>
+  <url>http://www.methylblue.com/filelight/</url>
+</bibl>
+
+<bibl id="B23">
+  <title><p>Interactive visualization of serial periodic data</p></title>
+  <aug>
+    <au><snm>Carlis</snm><fnm>JV</fnm></au>
+    <au><snm>Konstan</snm><fnm>JA</fnm></au>
+  </aug>
+  <source>Proceedings of the 11th annual ACM symposium on User interface
+  software and technology</source>
+  <pubdate>1998</pubdate>
+  <fpage>29</fpage>
+  <lpage>-38</lpage>
+</bibl>
+
+<bibl id="B24">
+  <title><p>RankSpiral: Toward enhancing search results
+  visualizations</p></title>
+  <aug>
+    <au><snm>Spoerri</snm><fnm>A</fnm></au>
+  </aug>
+  <source>Information Visualization, 2004. INFOVIS 2004. IEEE Symposium
+  on</source>
+  <pubdate>2004</pubdate>
+  <fpage>p18</fpage>
+  <lpage>-p18</lpage>
+</bibl>
+
+<bibl id="B25">
+  <title><p>Zoomology: comparing two large hierarchical trees</p></title>
+  <aug>
+    <au><snm>Hong</snm><fnm>JY</fnm></au>
+    <au><snm>D’Andries</snm><fnm>J</fnm></au>
+    <au><snm>Richman</snm><fnm>M</fnm></au>
+    <au><snm>Westfall</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Posters Compendium of Information Visualization</source>
+  <publisher>Citeseer</publisher>
+  <pubdate>2003</pubdate>
+  <fpage>120</fpage>
+  <lpage>-121</lpage>
+</bibl>
+
+<bibl id="B26">
+  <title><p>Circos: an information aesthetic for comparative
+  genomics</p></title>
+  <aug>
+    <au><snm>Krzywinski</snm><fnm>M</fnm></au>
+    <au><snm>Schein</snm><fnm>J</fnm></au>
+    <au><snm>Birol</snm><fnm>I</fnm></au>
+    <au><snm>Connors</snm><fnm>J</fnm></au>
+    <au><snm>Gascoyne</snm><fnm>R</fnm></au>
+    <au><snm>Horsman</snm><fnm>D</fnm></au>
+    <au><snm>Jones</snm><fnm>SJ</fnm></au>
+    <au><snm>Marra</snm><fnm>MA</fnm></au>
+  </aug>
+  <source>Genome research</source>
+  <publisher>Cold Spring Harbor Lab</publisher>
+  <pubdate>2009</pubdate>
+  <volume>19</volume>
+  <issue>9</issue>
+  <fpage>1639</fpage>
+  <lpage>-1645</lpage>
+</bibl>
+
+<bibl id="B27">
+  <title><p>Who votes for what? a visual query language for opinion
+  data</p></title>
+  <aug>
+    <au><snm>Draper</snm><fnm>GM</fnm></au>
+    <au><snm>Riesenfeld</snm><fnm>RF</fnm></au>
+  </aug>
+  <source>Visualization and Computer Graphics, IEEE Transactions on</source>
+  <publisher>IEEE</publisher>
+  <pubdate>2008</pubdate>
+  <volume>14</volume>
+  <issue>6</issue>
+  <fpage>1197</fpage>
+  <lpage>-1204</lpage>
+</bibl>
+
+<bibl id="B28">
+  <title><p>D$^3$ data-driven documents</p></title>
+  <aug>
+    <au><snm>Bostock</snm><fnm>M</fnm></au>
+    <au><snm>Ogievetsky</snm><fnm>V</fnm></au>
+    <au><snm>Heer</snm><fnm>J</fnm></au>
+  </aug>
+  <source>Visualization and Computer Graphics, IEEE Transactions on</source>
+  <publisher>IEEE</publisher>
+  <pubdate>2011</pubdate>
+  <volume>17</volume>
+  <issue>12</issue>
+  <fpage>2301</fpage>
+  <lpage>-2309</lpage>
+</bibl>
+
+<bibl id="B29">
+  <title><p>Toward measuring visualization insight</p></title>
+  <aug>
+    <au><snm>Chris</snm><fnm>N</fnm></au>
+  </aug>
+  <source>Computer Graphics and Applications, IEEE</source>
+  <publisher>IEEE</publisher>
+  <pubdate>2006</pubdate>
+  <volume>26</volume>
+  <issue>3</issue>
+  <fpage>6</fpage>
+  <lpage>9</lpage>
+</bibl>
+
+<bibl id="B30">
+  <title><p>An evaluation of microarray visualization tools for biological
+  insight</p></title>
+  <aug>
+    <au><snm>Saraiya</snm><fnm>P</fnm></au>
+    <au><snm>North</snm><fnm>C</fnm></au>
+    <au><snm>Duca</snm><fnm>K</fnm></au>
+  </aug>
+  <source>Information Visualization, 2004. INFOVIS 2004. IEEE Symposium
+  on</source>
+  <pubdate>2004</pubdate>
+  <fpage>1</fpage>
+  <lpage>-8</lpage>
+</bibl>
+
+<bibl id="B31">
+  <title><p>Agile Software Development: High-impact Strategies-What You Need to
+  Know: Definitions, Adoptions, Impact, Benefits, Maturity, Vendors</p></title>
+  <aug>
+    <au><snm>Roebuck</snm><fnm>K</fnm></au>
+  </aug>
+  <publisher>Brisbane, Australia: Emereo Publishing</publisher>
+  <pubdate>2012</pubdate>
+</bibl>
+
+<bibl id="B32">
+  <title><p>Extreme programming explained: embrace change</p></title>
+  <aug>
+    <au><snm>Beck</snm><fnm>K</fnm></au>
+  </aug>
+  <publisher>Addison-Wesley Professional</publisher>
+  <pubdate>2000</pubdate>
+</bibl>
+
+<bibl id="B33">
+  <title><p>The validity of the Depression Scale (DEPS) to assess the severity
+  of depression in primary care patients</p></title>
+  <aug>
+    <au><snm>Poutanen</snm><fnm>O</fnm></au>
+    <au><snm>Koivisto</snm><fnm>AM</fnm></au>
+    <au><snm>K{\"a}{\"a}ri{\"a}</snm><fnm>S</fnm></au>
+    <au><snm>Salokangas</snm><fnm>RK</fnm></au>
+  </aug>
+  <source>Family practice</source>
+  <publisher>Oxford Univ Press</publisher>
+  <pubdate>2010</pubdate>
+  <volume>27</volume>
+  <issue>5</issue>
+  <fpage>527</fpage>
+  <lpage>-534</lpage>
+</bibl>
+
+<bibl id="B34">
+  <title><p>The typeof Operator - JavaScript Reference</p></title>
+  <aug>
+    <au><cnm>{The Mozilla Developer Network (MDN)}</cnm></au>
+  </aug>
+  <url>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof</url>
+</bibl>
+
+<bibl id="B35">
+  <title><p>Usability Engineering</p></title>
+  <aug>
+    <au><snm>Nielsen</snm><fnm>J</fnm></au>
+  </aug>
+  <publisher>Amsterdam: Elsevier</publisher>
+  <pubdate>1994</pubdate>
+</bibl>
+
+<bibl id="B36">
+  <title><p>EHR Usability Toolkit: A Background Report on Usability and
+  Electronic Health Records</p></title>
+  <aug>
+    <au><snm>Johnson</snm><fnm>CM</fnm></au>
+    <au><snm>Johnston</snm><fnm>D</fnm></au>
+    <au><snm>Crowle</snm><fnm>PK</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>Rockville, MD: Agency for Healthcare Research and Quality</source>
+  <pubdate>2011</pubdate>
+</bibl>
+
+<bibl id="B37">
+  <title><p>10 Usability Heuristics for User Interface Design</p></title>
+  <aug>
+    <au><snm>Nielsen</snm><fnm>J</fnm></au>
+  </aug>
+  <pubdate>1995</pubdate>
+  <url>http://www.nngroup.com/articles/ten-usability-heuristics/</url>
+</bibl>
+
+<bibl id="B38">
+  <title><p>The cognitive walkthrough method: A practitioner's
+  guide</p></title>
+  <aug>
+    <au><snm>Wharton</snm><fnm>C</fnm></au>
+    <au><snm>Rieman</snm><fnm>J</fnm></au>
+    <au><snm>Lewis</snm><fnm>C</fnm></au>
+    <au><snm>Polson</snm><fnm>P</fnm></au>
+  </aug>
+  <source>Usability inspection methods</source>
+  <pubdate>1994</pubdate>
+  <fpage>105</fpage>
+  <lpage>-140</lpage>
+</bibl>
+
+<bibl id="B39">
+  <title><p>The significance of a usability evaluation of an emerging
+  laboratory order entry system</p></title>
+  <aug>
+    <au><snm>Peute</snm><fnm>LW</fnm></au>
+    <au><snm>Jaspers</snm><fnm>MW</fnm></au>
+  </aug>
+  <source>International journal of medical informatics</source>
+  <publisher>Elsevier</publisher>
+  <pubdate>2007</pubdate>
+  <volume>76</volume>
+  <issue>2</issue>
+  <fpage>157</fpage>
+  <lpage>-168</lpage>
+</bibl>
+
+<bibl id="B40">
+  <title><p>Information system design for a hospital emergency department: A
+  usability analysis of software prototypes</p></title>
+  <aug>
+    <au><snm>Karahoca</snm><fnm>A</fnm></au>
+    <au><snm>Bayraktar</snm><fnm>E</fnm></au>
+    <au><snm>Tatoglu</snm><fnm>E</fnm></au>
+    <au><snm>Karahoca</snm><fnm>D</fnm></au>
+  </aug>
+  <source>Journal of biomedical informatics</source>
+  <publisher>Elsevier</publisher>
+  <pubdate>2010</pubdate>
+  <volume>43</volume>
+  <issue>2</issue>
+  <fpage>224</fpage>
+  <lpage>-232</lpage>
+</bibl>
+
+<bibl id="B41">
+  <title><p>Cognitive evaluation of an innovative psychiatric clinical
+  knowledge enhancement system</p></title>
+  <aug>
+    <au><snm>Cohen</snm><fnm>T</fnm></au>
+    <au><snm>Kaufman</snm><fnm>D</fnm></au>
+    <au><snm>White</snm><fnm>T</fnm></au>
+    <au><snm>Segal</snm><fnm>G</fnm></au>
+    <au><snm>Staub</snm><fnm>AB</fnm></au>
+    <au><snm>Patel</snm><fnm>V</fnm></au>
+    <au><snm>Finnerty</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Medinfo</source>
+  <publisher>Citeseer</publisher>
+  <pubdate>2004</pubdate>
+  <volume>11</volume>
+  <issue>Pt 2</issue>
+  <fpage>1295</fpage>
+  <lpage>-9</lpage>
+</bibl>
+
+<bibl id="B42">
+  <title><p>Usability evaluation of a computerized physician order entry for
+  medication ordering.</p></title>
+  <aug>
+    <au><snm>Khajouei</snm><fnm>R</fnm></au>
+    <au><snm>Jongh</snm><fnm>D</fnm></au>
+    <au><snm>Jaspers</snm><fnm>MW</fnm></au>
+  </aug>
+  <source>MIE</source>
+  <pubdate>2009</pubdate>
+  <fpage>532</fpage>
+  <lpage>-536</lpage>
+</bibl>
+
+<bibl id="B43">
+  <title><p>Cognitive walkthrough for the web</p></title>
+  <aug>
+    <au><snm>Blackmon</snm><fnm>MH</fnm></au>
+    <au><snm>Polson</snm><fnm>PG</fnm></au>
+    <au><snm>Kitajima</snm><fnm>M</fnm></au>
+    <au><snm>Lewis</snm><fnm>C</fnm></au>
+  </aug>
+  <source>Proceedings of the SIGCHI conference on human factors in computing
+  systems</source>
+  <pubdate>2002</pubdate>
+  <fpage>463</fpage>
+  <lpage>-470</lpage>
+</bibl>
+
+<bibl id="B44">
+  <title><p>Heuristic walkthroughs: Finding the problems without the
+  noise</p></title>
+  <aug>
+    <au><snm>Sears</snm><fnm>A</fnm></au>
+  </aug>
+  <source>International Journal of Human-Computer Interaction</source>
+  <publisher>Taylor \& Francis</publisher>
+  <pubdate>1997</pubdate>
+  <volume>9</volume>
+  <issue>3</issue>
+  <fpage>213</fpage>
+  <lpage>-234</lpage>
+</bibl>
+
+<bibl id="B45">
+  <title><p>The human factors engineering approach to biomedical informatics
+  projects: state of the art, results, benefits and challenges</p></title>
+  <aug>
+    <au><snm>Beuscart Z{\'e}phir</snm><fnm>M C</fnm></au>
+    <au><snm>Elkin</snm><fnm>P</fnm></au>
+    <au><snm>Pelayo</snm><fnm>S</fnm></au>
+    <au><snm>Beuscart</snm><fnm>R</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>IMIA Yearbook</source>
+  <pubdate>2007</pubdate>
+  <volume>2</volume>
+  <fpage>109</fpage>
+  <lpage>-127</lpage>
+</bibl>
+
+<bibl id="B46">
+  <title><p>10. On Simulation, Measurement, and Pfeeewiaie Usability
+  Evaluation</p></title>
+  <aug>
+    <au><snm>Newman</snm><fnm>WM</fnm></au>
+  </aug>
+  <source>Commentary on" Damaged Merchandise?</source>
+  <pubdate>1998</pubdate>
+  <volume>13</volume>
+  <fpage>316</fpage>
+</bibl>
+
+<bibl id="B47">
+  <title><p>Verbal reports as data.</p></title>
+  <aug>
+    <au><snm>Ericsson</snm><fnm>KA</fnm></au>
+    <au><snm>Simon</snm><fnm>HA</fnm></au>
+  </aug>
+  <source>Psychological review</source>
+  <publisher>American Psychological Association</publisher>
+  <pubdate>1980</pubdate>
+  <volume>87</volume>
+  <issue>3</issue>
+  <fpage>215</fpage>
+</bibl>
+
+<bibl id="B48">
+  <title><p>Novice nurse information needs in paper and hybrid electronic-paper
+  environments: a qualitative analysis.</p></title>
+  <aug>
+    <au><snm>Borycki</snm><fnm>EM</fnm></au>
+    <au><snm>Lemieux Charles</snm><fnm>L</fnm></au>
+    <au><snm>Nagle</snm><fnm>L</fnm></au>
+    <au><snm>Eysenbach</snm><fnm>G</fnm></au>
+  </aug>
+  <source>MIE</source>
+  <pubdate>2009</pubdate>
+  <fpage>913</fpage>
+  <lpage>-917</lpage>
+</bibl>
+
+<bibl id="B49">
+  <title><p>Clinical information needs in context: an observational study of
+  clinicians while using a clinical information system</p></title>
+  <aug>
+    <au><snm>Currie</snm><fnm>LM</fnm></au>
+    <au><snm>Graham</snm><fnm>M</fnm></au>
+    <au><snm>Allen</snm><fnm>M</fnm></au>
+    <au><snm>Bakken</snm><fnm>S</fnm></au>
+    <au><snm>Patel</snm><fnm>V</fnm></au>
+    <au><snm>Cimino</snm><fnm>JJ</fnm></au>
+  </aug>
+  <source>AMIA Annual Symposium proceedings</source>
+  <pubdate>2003</pubdate>
+  <volume>2003</volume>
+  <fpage>190</fpage>
+</bibl>
+
+<bibl id="B50">
+  <title><p>Development of methods for usability evaluations of EHR
+  systems</p></title>
+  <aug>
+    <au><snm>Hasman</snm><fnm>A</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>Ubiquity: Technologies for Better Health in Aging Societies:
+  Proceedings of MIE2006</source>
+  <pubdate>2006</pubdate>
+  <volume>124</volume>
+  <fpage>341</fpage>
+</bibl>
+
+<bibl id="B51">
+  <title><p>Usability of a mobile electronic medical record prototype: a verbal
+  protocol analysis</p></title>
+  <aug>
+    <au><snm>Wu</snm><fnm>RC</fnm></au>
+    <au><snm>Orr</snm><fnm>MS</fnm></au>
+    <au><snm>Chignell</snm><fnm>M</fnm></au>
+    <au><snm>Straus</snm><fnm>SE</fnm></au>
+  </aug>
+  <source>Informatics for Health and Social Care</source>
+  <publisher>Informa UK Ltd UK</publisher>
+  <pubdate>2008</pubdate>
+  <volume>33</volume>
+  <issue>2</issue>
+  <fpage>139</fpage>
+  <lpage>-149</lpage>
+</bibl>
+
+<bibl id="B52">
+  <title><p>IBM computer usability satisfaction questionnaires: psychometric
+  evaluation and instructions for use</p></title>
+  <aug>
+    <au><snm>Lewis</snm><fnm>JR</fnm></au>
+  </aug>
+  <source>International Journal of Human-Computer Interaction</source>
+  <publisher>Taylor \& Francis</publisher>
+  <pubdate>1995</pubdate>
+  <volume>7</volume>
+  <issue>1</issue>
+  <fpage>57</fpage>
+  <lpage>-78</lpage>
+</bibl>
+
+<bibl id="B53">
+  <title><p>Psychometric evaluation of the post-study system usability
+  questionnaire: The PSSUQ</p></title>
+  <aug>
+    <au><snm>Lewis</snm><fnm>JR</fnm></au>
+  </aug>
+  <source>Proceedings of the Human Factors and Ergonomics Society Annual
+  Meeting</source>
+  <pubdate>1992</pubdate>
+  <volume>36</volume>
+  <issue>16</issue>
+  <fpage>1259</fpage>
+  <lpage>-1260</lpage>
+</bibl>
+
+<bibl id="B54">
+  <title><p>Pre-post evaluation of physicians' satisfaction with a redesigned
+  electronic medical record system</p></title>
+  <aug>
+    <au><snm>Jaspers</snm><fnm>MW</fnm></au>
+    <au><snm>Peute</snm><fnm>LW</fnm></au>
+    <au><snm>Lauteslager</snm><fnm>A</fnm></au>
+    <au><snm>Bakker</snm><fnm>PJ</fnm></au>
+  </aug>
+  <source>Studies in health technology and informatics</source>
+  <publisher>IOS Press; 1999</publisher>
+  <pubdate>2008</pubdate>
+  <volume>136</volume>
+  <fpage>303</fpage>
+</bibl>
+
+<bibl id="B55">
+  <title><p>Subjective usability of the CARDSS guideline-based decision support
+  system.</p></title>
+  <aug>
+    <au><snm>Goud</snm><fnm>R</fnm></au>
+    <au><snm>Jaspers</snm><fnm>MW</fnm></au>
+    <au><snm>Hasman</snm><fnm>A</fnm></au>
+    <au><snm>Peek</snm><fnm>N</fnm></au>
+  </aug>
+  <source>Studies in health technology and informatics</source>
+  <publisher>IOS Press; 1999</publisher>
+  <pubdate>2008</pubdate>
+  <volume>136</volume>
+  <fpage>193</fpage>
+</bibl>
+
+<bibl id="B56">
+  <title><p>Psychometric evaluation of an after-scenario questionnaire for
+  computer usability studies: the ASQ</p></title>
+  <aug>
+    <au><snm>Lewis</snm><fnm>JR</fnm></au>
+  </aug>
+  <source>ACM SIGCHI Bulletin</source>
+  <publisher>ACM</publisher>
+  <pubdate>1991</pubdate>
+  <volume>23</volume>
+  <issue>1</issue>
+  <fpage>78</fpage>
+  <lpage>-81</lpage>
+</bibl>
+
+<bibl id="B57">
+  <title><p>An empirical evaluation of the system usability scale</p></title>
+  <aug>
+    <au><snm>Bangor</snm><fnm>A</fnm></au>
+    <au><snm>Kortum</snm><fnm>PT</fnm></au>
+    <au><snm>Miller</snm><fnm>JT</fnm></au>
+  </aug>
+  <source>Intl. Journal of Human--Computer Interaction</source>
+  <publisher>Taylor \& Francis</publisher>
+  <pubdate>2008</pubdate>
+  <volume>24</volume>
+  <issue>6</issue>
+  <fpage>574</fpage>
+  <lpage>-594</lpage>
+</bibl>
+
+<bibl id="B58">
+  <title><p>Physical Activity Guidelines for Americans: Be Active, Healthy, and
+  Happy! ODPHP publication No. U0036. October 2008</p></title>
+  <aug>
+    <au><snm>Health</snm><fnm>UD</fnm></au>
+    <au><snm>Services</snm><fnm>H</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <pubdate>2008</pubdate>
+</bibl>
+
+<bibl id="B59">
+  <title><p>Physical activity guidelines advisory committee report,
+  2008</p></title>
+  <aug>
+    <au><snm>Committee</snm><fnm>PAGA</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>Washington, DC: US Department of Health and Human Services</source>
+  <pubdate>2008</pubdate>
+  <volume>2008</volume>
+  <fpage>A5</fpage>
+</bibl>
+
+<bibl id="B60">
+  <title><p>How many steps/day are enough?</p></title>
+  <aug>
+    <au><snm>Tudor Locke</snm><fnm>C</fnm></au>
+    <au><snm>Bassett Jr</snm><fnm>DR</fnm></au>
+  </aug>
+  <source>Sports Medicine</source>
+  <publisher>Springer</publisher>
+  <pubdate>2004</pubdate>
+  <volume>34</volume>
+  <issue>1</issue>
+  <fpage>1</fpage>
+  <lpage>-8</lpage>
+</bibl>
+
+<bibl id="B61">
+  <title><p>Tester's guide: UKK walk test</p></title>
+  <aug>
+    <au><snm>Oja</snm><fnm>P</fnm></au>
+    <au><snm>M{\"a}ntt{\"a}ri</snm><fnm>A</fnm></au>
+    <au><snm>Pokki</snm><fnm>T</fnm></au>
+    <au><snm>Kukkonen Harjala</snm><fnm>K</fnm></au>
+    <au><snm>Laukkanen</snm><fnm>R</fnm></au>
+    <au><snm>Malmberg</snm><fnm>J</fnm></au>
+  </aug>
+  <publisher>UKK Institute for Health Promotion Research</publisher>
+  <pubdate>2013</pubdate>
+  <url>http://www.ukkinstituutti.fi/filebank/1118-UKK_walk_test_testers_guide.pdf</url>
+</bibl>
+
+<bibl id="B62">
+  <title><p>Validity of a two kilometre walking test for estimating maximal
+  aerobic power in overweight adults.</p></title>
+  <aug>
+    <au><snm>Laukkanen</snm><fnm>R</fnm></au>
+    <au><snm>Oja</snm><fnm>P</fnm></au>
+    <au><snm>Pasanen</snm><fnm>M</fnm></au>
+    <au><snm>Vuori</snm><fnm>I</fnm></au>
+  </aug>
+  <source>International journal of obesity and related metabolic disorders:
+  journal of the International Association for the Study of Obesity</source>
+  <pubdate>1992</pubdate>
+  <volume>16</volume>
+  <issue>4</issue>
+  <fpage>263</fpage>
+  <lpage>-268</lpage>
+</bibl>
+
+<bibl id="B63">
+  <title><p>Fitness for health: the ALPHA-FIT test battery for adults aged
+  18--69</p></title>
+  <aug>
+    <au><snm>Suni</snm><fnm>J</fnm></au>
+    <au><snm>Husu</snm><fnm>P</fnm></au>
+    <au><snm>Rinne</snm><fnm>M</fnm></au>
+  </aug>
+  <pubdate>2009</pubdate>
+  <url>http://www.ukkinstituutti.fi/filebank/500-ALPHA_FIT_Testers_Manual.pdf</url>
+</bibl>
+
+<bibl id="B64">
+  <title><p>Stress and Recovery Analysis Method Based on 24-hour Heart Rate
+  Variability. White paper.</p></title>
+  <aug>
+    <au><cnm>{Firstbeat Technologies Ltd.}</cnm></au>
+  </aug>
+  <pubdate>2014</pubdate>
+  <url>http://www.firstbeat.com/userData/firstbeat/research-publications/Stress-and-recovery_white-paper_2014.pdf</url>
+</bibl>
+
+<bibl id="B65">
+  <title><p>Associations of physical activity, fitness, and body composition
+  with heart rate variability-based indicators of stress and recovery on
+  workdays: a cross-sectional study</p></title>
+  <aug>
+    <au><snm>Teisala</snm><fnm>T</fnm></au>
+    <au><snm>Mutikainen</snm><fnm>S</fnm></au>
+    <au><snm>Tolvanen</snm><fnm>A</fnm></au>
+    <au><snm>Rottensteiner</snm><fnm>M</fnm></au>
+    <au><snm>Leskinen</snm><fnm>T</fnm></au>
+    <au><snm>Kaprio</snm><fnm>J</fnm></au>
+    <au><snm>Kolehmainen</snm><fnm>M</fnm></au>
+    <au><snm>Rusko</snm><fnm>H</fnm></au>
+    <au><snm>Kujala</snm><fnm>UM</fnm></au>
+  </aug>
+  <source>J Occup Med Toxicol</source>
+  <pubdate>2014</pubdate>
+  <volume>34</volume>
+  <fpage>26</fpage>
+  <lpage>-40</lpage>
+</bibl>
+
+<bibl id="B66">
+  <title><p>Distinguishing optimism from neuroticism (and trait anxiety,
+  self-mastery, and self-esteem): a reevaluation of the Life Orientation
+  Test.</p></title>
+  <aug>
+    <au><snm>Scheier</snm><fnm>MF</fnm></au>
+    <au><snm>Carver</snm><fnm>CS</fnm></au>
+    <au><snm>Bridges</snm><fnm>MW</fnm></au>
+  </aug>
+  <source>Journal of personality and social psychology</source>
+  <publisher>American Psychological Association</publisher>
+  <pubdate>1994</pubdate>
+  <volume>67</volume>
+  <issue>6</issue>
+  <fpage>1063</fpage>
+</bibl>
+
+<bibl id="B67">
+  <title><p>Beyond the five-user assumption: Benefits of increased sample sizes
+  in usability testing</p></title>
+  <aug>
+    <au><snm>Faulkner</snm><fnm>L</fnm></au>
+  </aug>
+  <source>Behavior Research Methods, Instruments, \& Computers</source>
+  <publisher>Springer</publisher>
+  <pubdate>2003</pubdate>
+  <volume>35</volume>
+  <issue>3</issue>
+  <fpage>379</fpage>
+  <lpage>-383</lpage>
+</bibl>
+
+<bibl id="B68">
+  <title><p>Usability evaluation and adaptation of the e-health Personal
+  Patient Profile-Prostate decision aid for Spanish-speaking Latino
+  men</p></title>
+  <aug>
+    <au><snm>Berry</snm><fnm>DL</fnm></au>
+    <au><snm>Halpenny</snm><fnm>B</fnm></au>
+    <au><snm>Bosco</snm><fnm>JL</fnm></au>
+    <au><snm>Bruyere</snm><fnm>J</fnm></au>
+    <au><snm>Sanda</snm><fnm>MG</fnm></au>
+  </aug>
+  <source>BMC medical informatics and decision making</source>
+  <publisher>BioMed Central Ltd</publisher>
+  <pubdate>2015</pubdate>
+  <volume>15</volume>
+  <issue>1</issue>
+  <fpage>56</fpage>
+</bibl>
+
+<bibl id="B69">
+  <title><p>Using usability heuristics to evaluate patient safety of medical
+  devices</p></title>
+  <aug>
+    <au><snm>Zhang</snm><fnm>J</fnm></au>
+    <au><snm>Johnson</snm><fnm>TR</fnm></au>
+    <au><snm>Patel</snm><fnm>VL</fnm></au>
+    <au><snm>Paige</snm><fnm>DL</fnm></au>
+    <au><snm>Kubose</snm><fnm>T</fnm></au>
+  </aug>
+  <source>Journal of biomedical informatics</source>
+  <publisher>Elsevier</publisher>
+  <pubdate>2003</pubdate>
+  <volume>36</volume>
+  <issue>1</issue>
+  <fpage>23</fpage>
+  <lpage>-30</lpage>
+</bibl>
+
+<bibl id="B70">
+  <title><p>Designing the user interface: strategies for effective
+  human-computer interaction</p></title>
+  <aug>
+    <au><snm>Shneiderman</snm><fnm>B</fnm></au>
+  </aug>
+  <publisher>Boston: Addison-Wesley Reading, MA</publisher>
+  <pubdate>1992</pubdate>
+  <volume>3</volume>
+</bibl>
+
+<bibl id="B71">
+  <title><p>Improving a human-computer dialogue</p></title>
+  <aug>
+    <au><snm>Molich</snm><fnm>R</fnm></au>
+    <au><snm>Nielsen</snm><fnm>J</fnm></au>
+  </aug>
+  <source>Communications of the ACM</source>
+  <publisher>ACM</publisher>
+  <pubdate>1990</pubdate>
+  <volume>33</volume>
+  <issue>3</issue>
+  <fpage>338</fpage>
+  <lpage>-348</lpage>
+</bibl>
+
+<bibl id="B72">
+  <title><p>First principles of information design</p></title>
+  <aug>
+    <au><snm>Tognazzini</snm><fnm>B</fnm></au>
+  </aug>
+  <pubdate>2014</pubdate>
+  <url>http://www.asktog.com/basics/firstPrinciples.html</url>
+</bibl>
+
+<bibl id="B73">
+  <title><p>Psychometric evaluation of the PSSUQ using data from five years of
+  usability studies</p></title>
+  <aug>
+    <au><snm>Lewis</snm><fnm>JR</fnm></au>
+  </aug>
+  <source>International Journal of Human-Computer Interaction</source>
+  <publisher>Taylor \& Francis</publisher>
+  <pubdate>2002</pubdate>
+  <volume>14</volume>
+  <issue>3-4</issue>
+  <fpage>463</fpage>
+  <lpage>-488</lpage>
+</bibl>
+
+<bibl id="B74">
+  <title><p>Aight -- {JavaScript} shims and shams for making {IE8-9} behave
+  reasonably</p></title>
+  <aug>
+    <au><snm>Allen</snm><fnm>S</fnm></au>
+  </aug>
+</bibl>
+
+<bibl id="B75">
+  <title><p>Interactive information visualization to explore and query
+  electronic health records</p></title>
+  <aug>
+    <au><snm>Rind</snm><fnm>A</fnm></au>
+    <au><snm>Wang</snm><fnm>TD</fnm></au>
+    <au><snm>Wolfgang</snm><fnm>A</fnm></au>
+    <au><snm>Miksch</snm><fnm>S</fnm></au>
+    <au><snm>Wongsuphasawat</snm><fnm>K</fnm></au>
+    <au><snm>Plaisant</snm><fnm>C</fnm></au>
+    <au><snm>Shneiderman</snm><fnm>B</fnm></au>
+  </aug>
+  <source>Foundations and Trends in Human-Computer Interaction</source>
+  <publisher>Citeseer</publisher>
+  <pubdate>2011</pubdate>
+  <volume>5</volume>
+  <issue>3</issue>
+  <fpage>207</fpage>
+  <lpage>-298</lpage>
+</bibl>
+
+</refgrp>
+} % end of \BMCxmlcomment
